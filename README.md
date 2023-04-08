@@ -2,7 +2,7 @@
 <h1 align="center">Hi 👋, I'm Aritro Saha</h1>
 <h3 align="center">A passionate creative undergrad</h3>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20views&color=0e75b6&style=flat" alt="biswa787" /> </p>
-<img align = "right" alt="coding" width="500" src="https://i.imgur.com/7A5ZfPJ.gif">
+<img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
 - 🔭 I’m currently working on [Harem-No-Jutsu](https://github.com/halcyon-past/Harem-No-Jutsu)
 
