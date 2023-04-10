@@ -1,7 +1,7 @@
 [![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Aritro%20Saha%20🧑🏻‍💻&width=1000&height=200)](https://github.com/halcyon-past)
 <h1 align="center">Hi 👋, I'm Aritro Saha</h1>
-<h3 align="center">A passionate creative undergrad</h3>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20views&color=0e75b6&style=flat" alt="biswa787" /> </p>
+<h3 align="center">A passionate creative undergrad and Tech Enthusiast</h3>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20views&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
 - 🔭 I’m currently working on [Harem-No-Jutsu](https://github.com/halcyon-past/Harem-No-Jutsu)
