@@ -25,7 +25,7 @@ Name: Aritro Saha
 Occupation: Student
 Stream: Electronics and Computer Engineering
 University: VIT Chennai
-Interests: Python, Microcontrollers, Machine Learning, WebDev
+Interests: Python, Arduino, ML, WebDev
 Currently-Learning: WebDev
 Other-Hobbies: Beatboxing, Football
 Reach-me-at: aritrosahaofficial@gmail.com
