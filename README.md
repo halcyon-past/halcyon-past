@@ -1,9 +1,14 @@
 [![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Aritro%20Saha%20🧑🏻‍💻&width=1000&height=200)](https://github.com/halcyon-past)
-<h1 align="center">Hi 👋, I'm Aritro Saha</h1>
-<h3 align="center">A passionate creative undergrad and Tech Enthusiast</h3>
+
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+Aritro+this+side!!;Nice+to+see+you+here;I'm+a+undergrad+who+loves+coding;Striving+each+day+to+become+better;Feel+free+to+checkout+my+repos;Hope+to+see+you+again!!+%E2%9D%A3%EF%B8%8F" alt="Typing SVG" />
+</p>
+<hr>
+<h3 align="center">There is always one more bug to fix!!</h3>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20views&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
+<!--
 - 🔭 I’m currently working on [Harem-No-Jutsu](https://github.com/halcyon-past/Harem-No-Jutsu)
 
 - 🌱 I’m currently learning **React JS**
@@ -13,18 +18,51 @@
 - 📫 How to reach me **aritrosahaofficial@gmail.com**
 
 - ⚡ Fun fact **I'm good at beatboxing too**
+-->
 
-<h3 align="left">Connect with me:</h3>
+```yaml
+Name: Aritro Saha
+Occupation: Student
+Stream: Electronics and Computer Engineering
+University: VIT Chennai
+Interests: Python, Microcontrollers, Machine Learning, WebDev
+Currently-Learning: WebDev
+Other-Hobbies: Beatboxing, Football
+Reach-me-at: aritrosahaofficial@gmail.com
+```
+
+<h2 align="left">🧑🏻‍💻 &nbsp; Connect with me <img src = "https://media.tenor.com/SGsJK81GW9oAAAAi/shark-lost-connection-lost-connection.gif" width = 35px></h2>
 <p align="left">
-<a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="halcyon_past" height="30" width="40" /></a>
+<a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/1626/1626319.png" alt="halcyon_past" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/124/124011.png" alt="Aritro Saha" height="30" width="40" /></a>
-<a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="halcyon_past" height="30" width="40" /></a>
-<a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="halcyon_past" height="30" width="40" /></a>
+<a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://media.tenor.com/Bbaf7jFc3ZEAAAAi/twitter-png.gif" alt="halcyon_past" height="30" width="40" /></a>
+<a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://media.tenor.com/PODuLdcrSnYAAAAi/insta-instagram.gif" alt="halcyon_past" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
+<p align="left"> 
+<img align="center" src="https://media.tenor.com/mObOMMDy_lQAAAAi/android-google.gif" alt="Android" height="30" width="40" />
+<img align="center" src="https://media.tenor.com/8oox5-cM_2kAAAAi/python.gif" alt="Python" height="30" width="40" />
+<img align="center" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png" alt="Java" height="30" width="40" />
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" height="30" width="40" />
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" height="30" width="40" />
+<img align="center" src="https://media.tenor.com/TReUojNlZ6wAAAAi/js-javascript.gif" alt="JavaScript" height="30" width="40" />
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" height="30" width="40" />
+<img align="center" src="https://brandslogos.com/wp-content/uploads/images/c-logo-vector.svg" alt="C++" height="30" width="40" />
+<img align="center" src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap" height="30" width="40" />
+<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png" alt="MATLAB" height="30" width="40" />
+<img align="center" src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" alt="MySQL" height="30" width="40" />
+<img align="center" src="https://www.freepnglogos.com/uploads/linux-png/difference-between-linux-and-window-operating-system-3.png" alt="Linux" height="30" width="40" />
+</p>
 
+<h2> 📈 &nbsp;My GitHub History! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
 
 ![Aritro's GitHub stats](https://github-readme-stats.vercel.app/api?username=halcyon-past&show_icons=true&theme=transparent&hide_border=true&text_color=#ab20fd)
+
 ![GitHub Streak](https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)
+
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=halcyon-past&layout=compact&theme=transparent&hide_border=true&show_icons=true )
+
+<p align="left">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&text=Thanks%20For%20Visiting&section=footer"/>
+</p>
