@@ -26,4 +26,4 @@
 
 
 ![Aritro's GitHub stats](https://github-readme-stats.vercel.app/api?username=halcyon-past&show_icons=true&theme=transparent&hide_border=true&text_color=#ab20fd)
-[![GitHub Streak](https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)]
+![GitHub Streak](https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)
