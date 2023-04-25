@@ -8,18 +8,6 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20views&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
-<!--
-- 🔭 I’m currently working on [Harem-No-Jutsu](https://github.com/halcyon-past/Harem-No-Jutsu)
-
-- 🌱 I’m currently learning **React JS**
-
-- 💬 Ask me about **Python and Arduino**
-
-- 📫 How to reach me **aritrosahaofficial@gmail.com**
-
-- ⚡ Fun fact **I'm good at beatboxing too**
--->
-
 ```yaml
 Name: Aritro Saha
 Occupation: Student
@@ -63,6 +51,7 @@ Reach-me-at: aritrosahaofficial@gmail.com
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=halcyon-past&layout=compact&theme=transparent&hide_border=true&show_icons=true )
 
+![snake gif](https://github.com/halcyon-past/halcyon-past/blob/output/github-contribution-grid-snake.svg)
 
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&text=Thanks%20For%20Visiting&section=footer"/>
