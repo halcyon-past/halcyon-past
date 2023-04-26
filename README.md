@@ -35,6 +35,7 @@ Reach-me-at: aritrosahaofficial@gmail.com
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" height="30" width="40" />
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" height="30" width="40" />
 <img align="center" src="https://media.tenor.com/TReUojNlZ6wAAAAi/js-javascript.gif" alt="JavaScript" height="30" width="40" />
+<img align="center" src="https://media1.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif?cid=6c09b952gjnej07r4pyo92w8l5v9i1sg4slcb4drioi3ccdi&rid=giphy.gif&ct=s" alt="React JS" height="30" width="40" />
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" height="30" width="40" />
 <img align="center" src="https://brandslogos.com/wp-content/uploads/images/c-logo-vector.svg" alt="C++" height="30" width="40" />
 <img align="center" src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap" height="30" width="40" />
@@ -50,8 +51,6 @@ Reach-me-at: aritrosahaofficial@gmail.com
 ![GitHub Streak](https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=halcyon-past&layout=compact&theme=transparent&hide_border=true&show_icons=true )
-
-![snake gif](https://github.com/halcyon-past/halcyon-past/blob/output/github-contribution-grid-snake.svg)
 
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&text=Thanks%20For%20Visiting&section=footer"/>
