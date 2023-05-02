@@ -36,6 +36,7 @@ Reach-me-at: aritrosahaofficial@gmail.com
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" height="30" width="40" />
 <img align="center" src="https://media.tenor.com/TReUojNlZ6wAAAAi/js-javascript.gif" alt="JavaScript" height="30" width="40" />
 <img align="center" src="https://media1.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif?cid=6c09b952gjnej07r4pyo92w8l5v9i1sg4slcb4drioi3ccdi&rid=giphy.gif&ct=s" alt="React JS" height="30" width="40" />
+<img align="center" src="[https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png](https://www.pngall.com/wp-content/uploads/13/Mongodb-Transparent.png)" alt="MongoDB" height="30" width="40" />
 <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" height="30" width="40" />
 <img align="center" src="https://brandslogos.com/wp-content/uploads/images/c-logo-vector.svg" alt="C++" height="30" width="40" />
 <img align="center" src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap" height="30" width="40" />
