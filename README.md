@@ -21,29 +21,31 @@ Reach-me-at: aritrosahaofficial@gmail.com
 
 <h2 align="left">🧑🏻‍💻 &nbsp; Connect with me <img src = "https://media.tenor.com/SGsJK81GW9oAAAAi/shark-lost-connection-lost-connection.gif" width = 35px></h2>
 <p align="left">
-<a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/1626/1626319.png" alt="halcyon_past" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/124/124011.png" alt="Aritro Saha" height="30" width="40" /></a>
-<a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://media.tenor.com/Bbaf7jFc3ZEAAAAi/twitter-png.gif" alt="halcyon_past" height="30" width="40" /></a>
-<a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://media.tenor.com/PODuLdcrSnYAAAAi/insta-instagram.gif" alt="halcyon_past" height="30" width="40" /></a>
+<a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
+<a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Aritro Saha" height="30" width="120" /></a>
+<a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="halcyon_past" height="30" width="100" /></a>
+<a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
 </p>
 
 <h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
-<p align="left"> 
-<img align="center" src="https://media.tenor.com/mObOMMDy_lQAAAAi/android-google.gif" alt="Android" height="30" width="40" />
-<img align="center" src="https://media.tenor.com/8oox5-cM_2kAAAAi/python.gif" alt="Python" height="30" width="40" />
-<img align="center" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png" alt="Java" height="30" width="40" />
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="HTML5" height="30" width="40" />
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" height="30" width="40" />
-<img align="center" src="https://media.tenor.com/TReUojNlZ6wAAAAi/js-javascript.gif" alt="JavaScript" height="30" width="40" />
-<img align="center" src="https://media1.giphy.com/media/RJzm826vu7WbJvBtxX/giphy.gif?cid=6c09b952gjnej07r4pyo92w8l5v9i1sg4slcb4drioi3ccdi&rid=giphy.gif&ct=s" alt="React JS" height="30" width="40" />
-<img align="center" src="https://www.pngall.com/wp-content/uploads/13/Mongodb-Transparent.png" alt="MongoDB" height="30" width="40" />
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C" height="30" width="40" />
-<img align="center" src="https://brandslogos.com/wp-content/uploads/images/c-logo-vector.svg" alt="C++" height="30" width="40" />
-<img align="center" src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="Bootstrap" height="30" width="40" />
-<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png" alt="MATLAB" height="30" width="40" />
-<img align="center" src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" alt="MySQL" height="30" width="40" />
-<img align="center" src="https://www.freepnglogos.com/uploads/linux-png/difference-between-linux-and-window-operating-system-3.png" alt="Linux" height="30" width="40" />
-</p>
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 
 <h2> 📈 &nbsp;My GitHub History! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
 
