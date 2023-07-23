@@ -5,7 +5,7 @@
 </p>
 <hr>
 <h3 align="center">There is always one more bug to fix!!</h3>
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20views&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20visits&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
 ```yaml
