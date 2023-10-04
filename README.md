@@ -27,6 +27,10 @@ Reach-me-at: aritrosahaofficial@gmail.com
 <a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
 </p>
 
+<h2 align="left">⛱️ &nbsp; Hacktober Fest Badges <img src = "https://media.tenor.com/Dc8nFwst79AAAAAi/kek-angry.gif" width = 35px></h2>
+
+[![An image of @halcyonpast's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/halcyonpast)](https://holopin.io/@halcyonpast)
+
 <h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
