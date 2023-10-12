@@ -8,17 +8,6 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20visits&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
-```yaml
-Name: Aritro Saha
-Occupation: Student
-Stream: Electronics and Computer Engineering
-University: VIT Chennai
-Interests: Python, Arduino, ML, WebDev
-Currently-Learning: WebDev
-Other-Hobbies: Beatboxing, Football
-Reach-me-at: aritrosahaofficial@gmail.com
-```
-
 <h2 align="left">🧑🏻‍💻 &nbsp; Connect with me <img src = "https://media.tenor.com/SGsJK81GW9oAAAAi/shark-lost-connection-lost-connection.gif" width = 35px></h2>
 <p align="left">
 <a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
