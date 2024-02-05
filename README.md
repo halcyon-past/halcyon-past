@@ -14,7 +14,7 @@ Occupation: Student
 Stream: Electronics and Computer Engineering
 University: VIT Chennai
 Interests: Python, Arduino, ML, WebDev
-Currently-Learning: WebDev
+Currently-Learning: GenAI
 Other-Hobbies: Beatboxing, Football
 Reach-me-at: aritrosahaofficial@gmail.com
 ```
