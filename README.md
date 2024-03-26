@@ -16,7 +16,7 @@ University: VIT Chennai
 Interests: Python, Arduino, ML, WebDev
 Currently-Learning: GenAI
 Other-Hobbies: Beatboxing, Football
-Reach-me-at: aritrosahaofficial@gmail.com
+Reach-me-at: aritrosaha2025@gmail.com
 ```
 
 <h2 align="left">🧑🏻‍💻 &nbsp; Connect with me <img src = "https://media.tenor.com/SGsJK81GW9oAAAAi/shark-lost-connection-lost-connection.gif" width = 35px></h2>
