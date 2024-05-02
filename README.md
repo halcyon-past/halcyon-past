@@ -1,4 +1,4 @@
-[![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Aritro%20Saha%20🧑🏻‍💻&width=1000&height=200)](https://github.com/halcyon-past)
+[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Aritro%20Saha&width=1000&height=200)](https://github.com/Akshay090/svg-banners)
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+Aritro+this+side!!;Nice+to+see+you+here;I'm+a+undergrad+who+loves+coding;Striving+each+day+to+become+better;Feel+free+to+checkout+my+repos;Hope+to+see+you+again!!+%E2%9D%A3%EF%B8%8F" alt="Typing SVG" />
