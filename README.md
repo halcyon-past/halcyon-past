@@ -12,7 +12,7 @@
 Name: Aritro Saha
 Occupation: Student
 Stream: Electronics and Computer Engineering
-University: VIT Chennai
+University: Vellore Institute of Technology, Chennai
 Interests: Python, Arduino, ML, WebDev
 Currently-Learning: GenAI
 Other-Hobbies: Beatboxing, Football
