@@ -57,6 +57,7 @@ Reach-me-at: aritrosaha2025@gmail.com
 <h2> 📈 &nbsp;My GitHub History! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
 
 [![halcyon-past's GitHub | Stats](https://stats.quira.sh/halcyon-past/github?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
+[![halcyon-past's GitHub | Dependencies](https://stats.quira.sh/halcyon-past/dependencies?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
 
 ![Aritro's GitHub stats](https://github-readme-stats.vercel.app/api?username=halcyon-past&show_icons=true&theme=transparent&hide_border=true&text_color=#ab20fd)
 
