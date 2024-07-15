@@ -27,7 +27,7 @@ Reach-me-at: aritrosaha2025@gmail.com
 <a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
 </p>
 
-<h2 align="left">⛱️ &nbsp; Hacktober Fest Badges <img src = "https://media.tenor.com/Dc8nFwst79AAAAAi/kek-angry.gif" width = 35px></h2>
+<h2 align="left">⛱️ &nbsp; Holopin Badges <img src = "https://media.tenor.com/Dc8nFwst79AAAAAi/kek-angry.gif" width = 35px></h2>
 
 [![An image of @halcyonpast's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/halcyonpast)](https://holopin.io/@halcyonpast)
 
