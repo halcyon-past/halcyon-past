@@ -53,8 +53,11 @@ Reach-me-at: aritrosaha2025@gmail.com
 ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
+<h2> 📈 &nbsp;LeetCode Stats! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
 
-<h2> 📈 &nbsp;My GitHub History! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
+![LeetCode Stats](https://leetcard.jacoblin.cool/AritroSaha?ext=activity&theme=unicorn)
+
+<h2> <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px>  &nbsp;My GitHub History! 📈</h2>
 
 [![halcyon-past's GitHub | Stats](https://stats.quira.sh/halcyon-past/github?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
 [![halcyon-past's GitHub | Dependencies](https://stats.quira.sh/halcyon-past/dependencies?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
