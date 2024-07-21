@@ -20,11 +20,12 @@ Reach-me-at: aritrosaha2025@gmail.com
 ```
 
 <h2 align="left">🧑🏻‍💻 &nbsp; Connect with me <img src = "https://media.tenor.com/SGsJK81GW9oAAAAi/shark-lost-connection-lost-connection.gif" width = 35px></h2>
+
 <p align="left">
-<a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
-<a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Aritro Saha" height="30" width="120" /></a>
-<a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="halcyon_past" height="30" width="100" /></a>
-<a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
+  <a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Aritro Saha" height="30" width="120" /></a>
+  <a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="halcyon_past" height="30" width="100" /></a>
+  <a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
+  <a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
 </p>
 
 <h2 align="left">⛱️ &nbsp; Holopin Badges <img src = "https://media.tenor.com/Dc8nFwst79AAAAAi/kek-angry.gif" width = 35px></h2>
