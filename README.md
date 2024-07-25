@@ -59,7 +59,7 @@ Reach-me-at: aritrosaha2025@gmail.com
 
 <h2> 📈 &nbsp;LeetCode Stats! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/AritroSaha?ext=activity&theme=unicorn)
+![LeetCode Stats](https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn)
 
 <h2> <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px>  &nbsp;My GitHub History! 📈</h2>
 
