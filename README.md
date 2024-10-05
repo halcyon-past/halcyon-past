@@ -5,7 +5,9 @@
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hey+Aritro+this+side!!;Nice+to+see+you+here;I'm+a+undergrad+who+loves+coding;Striving+each+day+to+become+better;Feel+free+to+checkout+my+repos;Hope+to+see+you+again!!+%E2%9D%A3%EF%B8%8F" alt="Typing SVG" />
 </p>
-<hr>
+  
+![Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
+  
 <h3 align="center">There is always one more bug to fix!!</h3>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20visits&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
@@ -69,6 +71,8 @@ Reach-me-at: aritrosaha2025@gmail.com
 [![halcyon-past's GitHub | Dependencies](https://stats.quira.sh/halcyon-past/dependencies?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
 
 ![Aritro's GitHub stats](https://github-readme-stats.vercel.app/api?username=halcyon-past&show_icons=true&theme=transparent&hide_border=true&text_color=#ab20fd)
+
+<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=halcyon-past&theme=2077" height="210em" alt="Top languages by commit" />
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)
 
