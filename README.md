@@ -8,7 +8,7 @@
   
 ![Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
   
-<h3 align="center">There is always one more bug to fix!!</h3>
+<h3 align="center">🧿There is always one more bug to fix!!🧿</h3>
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20visits&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
 <img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
 
