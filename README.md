@@ -80,6 +80,8 @@ Reach-me-at: aritrosaha2025@gmail.com
 
 ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=halcyon-past&layout=compact&theme=transparent&hide_border=true&show_icons=true )
 
+![GithubSnake](https://github.com/halcyon-past/halcyon-past/blob/output/github-snake.svg)
+
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&text=Thanks%20For%20Visiting&section=footer"/>
 </p>
