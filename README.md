@@ -67,6 +67,8 @@ Reach-me-at: aritrosaha2025@gmail.com
 
 <h2> <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px>  &nbsp;My GitHub History! 📈</h2>
 
+![3d-profile](profile-3d-contrib/profile-night-rainbow.svg)
+
 [![halcyon-past's GitHub | Stats](https://stats.quira.sh/halcyon-past/github?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
 [![halcyon-past's GitHub | Dependencies](https://stats.quira.sh/halcyon-past/dependencies?theme=dark)](https://quira.sh?utm_source=widgets&utm_campaign=halcyon-past)
 
