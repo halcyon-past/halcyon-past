@@ -30,7 +30,7 @@ jobs:
     # Generates the snake  
       - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: mishmanners
+          github_user_name: halcyon-past
           outputs:
             dist/github-snake.svg
           # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
