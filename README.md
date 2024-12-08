@@ -48,6 +48,18 @@ Reach-me-at: aritrosaha2025@gmail.com
   <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Git%20Explorer.png" width="100px" height="100px" /></a>
 </div>
 
+### 📺 Latest YouTube Videos 🎥
+
+<div align="center">
+
+[<img src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>](https://www.youtube.com/@veripyed?sub_confirmation=1)
+
+</div>
+
+<!-- YOUTUBE:START -->
+
+<!-- YOUTUBE:END -->
+
 <h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
