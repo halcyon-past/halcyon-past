@@ -56,9 +56,7 @@ Reach-me-at: aritrosaha2025@gmail.com
 
 </div>
 
-<!-- YOUTUBE:START -->
-
-<!-- YOUTUBE:END -->
+<!-- BLOG-POST-LIST:START --> <!-- BLOG-POST-LIST:END -->
 
 <h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
 
