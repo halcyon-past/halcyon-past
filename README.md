@@ -48,26 +48,6 @@ Reach-me-at: aritrosaha2025@gmail.com
   <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Git%20Explorer.png" width="100px" height="100px" /></a>
 </div>
 
-### 📺 Latest YouTube Videos 🎥
-
-<div align="center">
-
-[<img src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>](https://www.youtube.com/@veripyed?sub_confirmation=1)
-
-</div>
-
-<!-- BLOG-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/watch?v=oAA0IglYapM"><img width="140px" src="http://img.youtube.com/vi/oAA0IglYapM/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=oAA0IglYapM">Realtime Data Sync Between Google Sheets and MySQL || @superjoinai  || Recruitment Task</a><br/>Sep 27, 2024</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A"><img width="140px" src="http://img.youtube.com/vi/LE_ZhMGaN8A/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A">|PANDA BEATBOX| I did this cuz i was hella bored #beatbox #shorts #reels #music #comedy #tiktok</a><br/>May 4, 2021</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU"><img width="140px" src="http://img.youtube.com/vi/mcAQiCTXQSU/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU">Titans Superior Live Stream</a><br/>Mar 12, 2019</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=bBA_arV-PEA"><img width="140px" src="http://img.youtube.com/vi/bBA_arV-PEA/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=bBA_arV-PEA">Trailer 2 // Titans Superior</a><br/>Dec 17, 2017</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=WwJoxp4t0n8"><img width="140px" src="http://img.youtube.com/vi/WwJoxp4t0n8/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=WwJoxp4t0n8">What is Alexa??? // 2min introduction //Titans Superior</a><br/>Nov 28, 2017</td></tr></table>
-<!-- BLOG-POST-LIST:END -->
-
 <h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -92,6 +72,26 @@ Reach-me-at: aritrosaha2025@gmail.com
 ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
 ![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+### 📺 Latest YouTube Videos 🎥
+
+<div align="center">
+
+[<img src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>](https://www.youtube.com/@veripyed?sub_confirmation=1)
+
+</div>
+
+<!-- BLOG-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/watch?v=oAA0IglYapM"><img width="140px" src="http://img.youtube.com/vi/oAA0IglYapM/maxresdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=oAA0IglYapM">Realtime Data Sync Between Google Sheets and MySQL || @superjoinai  || Recruitment Task</a><br/>Sep 27, 2024</td></tr></table>
+<table><tr><td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A"><img width="140px" src="http://img.youtube.com/vi/LE_ZhMGaN8A/maxresdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A">|PANDA BEATBOX| I did this cuz i was hella bored #beatbox #shorts #reels #music #comedy #tiktok</a><br/>May 4, 2021</td></tr></table>
+<table><tr><td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU"><img width="140px" src="http://img.youtube.com/vi/mcAQiCTXQSU/maxresdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU">Titans Superior Live Stream</a><br/>Mar 12, 2019</td></tr></table>
+<table><tr><td><a href="https://www.youtube.com/watch?v=bBA_arV-PEA"><img width="140px" src="http://img.youtube.com/vi/bBA_arV-PEA/maxresdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=bBA_arV-PEA">Trailer 2 // Titans Superior</a><br/>Dec 17, 2017</td></tr></table>
+<table><tr><td><a href="https://www.youtube.com/watch?v=WwJoxp4t0n8"><img width="140px" src="http://img.youtube.com/vi/WwJoxp4t0n8/maxresdefault.jpg"></a></td>
+<td><a href="https://www.youtube.com/watch?v=WwJoxp4t0n8">What is Alexa??? // 2min introduction //Titans Superior</a><br/>Nov 28, 2017</td></tr></table>
+<!-- BLOG-POST-LIST:END -->
 
 <h2> 📈 &nbsp;LeetCode Stats! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
 
