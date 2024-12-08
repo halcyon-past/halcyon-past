@@ -81,12 +81,9 @@ Reach-me-at: aritrosaha2025@gmail.com
 
 </div>
 
-<!-- BLOG-POST-LIST:START --><table><tr><td><a href="https://www.youtube.com/watch?v=oAA0IglYapM"><img width="140px" src="http://img.youtube.com/vi/oAA0IglYapM/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=oAA0IglYapM">Realtime Data Sync Between Google Sheets and MySQL || @superjoinai  || Recruitment Task</a><br/>Sep 27, 2024</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A"><img width="140px" src="http://img.youtube.com/vi/LE_ZhMGaN8A/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A">|PANDA BEATBOX| I did this cuz i was hella bored #beatbox #shorts #reels #music #comedy #tiktok</a><br/>May 4, 2021</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU"><img width="140px" src="http://img.youtube.com/vi/mcAQiCTXQSU/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU">Titans Superior Live Stream</a><br/>Mar 12, 2019</td></tr></table>
+<!-- BLOG-POST-LIST:START --><table> <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead> <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=oAA0IglYapM"><img width="140px" src="http://img.youtube.com/vi/oAA0IglYapM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=oAA0IglYapM">Realtime Data Sync Between Google Sheets and MySQL || @superjoinai  || Recruitment Task</a></td> <td>Sep 27, 2024</td> </tr> </tbody> </table> 
+<table> <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead> <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A"><img width="140px" src="http://img.youtube.com/vi/LE_ZhMGaN8A/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A">|PANDA BEATBOX| I did this cuz i was hella bored #beatbox #shorts #reels #music #comedy #tiktok</a></td> <td>May 4, 2021</td> </tr> </tbody> </table> 
+<table> <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead> <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU"><img width="140px" src="http://img.youtube.com/vi/mcAQiCTXQSU/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU">Titans Superior Live Stream</a></td> <td>Mar 12, 2019</td> </tr> </tbody> </table> 
 <!-- BLOG-POST-LIST:END -->
 
 <h2> 📈 &nbsp;LeetCode Stats! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
