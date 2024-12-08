@@ -87,10 +87,6 @@ Reach-me-at: aritrosaha2025@gmail.com
 <td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A">|PANDA BEATBOX| I did this cuz i was hella bored #beatbox #shorts #reels #music #comedy #tiktok</a><br/>May 4, 2021</td></tr></table>
 <table><tr><td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU"><img width="140px" src="http://img.youtube.com/vi/mcAQiCTXQSU/maxresdefault.jpg"></a></td>
 <td><a href="https://www.youtube.com/watch?v=mcAQiCTXQSU">Titans Superior Live Stream</a><br/>Mar 12, 2019</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=bBA_arV-PEA"><img width="140px" src="http://img.youtube.com/vi/bBA_arV-PEA/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=bBA_arV-PEA">Trailer 2 // Titans Superior</a><br/>Dec 17, 2017</td></tr></table>
-<table><tr><td><a href="https://www.youtube.com/watch?v=WwJoxp4t0n8"><img width="140px" src="http://img.youtube.com/vi/WwJoxp4t0n8/maxresdefault.jpg"></a></td>
-<td><a href="https://www.youtube.com/watch?v=WwJoxp4t0n8">What is Alexa??? // 2min introduction //Titans Superior</a><br/>Nov 28, 2017</td></tr></table>
 <!-- BLOG-POST-LIST:END -->
 
 <h2> 📈 &nbsp;LeetCode Stats! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
