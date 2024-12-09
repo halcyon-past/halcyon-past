@@ -79,6 +79,8 @@ Reach-me-at: aritrosaha2025@gmail.com
 
 [<img src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>](https://www.youtube.com/@veripyed?sub_confirmation=1)
 
+</div>
+
 <table>
 <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead>
 <!-- BLOG-POST-LIST:START -->
