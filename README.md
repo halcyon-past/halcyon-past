@@ -82,7 +82,7 @@ Reach-me-at: aritrosaha2025@gmail.com
 <table>
 <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead>
 <!-- BLOG-POST-LIST:START -->
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=eiCjbOQL8fE"><img width="140px" src="http://img.youtube.com/vi/eiCjbOQL8fE/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=eiCjbOQL8fE">The FASTEST Way to Build and Deploy Portfolio Website Using AI Today</a></td> <td>Dec 11, 2024</td> </tr> </tbody> 
+ <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=eiCjbOQL8fE"><img width="140px" src="http://img.youtube.com/vi/eiCjbOQL8fE/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=eiCjbOQL8fE">The FASTEST Way to Build and Deploy Portfolio Website Using AI</a></td> <td>Dec 11, 2024</td> </tr> </tbody> 
 
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=oAA0IglYapM"><img width="140px" src="http://img.youtube.com/vi/oAA0IglYapM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=oAA0IglYapM">Realtime Data Sync Between Google Sheets and MySQL || @superjoinai  || Recruitment Task</a></td> <td>Sep 27, 2024</td> </tr> </tbody> 
 
