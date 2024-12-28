@@ -20,4 +20,4 @@ jobs:
           date_format: "mmm d, yyyy"
           template: '$newline <tbody> <tr> <td><a href="$url"><img width="140px" src="http://img.youtube.com/vi/$videoId/maxresdefault.jpg"></a></td> <td><a href="$url">$title</a></td> <td>$date</td> </tr> </tbody> $newline'
           committer_email: "titanssuperior@gmail.com"
-          max_post_count: 3
+          max_post_count: 5
