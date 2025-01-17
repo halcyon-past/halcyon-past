@@ -82,6 +82,8 @@ Reach-me-at: aritrosaha2025@gmail.com
 <table>
 <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead>
 <!-- BLOG-POST-LIST:START -->
+ <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4"><img width="140px" src="http://img.youtube.com/vi/M1zjnwxTGl4/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4">GET HIGH ON CODE</a></td> <td>Jan 17, 2025</td> </tr> </tbody> 
+
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM"><img width="140px" src="http://img.youtube.com/vi/2LGYpzOgELM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM">LEARN OOPS in 3 Minutes</a></td> <td>Dec 21, 2024</td> </tr> </tbody> 
 
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=2u19wN1tDT4"><img width="140px" src="http://img.youtube.com/vi/2u19wN1tDT4/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=2u19wN1tDT4">APIs Explained in Under 2 Minutes</a></td> <td>Dec 16, 2024</td> </tr> </tbody> 
@@ -89,8 +91,6 @@ Reach-me-at: aritrosaha2025@gmail.com
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=eiCjbOQL8fE"><img width="140px" src="http://img.youtube.com/vi/eiCjbOQL8fE/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=eiCjbOQL8fE">The FASTEST Way to Build and Deploy Portfolio Website Using AI</a></td> <td>Dec 11, 2024</td> </tr> </tbody> 
 
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=oAA0IglYapM"><img width="140px" src="http://img.youtube.com/vi/oAA0IglYapM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=oAA0IglYapM">Realtime Data Sync Between Google Sheets and MySQL || @superjoinai  || Recruitment Task</a></td> <td>Sep 27, 2024</td> </tr> </tbody> 
-
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A"><img width="140px" src="http://img.youtube.com/vi/LE_ZhMGaN8A/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=LE_ZhMGaN8A">|PANDA BEATBOX| I did this cuz i was hella bored #beatbox #shorts #reels #music #comedy #tiktok</a></td> <td>May 4, 2021</td> </tr> </tbody> 
 <!-- BLOG-POST-LIST:END -->
 </table>
 
