@@ -84,7 +84,7 @@ Reach-me-at: aritrosaha2025@gmail.com
 <!-- BLOG-POST-LIST:START -->
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8"><img width="140px" src="http://img.youtube.com/vi/r34w3YrkAA8/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8">Bajaj Finserv Interview Experience 2025 | Data Science Intern | Off Campus</a></td> <td>Mar 30, 2025</td> </tr> </tbody> 
 
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=kCgqYhUCHdE"><img width="140px" src="http://img.youtube.com/vi/kCgqYhUCHdE/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=kCgqYhUCHdE">Custom Errors in Python</a></td> <td>Jan 20, 2025</td> </tr> </tbody> 
+ <tbody> <tr> <td><a href="https://www.youtube.com/shorts/kCgqYhUCHdE"><img width="140px" src="http://img.youtube.com/vi/kCgqYhUCHdE/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/shorts/kCgqYhUCHdE">Custom Errors in Python</a></td> <td>Jan 20, 2025</td> </tr> </tbody> 
 
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8"><img width="140px" src="http://img.youtube.com/vi/U8fzDvvqef8/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8">Error Handling in Python from BASIC to ADVANCED</a></td> <td>Jan 19, 2025</td> </tr> </tbody> 
 
