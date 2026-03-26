@@ -1,9 +1,18 @@
-[![SVG Banners](https://svg-banners.vercel.app/api?type=luminance&text1=Aritro%20Saha&width=1000&height=200)](https://github.com/Akshay090/svg-banners)
-  
-![Line](https://user-images.githubusercontent.com/85225156/171937799-8fc9e255-9889-4642-9c92-6df85fb86e82.gif)
-  
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile%20visits&color=0e75b6&style=flat" alt="Aritro Saha" /> </p>
-<img align = "right" alt="coding" width="450" src="https://i.imgur.com/7A5ZfPJ.gif">
+<div align="center">
+
+<!-- Animated Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Aritro%20Saha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Associate%20Software%20Developer%20%7C%20Python%20%7C%20AWS%20%7C%20GenAI&descAlignY=60&descSize=18&descColor=a0a0c0" width="100%"/>
+
+<!-- Profile Visits -->
+<img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
+
+</div>
+
+---
+
+## 🧑‍💻 About Me
+
+<img align="right" alt="coding" width="380" src="https://i.imgur.com/7A5ZfPJ.gif"/>
 
 ```json
 {
@@ -12,66 +21,81 @@
   "company": "Bristol Myers Squibb",
   "stack": ["Python", "AWS", "Databricks", "GenAI"],
   "currently_learning": "Databricks",
-  "other_hobbies": ["Beatboxing", "Football"],
+  "hobbies": ["Beatboxing", "Football"],
   "reach_me_at": "aritrosaha2025@gmail.com"
 }
 ```
 
-<h2 align="left">🧑🏻‍💻 &nbsp; Connect with me <img src = "https://media.tenor.com/SGsJK81GW9oAAAAi/shark-lost-connection-lost-connection.gif" width = 35px></h2>
+<br clear="right"/>
+
+---
+
+## 🌐 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Aritro Saha" height="30" width="120" /></a>
-  <a href="https://twitter.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" alt="halcyon_past" height="30" width="100" /></a>
-  <a href="https://instagram.com/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
-  <a href="https://codepen.io/halcyon_past" target="blank"><img align="center" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
-  <a href="https://www.youtube.com/@veripyed" target="blank"><img align="center" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="halcyon_past" height="30" width="120" /></a>
+  <a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
+  </a>&nbsp;
+  <a href="https://twitter.com/halcyon_past" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white" height="30"/>
+  </a>&nbsp;
+  <a href="https://instagram.com/halcyon_past" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" height="30"/>
+  </a>&nbsp;
+  <a href="https://codepen.io/halcyon_past" target="_blank">
+    <img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" height="30"/>
+  </a>&nbsp;
+  <a href="https://www.youtube.com/@veripyed" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" height="30"/>
+  </a>
 </p>
 
-<h2 align="left">⛱️ &nbsp; Holopin Badges <img src = "https://media.tenor.com/Dc8nFwst79AAAAAi/kek-angry.gif" width = 35px></h2>
+---
 
-[![An image of @halcyonpast's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/halcyonpast)](https://holopin.io/@halcyonpast)
+## 🛠️ Languages & Tools
 
-## ⛱️ GSSOC(24) Badges 🪶
-<div style='display:flex; align-items:center; gap: 10px;' align='center'><a href="https://gssoc.girlscript.tech/leaderboard">
-  <img src="https://raw.githubusercontent.com/GSSoC24/Hack-Web3Conf/refs/heads/main/assets/Hack-Web3Conf%202024%20Badge%20(2).png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/1.png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/2.png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/3.png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/4.png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/5.png" width="100px" height="100px" />
-  <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Git%20Explorer.png" width="100px" height="100px" /></a>
-</div>
+### ⚙️ Backend & Data
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=fff)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![R](https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
-<h2 align="left">📚 &nbsp; Languages and Tools <img src = "https://media.tenor.com/lNtmoshuUI8AAAAi/bahroo-hacker.gif" width = 35px></h2>
-
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![VueJs](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![AppWrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=black)
+### 🎨 Frontend
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![Kali](https://img.shields.io/badge/Kali-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![React Native](https://img.shields.io/badge/React_Native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![VueJS](https://img.shields.io/badge/Vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-### 📺 Latest YouTube Videos 🎥
+### 🗄️ Databases & Cloud
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![AppWrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=black)
+![Heroku](https://img.shields.io/badge/Heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
 
-[<img src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/>](https://www.youtube.com/@veripyed?sub_confirmation=1) : Click to Subscribe to VeriPyed
+### 🔧 Tools & OS
+![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 
+---
+
+## 📺 Latest YouTube Videos
+
+<a href="https://www.youtube.com/@veripyed?sub_confirmation=1">
+  <img src="https://img.shields.io/badge/Subscribe%20to%20VeriPyed-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
+
+<br/><br/>
 
 <table>
 <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead>
@@ -88,18 +112,53 @@
 <!-- BLOG-POST-LIST:END -->
 </table>
 
-<h2> 📈 &nbsp;LeetCode Stats! <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px></h2>
+---
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn)
+## 🏅 Badges & Achievements
 
-<h2> <img src = "https://media.tenor.com/LSHKMiRdLggAAAAi/statistics-trending-up.gif" width = 35px>  &nbsp;My GitHub History! 📈</h2>
+### 🪶 Holopin Badges
+[![Holopin Badges](https://holopin.me/halcyonpast)](https://holopin.io/@halcyonpast)
 
-![3d-profile](profile-3d-contrib/profile-night-rainbow.svg)
+### 🌸 GSSoC '24 Badges
+<div align="center">
+  <a href="https://gssoc.girlscript.tech/leaderboard">
+    <img src="https://raw.githubusercontent.com/GSSoC24/Hack-Web3Conf/refs/heads/main/assets/Hack-Web3Conf%202024%20Badge%20(2).png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/Postman%20White.png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/1.png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/2.png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/3.png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/4.png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Postman-Challenge/main/docs/assets/5.png" width="80px"/>
+    <img src="https://raw.githubusercontent.com/GSSoC24/Contributor/refs/heads/main/assets/Git%20Explorer.png" width="80px"/>
+  </a>
+</div>
 
-![GitHub Streak](https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D)
+---
 
-![GithubSnake](https://github.com/halcyon-past/halcyon-past/blob/output/github-snake.svg%20dist/github-snake-dark.svg)
+## 📊 Stats & Activity
 
-<p align="left">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&text=Thanks%20For%20Visiting&section=footer"/>
-</p>
+### 🧩 LeetCode
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" alt="LeetCode Stats"/>
+</div>
+
+### 🔥 GitHub Streak
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+</div>
+
+### 🌌 3D Contribution Graph
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions"/>
+</div>
+
+### 🐍 Contribution Snake
+<div align="center">
+  <img src="https://github.com/halcyon-past/halcyon-past/blob/output/github-snake.svg%20dist/github-snake-dark.svg" alt="GitHub Snake"/>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=ffffff&animation=fadeIn" width="100%"/>
+</div>
