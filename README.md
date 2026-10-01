@@ -17,7 +17,7 @@
 ```json
 {
   "name": "Aritro Saha",
-  "role": "Associate Software Developer",
+  "role": "Software Engineer 1",
   "company": "Bristol Myers Squibb",
   "stack": ["Python", "AWS", "Databricks", "GenAI"],
   "currently_learning": "Databricks",
