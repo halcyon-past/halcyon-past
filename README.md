@@ -1,11 +1,12 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Aritro%20Saha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Associate%20Software%20Developer%20%7C%20Python%20%7C%20AWS%20%7C%20GenAI&descAlignY=60&descSize=18&descColor=a0a0c0" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Aritro%20Saha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%20Software%20Engineer%201%20%7C%20Python%20%7C%20AWS%20%7C%20GenAI&descAlignY=60&descSize=18&descColor=a0a0c0" width="100%"/>
 
 <!-- Profile Visits -->
 <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
-
+<br>
+Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
 </div>
 
 ---
