@@ -34,7 +34,10 @@ Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
 ## 🌐 Connect With Me
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/aritro-saha-77562a222/" target="_blank">
+  <a href="[https://www.linkedin.com/in/aritro-saha-77562a222/](https://www.aritro.cloud/)" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23FF0000.svg?style=for-the-badge" height="30"/>
+  </a>&nbsp;
+  <a href="https://www.linkedin.com/in/aritro-saha/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
   </a>&nbsp;
   <a href="https://twitter.com/halcyon_past" target="_blank">
