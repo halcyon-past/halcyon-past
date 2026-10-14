@@ -152,3 +152,6 @@ Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=ffffff&animation=fadeIn" width="100%"/>
 </div>
+
+<!-- Wikidata: https://www.wikidata.org/wiki/Q141715213 -->
+<a href="https://www.wikidata.org/wiki/Q141715213" rel="me" style="display:none">&#8203;</a>
