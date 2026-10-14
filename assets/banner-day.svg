@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="dayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3c72" />
+      <stop offset="50%" stop-color="#2a5298" />
+      <stop offset="100%" stop-color="#00c6ff" />
+    </linearGradient>
+
+    <!-- Sun Glow Gradient -->
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd200" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#f7971e" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#f7971e" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Pill Glassmorphism Gradient -->
+    <linearGradient id="glassPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Wave Gradient -->
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.18" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #ffffff; letter-spacing: -0.5px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; font-size: 17px; fill: #e0f2fe; }
+    .badge-text { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 11px; font-weight: 700; fill: #fff; letter-spacing: 1.5px; text-transform: uppercase; }
+    .tag-text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 13px; font-weight: 600; fill: #fef08a; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1000" height="240" rx="16" fill="url(#dayGrad)"/>
+
+  <!-- Ambient Light Circles -->
+  <circle cx="880" cy="50" r="140" fill="url(#sunGlow)"/>
+  <circle cx="120" cy="220" r="180" fill="#ffffff" fill-opacity="0.06"/>
+  <circle cx="950" cy="200" r="90" fill="#ffffff" fill-opacity="0.05"/>
+
+  <!-- Decorative Waves -->
+  <path d="M 0 170 Q 250 140 500 180 T 1000 160 L 1000 240 L 0 240 Z" fill="url(#waveGrad)"/>
+  <path d="M 0 195 Q 300 170 650 205 T 1000 190 L 1000 240 L 0 240 Z" fill="#ffffff" fill-opacity="0.12"/>
+
+  <!-- Mode Badge (Day) -->
+  <g transform="translate(60, 36)">
+    <rect width="190" height="26" rx="13" fill="url(#glassPill)" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
+    <circle cx="16" cy="13" r="5" fill="#facc15"/>
+    <text x="32" y="17" class="badge-text">☀️ DAYTIME IN BLR</text>
+  </g>
+
+  <!-- Main Headline & Subtitle -->
+  <text x="60" y="105" class="title">Hey, I'm Aritro Saha</text>
+  <text x="60" y="138" class="subtitle">Software Engineer 1 at Bristol Myers Squibb</text>
+
+  <!-- Tech Focus Bar -->
+  <g transform="translate(60, 168)">
+    <text x="0" y="0" class="tag-text">Python  •  AWS  •  Databricks  •  GenAI  •  Full-Stack</text>
+  </g>
+
+  <!-- Decorative Sun Icon on Right -->
+  <g transform="translate(860, 60)" fill="none" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round">
+    <circle cx="20" cy="20" r="14" fill="#facc15" fill-opacity="0.8" stroke="#fde047" stroke-width="2"/>
+    <line x1="20" y1="-2" x2="20" y2="4"/>
+    <line x1="20" y1="36" x2="20" y2="42"/>
+    <line x1="-2" y1="20" x2="4" y2="20"/>
+    <line x1="36" y1="20" x2="42" y2="20"/>
+    <line x1="4" y1="4" x2="9" y2="9"/>
+    <line x1="31" y1="31" x2="36" y2="36"/>
+    <line x1="4" y1="36" x2="9" y2="31"/>
+    <line x1="31" y1="9" x2="36" y2="4"/>
+  </g>
+</svg>

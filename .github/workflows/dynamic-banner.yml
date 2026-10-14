@@ -1,0 +1,45 @@
+name: Dynamic Day-Night Banner
+
+on:
+  schedule:
+    # Runs every 2 hours
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-banner:
+    name: Update Banner Based on Local Time
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Determine Day or Night (Asia/Kolkata)
+        run: |
+          HOUR=$(TZ='Asia/Kolkata' date +%H)
+          echo "Current hour in Asia/Kolkata: $HOUR"
+          
+          # Daytime is defined as 06:00 to 18:00 IST
+          if [ "$HOUR" -ge 6 ] && [ "$HOUR" -lt 18 ]; then
+            echo "Daytime detected. Setting daytime banner."
+            cp assets/banner-day.svg assets/current-banner.svg
+          else
+            echo "Nighttime detected. Setting nighttime banner."
+            cp assets/banner-night.svg assets/current-banner.svg
+          fi
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          if git diff --quiet assets/current-banner.svg; then
+            echo "Banner is already up to date. No commit needed."
+          else
+            git add assets/current-banner.svg
+            git commit -m "chore: auto-update day/night banner [skip ci]"
+            git push
+          fi

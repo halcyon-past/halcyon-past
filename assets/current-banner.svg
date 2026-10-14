@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
+  <defs>
+    <!-- Deep Cosmic Gradient -->
+    <linearGradient id="nightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0518" />
+      <stop offset="45%" stop-color="#160e33" />
+      <stop offset="80%" stop-color="#2d124d" />
+      <stop offset="100%" stop-color="#0f0c29" />
+    </linearGradient>
+
+    <!-- Neon Glow Gradient -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8" />
+      <stop offset="60%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Wave Gradient -->
+    <linearGradient id="nightWave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.20" />
+    </linearGradient>
+
+    <linearGradient id="nightPill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #ffffff; letter-spacing: -0.5px; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; font-size: 17px; fill: #cbd5e1; }
+    .badge-text { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 11px; font-weight: 700; fill: #e2e8f0; letter-spacing: 1.5px; text-transform: uppercase; }
+    .tag-text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 13px; font-weight: 600; fill: #38bdf8; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1000" height="240" rx="16" fill="url(#nightGrad)"/>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="880" cy="50" r="150" fill="url(#moonGlow)"/>
+  <circle cx="150" cy="240" r="160" fill="#6366f1" fill-opacity="0.08"/>
+
+  <!-- Stars -->
+  <circle cx="120" cy="50" r="1.5" fill="#ffffff" fill-opacity="0.8"/>
+  <circle cx="280" cy="35" r="1.2" fill="#ffffff" fill-opacity="0.6"/>
+  <circle cx="450" cy="65" r="2" fill="#ffffff" fill-opacity="0.9"/>
+  <circle cx="620" cy="40" r="1.5" fill="#ffffff" fill-opacity="0.7"/>
+  <circle cx="750" cy="80" r="1.8" fill="#ffffff" fill-opacity="0.8"/>
+  <circle cx="340" cy="110" r="1" fill="#ffffff" fill-opacity="0.5"/>
+  <circle cx="530" cy="130" r="1.3" fill="#ffffff" fill-opacity="0.6"/>
+  <circle cx="940" cy="140" r="2" fill="#38bdf8" fill-opacity="0.9"/>
+
+  <!-- Decorative Waves -->
+  <path d="M 0 170 Q 250 135 500 175 T 1000 155 L 1000 240 L 0 240 Z" fill="url(#nightWave)"/>
+  <path d="M 0 195 Q 320 165 670 200 T 1000 185 L 1000 240 L 0 240 Z" fill="#000000" fill-opacity="0.35"/>
+
+  <!-- Mode Badge (Night) -->
+  <g transform="translate(60, 36)">
+    <rect width="205" height="26" rx="13" fill="url(#nightPill)" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="16" cy="13" r="5" fill="#a855f7"/>
+    <text x="32" y="17" class="badge-text">🌙 NIGHT OWL IN BLR</text>
+  </g>
+
+  <!-- Main Headline & Subtitle -->
+  <text x="60" y="105" class="title">Greetings, I'm Aritro Saha</text>
+  <text x="60" y="138" class="subtitle">Software Engineer 1 at Bristol Myers Squibb</text>
+
+  <!-- Tech Focus Bar -->
+  <g transform="translate(60, 168)">
+    <text x="0" y="0" class="tag-text">Python  •  AWS  •  Databricks  •  GenAI  •  Full-Stack</text>
+  </g>
+
+  <!-- Crescent Moon Icon on Right -->
+  <g transform="translate(860, 48)">
+    <path d="M 28 6 A 20 20 0 1 0 46 34 A 16 16 0 0 1 28 6 Z" fill="#c084fc" fill-opacity="0.9" stroke="#e9d5ff" stroke-width="1.5"/>
+    <circle cx="56" cy="12" r="2" fill="#38bdf8"/>
+    <circle cx="10" cy="42" r="1.5" fill="#f472b6"/>
+  </g>
+</svg>

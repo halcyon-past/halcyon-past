@@ -1,40 +1,72 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Aritro%20Saha&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%20Software%20Engineer%201%20%7C%20Python%20%7C%20AWS%20%7C%20GenAI&descAlignY=60&descSize=18&descColor=a0a0c0" width="100%"/>
+<!-- Dynamic Day/Night Time-Lapse Banner (Automated via GitHub Actions) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-day.svg" />
+  <img src="assets/current-banner.svg" alt="Aritro Saha Banner" width="100%" />
+</picture>
 
-<!-- Profile Visits -->
-<img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
-<br>
-Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
+<br/><br/>
+
+<!-- Profile Visits Counter -->
+<a href="https://github.com/halcyon-past">
+  <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
+</a>
+
+<p align="center">
+  <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
+  <br/>
+  <i>Python • AWS • Databricks • GenAI • Full-Stack</i>
+</p>
+
 </div>
 
 ---
 
 ## 🧑‍💻 About Me
 
-<img align="right" alt="coding" width="380" src="https://i.imgur.com/7A5ZfPJ.gif"/>
-
-```json
+<div align="center">
+  <table border="0" style="width: 100%; max-width: 820px; border-radius: 12px; border: 1px solid #30363d; background: #0d1117;">
+    <thead>
+      <tr style="background: #161b22; text-align: left;">
+        <th style="padding: 10px 16px; border-bottom: 1px solid #30363d; border-radius: 12px 12px 0 0;" colspan="2">
+          <span style="color: #ff5f56; font-size: 14px;">●</span>&nbsp;
+          <span style="color: #ffbd2e; font-size: 14px;">●</span>&nbsp;
+          <span style="color: #27c93f; font-size: 14px;">●</span>&nbsp;&nbsp;
+          <span style="color: #8b949e; font-family: -apple-system, BlinkMacSystemFont, monospace; font-size: 12px; font-weight: normal;">aritro@workstation: ~/about-me.json</span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 18px; text-align: left; vertical-align: middle; background: #0d1117; border-radius: 0 0 0 12px;">
+<pre style="margin: 0; font-family: 'Fira Code', monospace; font-size: 13px; color: #c9d1d9; background: transparent; border: none; line-height: 1.6;">
 {
-  "name": "Aritro Saha",
-  "role": "Software Engineer 1",
-  "company": "Bristol Myers Squibb",
-  "stack": ["Python", "AWS", "Databricks", "GenAI"],
-  "currently_learning": "Databricks",
-  "hobbies": ["Beatboxing", "Football"],
-  "reach_me_at": "aritrosaha2025@gmail.com"
+  <span style="color: #79c0ff;">"name"</span>: <span style="color: #a5d6ff;">"Aritro Saha"</span>,
+  <span style="color: #79c0ff;">"role"</span>: <span style="color: #a5d6ff;">"Software Engineer 1"</span>,
+  <span style="color: #79c0ff;">"company"</span>: <span style="color: #a5d6ff;">"Bristol Myers Squibb"</span>,
+  <span style="color: #79c0ff;">"stack"</span>: [<span style="color: #a5d6ff;">"Python"</span>, <span style="color: #a5d6ff;">"AWS"</span>, <span style="color: #a5d6ff;">"Databricks"</span>, <span style="color: #a5d6ff;">"GenAI"</span>],
+  <span style="color: #79c0ff;">"learning"</span>: <span style="color: #a5d6ff;">"Scalable AI Pipelines"</span>,
+  <span style="color: #79c0ff;">"hobbies"</span>: [<span style="color: #a5d6ff;">"Beatboxing 🎤"</span>, <span style="color: #a5d6ff;">"Football ⚽"</span>],
+  <span style="color: #79c0ff;">"email"</span>: <span style="color: #a5d6ff;">"aritrosaha2025@gmail.com"</span>
 }
-```
-
-<br clear="right"/>
+</pre>
+        </td>
+        <td align="center" style="padding: 18px; vertical-align: middle; background: #0d1117; border-radius: 0 0 12px 0;">
+          <img src="https://i.imgur.com/7A5ZfPJ.gif" width="230" alt="Coding GIF" style="border-radius: 8px;"/>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ---
 
 ## 🌐 Connect With Me
 
-<p align="left">
-  <a href="[https://www.linkedin.com/in/aritro-saha-77562a222/](https://www.aritro.cloud/)" target="_blank">
+<div align="center">
+  <a href="https://www.aritro.cloud/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-%23FF0000.svg?style=for-the-badge" height="30"/>
   </a>&nbsp;
   <a href="https://www.linkedin.com/in/aritro-saha/" target="_blank">
@@ -52,11 +84,13 @@ Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
   <a href="https://www.youtube.com/@veripyed" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" height="30"/>
   </a>
-</p>
+</div>
 
 ---
 
 ## 🛠️ Languages & Tools
+
+<div align="center">
 
 ### ⚙️ Backend & Data
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -91,13 +125,16 @@ Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 
+</div>
+
 ---
 
 ## 📺 Latest YouTube Videos
 
-<a href="https://www.youtube.com/@veripyed?sub_confirmation=1">
-  <img src="https://img.shields.io/badge/Subscribe%20to%20VeriPyed-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
+<div align="center">
+  <a href="https://www.youtube.com/@veripyed?sub_confirmation=1">
+    <img src="https://img.shields.io/badge/Subscribe%20to%20VeriPyed-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white"/>
+  </a>
 
 <br/><br/>
 
@@ -116,35 +153,66 @@ Aritro Saha — Software Engineer 1 at Bristol Myers Squibb
 <!-- BLOG-POST-LIST:END -->
 </table>
 
+</div>
+
 ---
 
 ## 🏅 Badges & Achievements
 
-### 🪶 Holopin Badges
-[![Holopin Badges](https://holopin.me/halcyonpast)](https://holopin.io/@halcyonpast)
+<div align="center">
+  <p><b>🪶 Holopin Badges</b></p>
+  <a href="https://holopin.io/@halcyonpast">
+    <img src="https://holopin.me/halcyonpast" alt="Holopin Badges" />
+  </a>
+</div>
 
 ---
 
-## 📊 Stats & Activity
+## 📊 Stats & Activity (Bento Grid)
 
-### 🧩 LeetCode
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" alt="LeetCode Stats"/>
-</div>
-
-### 🔥 GitHub Streak
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
-</div>
-
-### 🌌 3D Contribution Graph
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions"/>
-</div>
-
-### 🐍 Contribution Snake
-<div align="center">
-  <img src="https://github.com/halcyon-past/halcyon-past/blob/output/github-snake.svg%20dist/github-snake-dark.svg" alt="GitHub Snake"/>
+  <table border="0" style="width: 100%; max-width: 900px; border-collapse: separate; border-spacing: 12px;">
+    <tr>
+      <!-- Bento Card 1: Streak Stats (Theme-Adaptive) -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
+        <p align="center" style="margin: 0 0 10px 0;"><b>🔥 GitHub Streak</b></p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+          <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=halcyon-past&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+          <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="100%" />
+        </picture>
+      </td>
+      <!-- Bento Card 2: LeetCode (Theme-Adaptive) -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
+        <p align="center" style="margin: 0 0 10px 0;"><b>🧩 LeetCode Analytics</b></p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" />
+          <source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=light" />
+          <img src="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" alt="LeetCode Stats" width="100%" />
+        </picture>
+      </td>
+    </tr>
+    <tr>
+      <!-- Bento Card 3: 3D Contribution Graph (Theme-Adaptive) -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
+        <p align="center" style="margin: 0 0 10px 0;"><b>🌌 3D Activity Cosmos</b></p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
+          <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions" width="100%" />
+        </picture>
+      </td>
+      <!-- Bento Card 4: Contribution Snake (Theme-Adaptive) -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
+        <p align="center" style="margin: 0 0 10px 0;"><b>🐍 Contribution Snake</b></p>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/halcyon-past/halcyon-past/output/github-snake-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/halcyon-past/halcyon-past/output/github-snake.svg" />
+          <img src="https://raw.githubusercontent.com/halcyon-past/halcyon-past/output/github-snake.svg" alt="GitHub Snake" width="100%" />
+        </picture>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
