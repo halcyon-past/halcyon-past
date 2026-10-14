@@ -50,7 +50,7 @@
   <g transform="translate(60, 36)">
     <rect width="190" height="26" rx="13" fill="url(#glassPill)" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
     <circle cx="16" cy="13" r="5" fill="#facc15"/>
-    <text x="32" y="17" class="badge-text">☀️ DAYTIME IN BLR</text>
+    <text x="32" y="17" class="badge-text">☀️ DAYTIME IN HYD</text>
   </g>
 
   <!-- Main Headline & Subtitle -->

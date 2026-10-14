@@ -59,7 +59,7 @@
   <g transform="translate(60, 36)">
     <rect width="205" height="26" rx="13" fill="url(#nightPill)" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1"/>
     <circle cx="16" cy="13" r="5" fill="#a855f7"/>
-    <text x="32" y="17" class="badge-text">🌙 NIGHT OWL IN BLR</text>
+    <text x="32" y="17" class="badge-text">🌙 NIGHT OWL IN HYD</text>
   </g>
 
   <!-- Main Headline & Subtitle -->

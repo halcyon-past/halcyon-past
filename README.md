@@ -9,10 +9,8 @@
 
 <br/><br/>
 
-<!-- Profile Visits Counter -->
-<a href="https://github.com/halcyon-past">
-  <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
-</a>
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Views&color=6e40c9&style=flat-square" alt="Profile Views"/>
 
 <p align="center">
   <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
@@ -206,9 +204,9 @@
       <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
         <p align="center" style="margin: 0 0 10px 0;"><b>🐍 Contribution Snake</b></p>
         <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/halcyon-past/halcyon-past/output/github-snake-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/halcyon-past/halcyon-past/output/github-snake.svg" />
-          <img src="https://raw.githubusercontent.com/halcyon-past/halcyon-past/output/github-snake.svg" alt="GitHub Snake" width="100%" />
+          <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+          <img src="assets/github-snake.svg" alt="GitHub Snake" width="100%" />
         </picture>
       </td>
     </tr>
