@@ -5,9 +5,9 @@
 
 <br/><br/>
 
-<!-- Profile Visits Counter (Restored to komarev.com to preserve 6,100+ views history) -->
-<a href="https://github.com/halcyon-past">
-  <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
+<!-- Profile Views Counter -->
+<a href="https://komarev.com/ghpvc/?username=halcyon-past">
+  <img src="assets/profile-views.svg" alt="Profile Views: 6,108"/>
 </a>
 
 <p align="center">

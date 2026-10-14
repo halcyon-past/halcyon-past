@@ -1,214 +1,269 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
   <defs>
-    <!-- Deep Cosmic Gradient -->
-    <linearGradient id="nightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080314" />
-      <stop offset="40%" stop-color="#12092b" />
-      <stop offset="75%" stop-color="#240c42" />
-      <stop offset="100%" stop-color="#05020c" />
+    <!-- Background Space Obsidian -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05050a" />
+      <stop offset="50%" stop-color="#090a12" />
+      <stop offset="100%" stop-color="#050508" />
     </linearGradient>
 
-    <!-- Moving Border Beam Gradient -->
-    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9">
-        <animate attributeName="stop-color" values="#38bdf8;#ec4899;#a855f7;#38bdf8" dur="6s" repeatCount="indefinite" />
-      </stop>
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
-      <animate attributeName="x1" values="-100%;100%;-100%" dur="7s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="0%;200%;0%" dur="7s" repeatCount="indefinite" />
-    </linearGradient>
-
-    <!-- Neon Moon Glow Radial Gradient -->
-    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Liquid Wave Gradients -->
-    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3" />
-      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#db2777" stop-opacity="0.25" />
-    </linearGradient>
-
-    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.2" />
-      <stop offset="50%" stop-color="#9333ea" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2" />
-    </linearGradient>
-
-    <!-- Pill Glassmorphism Gradient -->
-    <linearGradient id="nightPill" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2" />
-    </linearGradient>
-
-    <!-- Title Gradient -->
-    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Apple Titanium Name Gradient -->
+    <linearGradient id="titaniumGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#e0e7ff" />
-      <stop offset="80%" stop-color="#c084fc" />
-      <stop offset="100%" stop-color="#38bdf8" />
+      <stop offset="45%" stop-color="#f1f5f9" />
+      <stop offset="75%" stop-color="#cbd5e1" />
+      <stop offset="100%" stop-color="#94a3b8" />
     </linearGradient>
 
-    <!-- Shooting Star Gradient -->
-    <linearGradient id="meteorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.8" />
+    <!-- Hairline Border Beam Gradient -->
+    <linearGradient id="borderBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+      <animate attributeName="x1" values="-100%;100%;-100%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%;0%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Waveform Gradients -->
+    <linearGradient id="waveBarGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Ambient Aurora Mesh Blur -->
+    <filter id="auroraGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
+
+    <!-- Micro Dot Grid Pattern (Apple Blueprint / CAD aesthetic) -->
+    <pattern id="dotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
+    </pattern>
+
+    <!-- Glass Chip Gradient -->
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
     </linearGradient>
   </defs>
 
   <style>
     .title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-      font-weight: 800;
-      font-size: 38px;
-      letter-spacing: -0.5px;
-      fill: url(#nameGrad);
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', sans-serif;
+      font-weight: 700;
+      font-size: 34px;
+      letter-spacing: -0.8px;
+      fill: url(#titaniumGrad);
     }
     .subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-weight: 500;
-      font-size: 17px;
-      fill: #cbd5e1;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
+      font-weight: 400;
+      font-size: 15px;
+      letter-spacing: -0.2px;
+      fill: #94a3b8;
     }
-    .badge-text {
-      font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace;
+    .mono-meta {
+      font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, monospace;
       font-size: 11px;
-      font-weight: 700;
-      fill: #f1f5f9;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
+      font-weight: 500;
+      fill: #64748b;
+      letter-spacing: 0.5px;
     }
-    .tag-text {
-      font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
-      font-size: 13px;
+    .chip-text {
+      font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 11px;
       font-weight: 600;
-      fill: #38bdf8;
+      fill: #cbd5e1;
+      letter-spacing: 0.3px;
     }
   </style>
 
-  <!-- Background Base -->
-  <rect width="1000" height="240" rx="16" fill="url(#nightGrad)"/>
+  <!-- Container Base -->
+  <rect width="1000" height="240" rx="14" fill="url(#bgGrad)"/>
 
-  <!-- Top Glowing Border Beam -->
-  <rect x="0" y="0" width="1000" height="3" fill="url(#beamGrad)" rx="1.5"/>
+  <!-- Blueprint Dot Grid Lattice -->
+  <rect width="1000" height="240" rx="14" fill="url(#dotGrid)"/>
 
-  <!-- Pulsing Ambient Moon Aura with SMIL -->
-  <circle cx="880" cy="50" r="140" fill="url(#moonGlow)">
-    <animate attributeName="r" values="130;165;130" dur="4.5s" repeatCount="indefinite" />
-    <animate attributeName="opacity" values="0.75;1;0.75" dur="4.5s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Floating Ambient Orbs with SMIL -->
-  <circle cx="150" cy="230" r="150" fill="#6366f1" fill-opacity="0.08">
-    <animate attributeName="cy" values="230;215;230" dur="6s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="550" cy="30" r="90" fill="#a855f7" fill-opacity="0.06">
-    <animate attributeName="cx" values="550;570;550" dur="8s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Twinkling Starfield with SMIL Animation -->
-  <g>
-    <circle cx="120" cy="42" r="2.2" fill="#ffffff">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite" />
-      <animate attributeName="r" values="1.8;2.6;1.8" dur="2.2s" repeatCount="indefinite" />
+  <!-- Apple Ambient Aurora Orbs (Subtle Diffuse Glows) -->
+  <g filter="url(#auroraGlow)">
+    <!-- Cyan/Violet Orb on Left -->
+    <circle cx="120" cy="180" r="110" fill="#4f46e5" fill-opacity="0.18">
+      <animate attributeName="cy" values="180;160;180" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="r" values="110;125;110" dur="8s" repeatCount="indefinite" />
     </circle>
-    <circle cx="280" cy="32" r="1.8" fill="#e0e7ff">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" begin="0.5s" repeatCount="indefinite" />
+    <!-- Purple/Magenta Orb on Right -->
+    <circle cx="850" cy="80" r="130" fill="#a855f7" fill-opacity="0.22">
+      <animate attributeName="cx" values="850;870;850" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="r" values="130;145;130" dur="10s" repeatCount="indefinite" />
     </circle>
-    <circle cx="450" cy="58" r="2.4" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="1.2s" repeatCount="indefinite" />
-      <animate attributeName="r" values="1.8;2.8;1.8" dur="2.6s" begin="1.2s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="630" cy="36" r="2.0" fill="#ffffff">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" begin="0.8s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="750" cy="72" r="2.2" fill="#c084fc">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="1.7s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="350" cy="102" r="1.6" fill="#ffffff">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0.3s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="530" cy="122" r="1.8" fill="#f472b6">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="2.1s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="930" cy="132" r="2.5" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="1.0s" repeatCount="indefinite" />
-      <animate attributeName="r" values="2;3;2" dur="2.7s" begin="1.0s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="220" cy="85" r="1.5" fill="#fef08a">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" begin="1.4s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="690" cy="115" r="1.8" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="0.7s" repeatCount="indefinite" />
+    <!-- Soft Cyan Light Center -->
+    <circle cx="500" cy="220" r="100" fill="#06b6d4" fill-opacity="0.10">
+      <animate attributeName="opacity" values="0.08;0.14;0.08" dur="6s" repeatCount="indefinite" />
     </circle>
   </g>
 
-  <!-- Animated Shooting Star / Meteor with SMIL -->
-  <g opacity="0">
-    <line x1="720" y1="20" x2="630" y2="70" stroke="url(#meteorGrad)" stroke-width="2.5" stroke-linecap="round" />
-    <circle cx="630" cy="70" r="2.5" fill="#ffffff" />
-    <animate attributeName="opacity" values="0;0;1;0;0" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;0.55;0.65;1" />
-    <animateTransform attributeName="transform" type="translate" values="0 0; -60 30; -120 60; -120 60; 0 0" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;0.65;0.99;1" />
+  <!-- Top Hairline Border Beam -->
+  <rect x="0" y="0" width="1000" height="1.5" fill="url(#borderBeam)" />
+
+  <!-- Outer Hairline Bezel -->
+  <rect x="0.5" y="0.5" width="999" height="239" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Telemetry Header Bar -->
+  <g transform="translate(54, 34)">
+    <!-- Status Chip -->
+    <rect width="215" height="24" rx="12" fill="url(#chipBg)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+    <!-- Pulsing Radar Indicator -->
+    <circle cx="14" cy="12" r="4.5" fill="none" stroke="#a855f7" stroke-width="1.2">
+      <animate attributeName="r" values="3.5;10;10" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.9;0;0" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="14" cy="12" r="3.5" fill="#a855f7"/>
+    <text x="28" y="16" class="mono-meta"><tspan fill="#e2e8f0" font-weight="600">SYS_OPS</tspan> // NIGHT • HYD</text>
+
+    <!-- Location Coordinates -->
+    <text x="232" y="16" class="mono-meta">17.3850° N, 78.4867° E</text>
   </g>
 
-  <!-- Fluid Morphing Undulating Waves with SMIL -->
-  <path fill="url(#waveGrad1)">
-    <animate attributeName="d" dur="8s" repeatCount="indefinite"
-      values="
-        M -50 170 Q 200 130 520 170 T 1050 150 L 1050 240 L -50 240 Z;
-        M -50 160 Q 240 180 500 145 T 1050 165 L 1050 240 L -50 240 Z;
-        M -50 170 Q 200 130 520 170 T 1050 150 L 1050 240 L -50 240 Z
-      " />
-  </path>
+  <!-- Hero Typography Section -->
+  <text x="54" y="98" class="title">Aritro Saha</text>
+  <text x="54" y="126" class="subtitle">Software Engineer 1 &nbsp;<tspan fill="#475569">•</tspan>&nbsp; <tspan fill="#e2e8f0">Bristol Myers Squibb</tspan></text>
 
-  <path fill="url(#waveGrad2)">
-    <animate attributeName="d" dur="10s" repeatCount="indefinite"
-      values="
-        M -50 195 Q 300 165 670 198 T 1050 185 L 1050 240 L -50 240 Z;
-        M -50 185 Q 260 205 640 175 T 1050 195 L 1050 240 L -50 240 Z;
-        M -50 195 Q 300 165 670 198 T 1050 185 L 1050 240 L -50 240 Z
-      " />
-  </path>
-
-  <path d="M 0 208 Q 340 185 700 214 T 1000 202 L 1000 240 L 0 240 Z" fill="#04020a" fill-opacity="0.55"/>
-
-  <!-- Mode Badge (Night Owl - HYD) with Live Pulsing Radar Beacon -->
-  <g transform="translate(60, 36)">
-    <rect width="210" height="26" rx="13" fill="url(#nightPill)" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1"/>
-    <!-- Radar Expanding Ring -->
-    <circle cx="16" cy="13" r="5" fill="none" stroke="#f0abfc" stroke-width="1.5">
-      <animate attributeName="r" values="4;13;13" dur="2s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="1;0;0" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <!-- Core Dot -->
-    <circle cx="16" cy="13" r="4.5" fill="#a855f7"/>
-    <text x="32" y="17" class="badge-text">🌙 NIGHT OWL IN HYD</text>
+  <!-- Apple-Style Tech Stack Glass Chips -->
+  <g transform="translate(54, 154)">
+    <!-- Chip 1: Python -->
+    <g transform="translate(0, 0)">
+      <rect width="84" height="26" rx="6" fill="url(#chipBg)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#38bdf8"/>
+      <text x="24" y="17" class="chip-text">Python</text>
+    </g>
+    <!-- Chip 2: AWS -->
+    <g transform="translate(94, 0)">
+      <rect width="66" height="26" rx="6" fill="url(#chipBg)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#f59e0b"/>
+      <text x="24" y="17" class="chip-text">AWS</text>
+    </g>
+    <!-- Chip 3: Databricks -->
+    <g transform="translate(170, 0)">
+      <rect width="112" height="26" rx="6" fill="url(#chipBg)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#ef4444"/>
+      <text x="24" y="17" class="chip-text">Databricks</text>
+    </g>
+    <!-- Chip 4: GenAI -->
+    <g transform="translate(292, 0)">
+      <rect width="78" height="26" rx="6" fill="url(#chipBg)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#a855f7"/>
+      <text x="24" y="17" class="chip-text">GenAI</text>
+    </g>
+    <!-- Chip 5: Full-Stack -->
+    <g transform="translate(380, 0)">
+      <rect width="104" height="26" rx="6" fill="url(#chipBg)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
+      <circle cx="14" cy="13" r="3" fill="#10b981"/>
+      <text x="24" y="17" class="chip-text">Full-Stack</text>
+    </g>
   </g>
 
-  <!-- Main Headline & Subtitle -->
-  <text x="60" y="105" class="title">Greetings, I'm Aritro Saha</text>
-  <text x="60" y="138" class="subtitle">Software Engineer 1 at Bristol Myers Squibb</text>
+  <!-- Right Visual: High-Tech Oscillating Digital Audio & Data Waveform Matrix (18 Channels) -->
+  <!-- Represents Audio / Beatbox Signal Processing & High-Throughput Streaming Data -->
+  <g transform="translate(710, 55)">
+    <!-- Subtle Glass Card Backplate -->
+    <rect x="-16" y="-12" width="250" height="135" rx="10" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+    
+    <text x="0" y="8" class="mono-meta" font-size="9" fill="#64748b">TELEMETRY // AUDIO &amp; DATA HARMONICS</text>
 
-  <!-- Tech Focus Bar -->
-  <g transform="translate(60, 168)">
-    <text x="0" y="0" class="tag-text">Python  •  AWS  •  Databricks  •  GenAI  •  Full-Stack</text>
-  </g>
+    <!-- Spectrum Bars with Smooth SMIL Height Animations -->
+    <!-- Bar 1 -->
+    <rect x="0" y="85" width="6" height="20" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="18;65;28;45;18" dur="2.1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="85;38;75;58;85" dur="2.1s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 2 -->
+    <rect x="12" y="70" width="6" height="35" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="35;85;45;60;35" dur="1.7s" repeatCount="indefinite" />
+      <animate attributeName="y" values="70;20;60;45;70" dur="1.7s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 3 -->
+    <rect x="24" y="55" width="6" height="50" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="50;30;78;40;50" dur="2.4s" repeatCount="indefinite" />
+      <animate attributeName="y" values="55;75;27;65;55" dur="2.4s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 4 -->
+    <rect x="36" y="45" width="6" height="60" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="60;90;40;75;60" dur="1.9s" repeatCount="indefinite" />
+      <animate attributeName="y" values="45;15;65;30;45" dur="1.9s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 5 -->
+    <rect x="48" y="65" width="6" height="40" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="40;70;95;35;40" dur="2.3s" repeatCount="indefinite" />
+      <animate attributeName="y" values="65;35;10;70;65" dur="2.3s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 6 -->
+    <rect x="60" y="35" width="6" height="70" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="70;45;85;55;70" dur="1.6s" repeatCount="indefinite" />
+      <animate attributeName="y" values="35;60;20;50;35" dur="1.6s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 7 -->
+    <rect x="72" y="50" width="6" height="55" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="55;92;38;80;55" dur="2.0s" repeatCount="indefinite" />
+      <animate attributeName="y" values="50;13;67;25;50" dur="2.0s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 8 -->
+    <rect x="84" y="30" width="6" height="75" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="75;50;90;42;75" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="y" values="30;55;15;63;30" dur="1.8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 9 -->
+    <rect x="96" y="60" width="6" height="45" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="45;80;60;90;45" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="60;25;45;15;60" dur="2.2s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 10 -->
+    <rect x="108" y="40" width="6" height="65" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="65;38;78;52;65" dur="1.9s" repeatCount="indefinite" />
+      <animate attributeName="y" values="40;67;27;53;40" dur="1.9s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 11 -->
+    <rect x="120" y="55" width="6" height="50" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="50;88;40;70;50" dur="2.5s" repeatCount="indefinite" />
+      <animate attributeName="y" values="55;17;65;35;55" dur="2.5s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 12 -->
+    <rect x="132" y="70" width="6" height="35" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="35;68;92;45;35" dur="1.7s" repeatCount="indefinite" />
+      <animate attributeName="y" values="70;37;13;60;70" dur="1.7s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 13 -->
+    <rect x="144" y="45" width="6" height="60" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="60;40;80;50;60" dur="2.1s" repeatCount="indefinite" />
+      <animate attributeName="y" values="45;65;25;55;45" dur="2.1s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 14 -->
+    <rect x="156" y="65" width="6" height="40" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="40;75;55;85;40" dur="1.8s" repeatCount="indefinite" />
+      <animate attributeName="y" values="65;30;50;20;65" dur="1.8s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 15 -->
+    <rect x="168" y="50" width="6" height="55" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="55;35;72;48;55" dur="2.3s" repeatCount="indefinite" />
+      <animate attributeName="y" values="50;70;33;57;50" dur="2.3s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 16 -->
+    <rect x="180" y="75" width="6" height="30" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="30;60;45;70;30" dur="2.0s" repeatCount="indefinite" />
+      <animate attributeName="y" values="75;45;60;35;75" dur="2.0s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 17 -->
+    <rect x="192" y="85" width="6" height="20" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="20;50;30;62;20" dur="1.6s" repeatCount="indefinite" />
+      <animate attributeName="y" values="85;55;75;43;85" dur="1.6s" repeatCount="indefinite" />
+    </rect>
+    <!-- Bar 18 -->
+    <rect x="204" y="90" width="6" height="15" rx="3" fill="url(#waveBarGrad)">
+      <animate attributeName="height" values="15;40;25;48;15" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="y" values="90;65;80;57;90" dur="2.2s" repeatCount="indefinite" />
+    </rect>
 
-  <!-- Glowing Crescent Moon on Right with Breathing Glow -->
-  <g transform="translate(860, 48)">
-    <path d="M 28 6 A 20 20 0 1 0 46 34 A 16 16 0 0 1 28 6 Z" fill="#c084fc" fill-opacity="0.95" stroke="#f0abfc" stroke-width="1.5">
-      <animate attributeName="fill" values="#c084fc;#e879f9;#c084fc" dur="4s" repeatCount="indefinite" />
-    </path>
-    <circle cx="56" cy="12" r="2.5" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="10" cy="42" r="1.8" fill="#f472b6">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
-    </circle>
+    <!-- Base Line of Spectrum -->
+    <line x1="0" y1="108" x2="216" y2="108" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
   </g>
 </svg>

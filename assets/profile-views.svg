@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="20" viewBox="0 0 125 20" role="img" aria-label="Profile Views: 6,108">
+  <title>Profile Views: 6,108</title>
+  <linearGradient id="s" x2="0" y2="100%">
+    <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+    <stop offset="1" stop-opacity=".1"/>
+  </linearGradient>
+  <clipPath id="r">
+    <rect width="125" height="20" rx="3" fill="#fff"/>
+  </clipPath>
+  <g clip-path="url(#r)">
+    <rect width="80" height="20" fill="#161b22"/>
+    <rect x="80" width="45" height="20" fill="#6e40c9"/>
+    <rect width="125" height="20" fill="url(#s)"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" font-weight="600">
+    <text x="40" y="15" fill="#010101" fill-opacity=".3">Profile Views</text>
+    <text x="40" y="14">Profile Views</text>
+    <text x="102" y="15" fill="#010101" fill-opacity=".3">6,108</text>
+    <text x="102" y="14">6,108</text>
+  </g>
+</svg>

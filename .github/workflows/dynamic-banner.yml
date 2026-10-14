@@ -1,4 +1,4 @@
-name: Dynamic Day-Night Banner
+name: Dynamic Day-Night Banner & Views Sync
 
 on:
   schedule:
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   update-banner:
-    name: Update Banner Based on Local Time
+    name: Update Banner & Sync Profile Views
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -31,15 +31,32 @@ jobs:
             cp assets/banner-night.svg assets/current-banner.svg
           fi
 
+      - name: Sync Profile Views Count from Komarev
+        run: |
+          LIVE_COUNT=$(curl -s --max-time 10 "https://komarev.com/ghpvc/?username=halcyon-past" | grep -oE '>[0-9,]+<' | tr -d '><' | tail -n 1)
+          if [ -n "$LIVE_COUNT" ]; then
+            echo "Synced count: $LIVE_COUNT"
+            python3 -c "
+import re
+count = '$LIVE_COUNT'
+with open('assets/profile-views.svg', 'r') as f:
+    c = f.read()
+c = re.sub(r'>\d[0-9,]*</text>', f'>{count}</text>', c)
+c = re.sub(r'Profile Views: \d[0-9,]*', f'Profile Views: {count}', c)
+with open('assets/profile-views.svg', 'w') as f:
+    f.write(c)
+"
+          fi
+
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          if git diff --quiet assets/current-banner.svg; then
-            echo "Banner is already up to date. No commit needed."
+          git add assets/current-banner.svg assets/profile-views.svg
+          if git diff --staged --quiet; then
+            echo "No changes needed."
           else
-            git add assets/current-banner.svg
-            git commit -m "chore: auto-update day/night banner [skip ci]"
+            git commit -m "chore: auto-sync banner & profile views count [skip ci]"
             git push
           fi
