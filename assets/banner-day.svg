@@ -127,7 +127,7 @@
 
   <!-- Hero Typography Section -->
   <text x="54" y="98" class="title">Aritro Saha</text>
-  <text x="54" y="126" class="subtitle">Software Engineer 1 &nbsp;<tspan fill="#475569">•</tspan>&nbsp; <tspan fill="#e2e8f0">Bristol Myers Squibb</tspan></text>
+  <text x="54" y="126" class="subtitle">Software Engineer 1  <tspan fill="#475569">•</tspan>  <tspan fill="#e2e8f0">Bristol Myers Squibb</tspan></text>
 
   <!-- Apple-Style Tech Stack Glass Chips -->
   <g transform="translate(54, 154)">
