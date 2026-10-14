@@ -3,62 +3,162 @@
     <!-- Deep Cosmic Gradient -->
     <linearGradient id="nightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0518" />
-      <stop offset="45%" stop-color="#160e33" />
-      <stop offset="80%" stop-color="#2d124d" />
-      <stop offset="100%" stop-color="#0f0c29" />
+      <stop offset="40%" stop-color="#140c2e" />
+      <stop offset="75%" stop-color="#2a0f4c" />
+      <stop offset="100%" stop-color="#070714" />
     </linearGradient>
 
-    <!-- Neon Glow Gradient -->
+    <!-- Neon Moon Glow Radial Gradient -->
     <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8" />
-      <stop offset="60%" stop-color="#ec4899" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.35" />
       <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Wave Gradient -->
-    <linearGradient id="nightWave" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.20" />
+    <!-- Wave Gradients -->
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.35" />
     </linearGradient>
 
+    <!-- Pill Glassmorphism Gradient -->
     <linearGradient id="nightPill" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2" />
+    </linearGradient>
+
+    <!-- Shimmering Name Gradient -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#e0e7ff" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#67e8f9" />
     </linearGradient>
   </defs>
 
   <style>
-    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: 800; font-size: 38px; fill: #ffffff; letter-spacing: -0.5px; }
-    .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 500; font-size: 17px; fill: #cbd5e1; }
-    .badge-text { font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace; font-size: 11px; font-weight: 700; fill: #e2e8f0; letter-spacing: 1.5px; text-transform: uppercase; }
-    .tag-text { font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 13px; font-weight: 600; fill: #38bdf8; }
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+      fill: url(#nameGrad);
+      animation: titleGlow 4s ease-in-out infinite;
+    }
+    .subtitle {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      fill: #cbd5e1;
+    }
+    .badge-text {
+      font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #f1f5f9;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .tag-text {
+      font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #38bdf8;
+    }
+
+    /* Keyframe Animations */
+    @keyframes titleGlow {
+      0%, 100% { filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.4)); }
+      50% { filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.7)); }
+    }
+
+    @keyframes waveMove1 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(-50px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes waveMove2 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(45px); }
+      100% { transform: translateX(0); }
+    }
+
+    @keyframes pulseMoon {
+      0%, 100% { transform: scale(1); opacity: 0.85; }
+      50% { transform: scale(1.15); opacity: 1; }
+    }
+
+    @keyframes floatOrb {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-10px) scale(1.06); }
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.25; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.3); }
+    }
+
+    @keyframes beaconRing {
+      0% { r: 5px; opacity: 0.9; }
+      100% { r: 13px; opacity: 0; }
+    }
+
+    .anim-wave1 { animation: waveMove1 7s ease-in-out infinite; }
+    .anim-wave2 { animation: waveMove2 9s ease-in-out infinite; }
+    .anim-moon { transform-origin: 880px 50px; animation: pulseMoon 5s ease-in-out infinite; }
+    .anim-orb { transform-origin: 150px 240px; animation: floatOrb 6s ease-in-out infinite; }
+
+    .star-1 { transform-origin: 130px 45px; animation: twinkle 2.5s ease-in-out infinite; }
+    .star-2 { transform-origin: 290px 35px; animation: twinkle 3.2s ease-in-out 0.8s infinite; }
+    .star-3 { transform-origin: 470px 60px; animation: twinkle 2.8s ease-in-out 1.5s infinite; }
+    .star-4 { transform-origin: 640px 38px; animation: twinkle 4.0s ease-in-out 0.4s infinite; }
+    .star-5 { transform-origin: 770px 75px; animation: twinkle 3.0s ease-in-out 1.2s infinite; }
+    .star-6 { transform-origin: 360px 105px; animation: twinkle 2.3s ease-in-out 1.8s infinite; }
+    .star-7 { transform-origin: 550px 125px; animation: twinkle 3.5s ease-in-out 0.5s infinite; }
+    .star-8 { transform-origin: 940px 135px; animation: twinkle 2.6s ease-in-out 2.0s infinite; }
+
+    .beacon-pulse { animation: beaconRing 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
   </style>
 
   <!-- Background Base -->
   <rect width="1000" height="240" rx="16" fill="url(#nightGrad)"/>
 
-  <!-- Ambient Light Orbs -->
-  <circle cx="880" cy="50" r="150" fill="url(#moonGlow)"/>
-  <circle cx="150" cy="240" r="160" fill="#6366f1" fill-opacity="0.08"/>
+  <!-- Ambient Light Orbs with Animation -->
+  <circle cx="880" cy="50" r="150" fill="url(#moonGlow)" class="anim-moon"/>
+  <circle cx="150" cy="240" r="170" fill="#6366f1" fill-opacity="0.08" class="anim-orb"/>
 
-  <!-- Stars -->
-  <circle cx="120" cy="50" r="1.5" fill="#ffffff" fill-opacity="0.8"/>
-  <circle cx="280" cy="35" r="1.2" fill="#ffffff" fill-opacity="0.6"/>
-  <circle cx="450" cy="65" r="2" fill="#ffffff" fill-opacity="0.9"/>
-  <circle cx="620" cy="40" r="1.5" fill="#ffffff" fill-opacity="0.7"/>
-  <circle cx="750" cy="80" r="1.8" fill="#ffffff" fill-opacity="0.8"/>
-  <circle cx="340" cy="110" r="1" fill="#ffffff" fill-opacity="0.5"/>
-  <circle cx="530" cy="130" r="1.3" fill="#ffffff" fill-opacity="0.6"/>
-  <circle cx="940" cy="140" r="2" fill="#38bdf8" fill-opacity="0.9"/>
+  <!-- Animated Twinkling Starfield -->
+  <g>
+    <circle cx="130" cy="45" r="2.2" fill="#ffffff" class="star-1"/>
+    <circle cx="290" cy="35" r="1.8" fill="#e0e7ff" class="star-2"/>
+    <circle cx="470" cy="60" r="2.5" fill="#38bdf8" class="star-3"/>
+    <circle cx="640" cy="38" r="2.0" fill="#ffffff" class="star-4"/>
+    <circle cx="770" cy="75" r="2.2" fill="#c084fc" class="star-5"/>
+    <circle cx="360" cy="105" r="1.6" fill="#ffffff" class="star-6"/>
+    <circle cx="550" cy="125" r="1.8" fill="#f472b6" class="star-7"/>
+    <circle cx="940" cy="135" r="2.5" fill="#38bdf8" class="star-8"/>
+  </g>
 
-  <!-- Decorative Waves -->
-  <path d="M 0 170 Q 250 135 500 175 T 1000 155 L 1000 240 L 0 240 Z" fill="url(#nightWave)"/>
-  <path d="M 0 195 Q 320 165 670 200 T 1000 185 L 1000 240 L 0 240 Z" fill="#000000" fill-opacity="0.35"/>
+  <!-- Animated Undulating Waves at Bottom -->
+  <g class="anim-wave1">
+    <path d="M -60 170 Q 200 130 520 170 T 1060 150 L 1060 250 L -60 250 Z" fill="url(#waveGrad1)"/>
+  </g>
+  <g class="anim-wave2">
+    <path d="M -50 195 Q 300 165 670 198 T 1060 185 L 1060 250 L -50 250 Z" fill="url(#waveGrad2)"/>
+  </g>
+  <path d="M 0 205 Q 340 180 700 210 T 1000 198 L 1000 240 L 0 240 Z" fill="#05030a" fill-opacity="0.45"/>
 
-  <!-- Mode Badge (Night) -->
+  <!-- Mode Badge (Night Owl - HYD) with Pulsing Beacon -->
   <g transform="translate(60, 36)">
-    <rect width="205" height="26" rx="13" fill="url(#nightPill)" stroke="#a855f7" stroke-opacity="0.5" stroke-width="1"/>
-    <circle cx="16" cy="13" r="5" fill="#a855f7"/>
+    <rect width="210" height="26" rx="13" fill="url(#nightPill)" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1"/>
+    <!-- Animated Beacon -->
+    <circle cx="16" cy="13" r="5" fill="#c084fc" class="beacon-pulse" stroke="#e879f9" stroke-width="1.5"/>
+    <circle cx="16" cy="13" r="4.5" fill="#a855f7"/>
     <text x="32" y="17" class="badge-text">🌙 NIGHT OWL IN HYD</text>
   </g>
 
@@ -71,9 +171,9 @@
     <text x="0" y="0" class="tag-text">Python  •  AWS  •  Databricks  •  GenAI  •  Full-Stack</text>
   </g>
 
-  <!-- Crescent Moon Icon on Right -->
+  <!-- Glowing Crescent Moon on Right -->
   <g transform="translate(860, 48)">
-    <path d="M 28 6 A 20 20 0 1 0 46 34 A 16 16 0 0 1 28 6 Z" fill="#c084fc" fill-opacity="0.9" stroke="#e9d5ff" stroke-width="1.5"/>
+    <path d="M 28 6 A 20 20 0 1 0 46 34 A 16 16 0 0 1 28 6 Z" fill="#c084fc" fill-opacity="0.95" stroke="#f0abfc" stroke-width="1.5" filter="drop-shadow(0 0 10px rgba(192, 132, 252, 0.8))"/>
     <circle cx="56" cy="12" r="2" fill="#38bdf8"/>
     <circle cx="10" cy="42" r="1.5" fill="#f472b6"/>
   </g>

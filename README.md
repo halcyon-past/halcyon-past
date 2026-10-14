@@ -10,7 +10,7 @@
 <br/><br/>
 
 <!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Views&color=6e40c9&style=flat-square" alt="Profile Views"/>
+<img src="https://views.igorkowalczyk.dev/api/badge/halcyon-past?style=flat&label=Profile+Views&color=6e40c9" alt="Profile Views"/>
 
 <p align="center">
   <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
