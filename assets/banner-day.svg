@@ -1,268 +1,206 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 220" width="100%" height="220">
   <defs>
-    <!-- Background Space Obsidian with subtle sapphire tint -->
+    <!-- Background Daytime Space Obsidian -->
     <linearGradient id="bgGradDay" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05070e" />
-      <stop offset="50%" stop-color="#090d1a" />
-      <stop offset="100%" stop-color="#050811" />
+      <stop offset="0%" stop-color="#060912" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#060911" />
     </linearGradient>
 
-    <!-- Apple Titanium Name Gradient -->
-    <linearGradient id="titaniumGradDay" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Titanium Headline Gradient -->
+    <linearGradient id="titleGradDay" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#f8fafc" />
-      <stop offset="80%" stop-color="#e2e8f0" />
+      <stop offset="60%" stop-color="#f8fafc" />
       <stop offset="100%" stop-color="#cbd5e1" />
     </linearGradient>
 
-    <!-- Hairline Border Beam Gradient (Solar Amber / Azure) -->
-    <linearGradient id="borderBeamDay" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Top Border Hairline Beam (Daytime Amber / Azure) -->
+    <linearGradient id="beamGradDay" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f59e0b" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#f59e0b" stop-opacity="0" />
       <animate attributeName="x1" values="-100%;100%;-100%" dur="8s" repeatCount="indefinite" />
       <animate attributeName="x2" values="0%;200%;0%" dur="8s" repeatCount="indefinite" />
     </linearGradient>
 
-    <!-- Waveform Gradients (Azure / Amber Gold) -->
-    <linearGradient id="waveBarGradDay" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.25" />
-      <stop offset="55%" stop-color="#0ea5e9" stop-opacity="0.75" />
-      <stop offset="100%" stop-color="#f59e0b" stop-opacity="1" />
-    </linearGradient>
-
-    <!-- Ambient Aurora Mesh Blur -->
-    <filter id="auroraGlowDay" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="40" result="blur" />
-    </filter>
-
-    <!-- Micro Dot Grid Pattern -->
-    <pattern id="dotGridDay" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <!-- Blueprint Dot Grid Lattice -->
+    <pattern id="dotGridDay" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.04" />
     </pattern>
 
-    <!-- Glass Chip Gradient -->
-    <linearGradient id="chipBgDay" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
-    </linearGradient>
+    <!-- Ambient Aurora Glow Blur -->
+    <filter id="auroraGlowDay" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="35" result="blur" />
+    </filter>
   </defs>
 
   <style>
-    .title {
+    .name {
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', sans-serif;
       font-weight: 700;
-      font-size: 34px;
+      font-size: 30px;
       letter-spacing: -0.8px;
-      fill: url(#titaniumGradDay);
+      fill: url(#titleGradDay);
     }
-    .subtitle {
+    .role {
       font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif;
-      font-weight: 400;
-      font-size: 15px;
+      font-weight: 500;
+      font-size: 14px;
       letter-spacing: -0.2px;
+      fill: #cbd5e1;
+    }
+    .mission {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+      font-weight: 400;
+      font-size: 12.5px;
       fill: #94a3b8;
     }
-    .mono-meta {
+    .mono {
       font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, monospace;
-      font-size: 11px;
+      font-size: 10.5px;
       font-weight: 500;
-      fill: #64748b;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.4px;
     }
-    .chip-text {
-      font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', monospace;
-      font-size: 11px;
+    .chip-label {
+      font-family: 'SF Mono', 'JetBrains Mono', monospace;
+      font-size: 10.5px;
       font-weight: 600;
       fill: #cbd5e1;
-      letter-spacing: 0.3px;
+    }
+    .node-title {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #ffffff;
+      letter-spacing: 0.2px;
+    }
+    .node-sub {
+      font-family: 'SF Mono', monospace;
+      font-size: 9px;
+      font-weight: 500;
+      fill: #94a3b8;
     }
   </style>
 
-  <!-- Container Base -->
-  <rect width="1000" height="240" rx="14" fill="url(#bgGradDay)"/>
+  <!-- Base Card -->
+  <rect width="960" height="220" rx="14" fill="url(#bgGradDay)"/>
+  <rect width="960" height="220" rx="14" fill="url(#dotGridDay)"/>
 
-  <!-- Blueprint Dot Grid Lattice -->
-  <rect width="1000" height="240" rx="14" fill="url(#dotGridDay)"/>
-
-  <!-- Apple Ambient Aurora Orbs (Subtle Diffuse Daylight Glows) -->
+  <!-- Apple Ambient Aurora Glows (Solar Daytime Aura) -->
   <g filter="url(#auroraGlowDay)">
-    <!-- Electric Blue Orb on Left -->
-    <circle cx="120" cy="180" r="110" fill="#0284c7" fill-opacity="0.18">
-      <animate attributeName="cy" values="180;160;180" dur="8s" repeatCount="indefinite" />
-      <animate attributeName="r" values="110;125;110" dur="8s" repeatCount="indefinite" />
-    </circle>
-    <!-- Warm Amber Solar Glow on Right -->
-    <circle cx="850" cy="80" r="130" fill="#f59e0b" fill-opacity="0.18">
-      <animate attributeName="cx" values="850;870;850" dur="10s" repeatCount="indefinite" />
-      <animate attributeName="r" values="130;145;130" dur="10s" repeatCount="indefinite" />
-    </circle>
-    <!-- Soft Cyan Light Center -->
-    <circle cx="500" cy="220" r="100" fill="#38bdf8" fill-opacity="0.08">
-      <animate attributeName="opacity" values="0.06;0.12;0.06" dur="6s" repeatCount="indefinite" />
-    </circle>
+    <circle cx="100" cy="180" r="100" fill="#0284c7" fill-opacity="0.14" />
+    <circle cx="820" cy="70" r="120" fill="#f59e0b" fill-opacity="0.15" />
+    <circle cx="650" cy="180" r="90" fill="#38bdf8" fill-opacity="0.08" />
   </g>
 
-  <!-- Top Hairline Border Beam -->
-  <rect x="0" y="0" width="1000" height="1.5" fill="url(#borderBeamDay)" />
+  <!-- Top Hairline Energy Beam -->
+  <rect x="0" y="0" width="960" height="1.5" fill="url(#beamGradDay)" />
 
-  <!-- Outer Hairline Bezel -->
-  <rect x="0.5" y="0.5" width="999" height="239" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+  <!-- Outer Bezel Stroke -->
+  <rect x="0.5" y="0.5" width="959" height="219" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
 
-  <!-- Telemetry Header Bar -->
-  <g transform="translate(54, 34)">
-    <!-- Status Chip -->
-    <rect width="200" height="24" rx="12" fill="url(#chipBgDay)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
-    <!-- Pulsing Radar Indicator -->
-    <circle cx="14" cy="12" r="4.5" fill="none" stroke="#f59e0b" stroke-width="1.2">
-      <animate attributeName="r" values="3.5;10;10" dur="2.2s" repeatCount="indefinite" />
+  <!-- ==================== LEFT COLUMN: IDENTITY & MISSION ==================== -->
+
+  <!-- Status Chip -->
+  <g transform="translate(48, 28)">
+    <rect width="185" height="22" rx="11" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1"/>
+    <!-- Radar Pulse -->
+    <circle cx="13" cy="11" r="4" fill="none" stroke="#f59e0b" stroke-width="1.2">
+      <animate attributeName="r" values="3;9;9" dur="2.2s" repeatCount="indefinite" />
       <animate attributeName="opacity" values="0.9;0;0" dur="2.2s" repeatCount="indefinite" />
     </circle>
-    <circle cx="14" cy="12" r="3.5" fill="#f59e0b"/>
-    <text x="28" y="16" class="mono-meta"><tspan fill="#e2e8f0" font-weight="600">SYS_OPS</tspan> // DAY • HYD</text>
-
-    <!-- Location Coordinates -->
-    <text x="218" y="16" class="mono-meta">17.3850° N, 78.4867° E</text>
+    <circle cx="13" cy="11" r="3" fill="#f59e0b"/>
+    <text x="26" y="15" class="mono" fill="#e2e8f0">SYS_ONLINE <tspan fill="#64748b">//</tspan> HYD, IN</text>
   </g>
 
-  <!-- Hero Typography Section -->
-  <text x="54" y="98" class="title">Aritro Saha</text>
-  <text x="54" y="126" class="subtitle">Software Engineer 1  <tspan fill="#475569">•</tspan>  <tspan fill="#e2e8f0">Bristol Myers Squibb</tspan></text>
+  <!-- Name & Professional Title -->
+  <text x="48" y="82" class="name">Aritro Saha</text>
+  <text x="48" y="108" class="role">Software Engineer 1 <tspan fill="#64748b">•</tspan> <tspan fill="#f8fafc" font-weight="600">Bristol Myers Squibb</tspan></text>
+  <text x="48" y="132" class="mission">Engineering intelligent big data pipelines &amp; scalable GenAI systems.</text>
 
-  <!-- Apple-Style Tech Stack Glass Chips -->
-  <g transform="translate(54, 154)">
-    <!-- Chip 1: Python -->
+  <!-- Core Stack Badges (Sleek, Proportional, No Overflow) -->
+  <g transform="translate(48, 156)">
+    <!-- Python -->
     <g transform="translate(0, 0)">
-      <rect width="84" height="26" rx="6" fill="url(#chipBgDay)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
-      <circle cx="14" cy="13" r="3" fill="#38bdf8"/>
-      <text x="24" y="17" class="chip-text">Python</text>
+      <rect width="78" height="24" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3" fill="#38bdf8"/>
+      <text x="22" y="16" class="chip-label">Python</text>
     </g>
-    <!-- Chip 2: AWS -->
-    <g transform="translate(94, 0)">
-      <rect width="66" height="26" rx="6" fill="url(#chipBgDay)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
-      <circle cx="14" cy="13" r="3" fill="#f59e0b"/>
-      <text x="24" y="17" class="chip-text">AWS</text>
+    <!-- AWS -->
+    <g transform="translate(86, 0)">
+      <rect width="64" height="24" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3" fill="#f59e0b"/>
+      <text x="22" y="16" class="chip-label">AWS</text>
     </g>
-    <!-- Chip 3: Databricks -->
-    <g transform="translate(170, 0)">
-      <rect width="112" height="26" rx="6" fill="url(#chipBgDay)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
-      <circle cx="14" cy="13" r="3" fill="#ef4444"/>
-      <text x="24" y="17" class="chip-text">Databricks</text>
+    <!-- Databricks -->
+    <g transform="translate(158, 0)">
+      <rect width="104" height="24" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#ef4444" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3" fill="#ef4444"/>
+      <text x="22" y="16" class="chip-label">Databricks</text>
     </g>
-    <!-- Chip 4: GenAI -->
-    <g transform="translate(292, 0)">
-      <rect width="78" height="26" rx="6" fill="url(#chipBgDay)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
-      <circle cx="14" cy="13" r="3" fill="#a855f7"/>
-      <text x="24" y="17" class="chip-text">GenAI</text>
-    </g>
-    <!-- Chip 5: Full-Stack -->
-    <g transform="translate(380, 0)">
-      <rect width="104" height="26" rx="6" fill="url(#chipBgDay)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1"/>
-      <circle cx="14" cy="13" r="3" fill="#10b981"/>
-      <text x="24" y="17" class="chip-text">Full-Stack</text>
+    <!-- GenAI -->
+    <g transform="translate(270, 0)">
+      <rect width="74" height="24" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#a855f7" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="12" cy="12" r="3" fill="#a855f7"/>
+      <text x="22" y="16" class="chip-label">GenAI</text>
     </g>
   </g>
 
-  <!-- Right Visual: High-Tech Oscillating Digital Audio & Data Waveform Matrix (18 Channels) -->
-  <g transform="translate(710, 55)">
-    <!-- Subtle Glass Card Backplate -->
-    <rect x="-16" y="-12" width="250" height="135" rx="10" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+  <!-- ==================== RIGHT COLUMN: ARCHITECTURAL PIPELINE ==================== -->
+  <g transform="translate(510, 24)">
+    <!-- Backplate Card -->
+    <rect width="400" height="172" rx="12" fill="#ffffff" fill-opacity="0.02" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
     
-    <text x="0" y="8" class="mono-meta" font-size="9" fill="#64748b">TELEMETRY // AUDIO &amp; DATA HARMONICS</text>
+    <!-- Card Header -->
+    <text x="18" y="24" class="mono" fill="#94a3b8">ARCHITECTURE // DATA &amp; AI PIPELINE</text>
+    <circle cx="376" cy="20" r="3.5" fill="#f59e0b">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
 
-    <!-- Spectrum Bars with Smooth SMIL Height Animations -->
-    <!-- Bar 1 -->
-    <rect x="0" y="85" width="6" height="20" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="18;65;28;45;18" dur="2.1s" repeatCount="indefinite" />
-      <animate attributeName="y" values="85;38;75;58;85" dur="2.1s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 2 -->
-    <rect x="12" y="70" width="6" height="35" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="35;85;45;60;35" dur="1.7s" repeatCount="indefinite" />
-      <animate attributeName="y" values="70;20;60;45;70" dur="1.7s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 3 -->
-    <rect x="24" y="55" width="6" height="50" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="50;30;78;40;50" dur="2.4s" repeatCount="indefinite" />
-      <animate attributeName="y" values="55;75;27;65;55" dur="2.4s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 4 -->
-    <rect x="36" y="45" width="6" height="60" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="60;90;40;75;60" dur="1.9s" repeatCount="indefinite" />
-      <animate attributeName="y" values="45;15;65;30;45" dur="1.9s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 5 -->
-    <rect x="48" y="65" width="6" height="40" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="40;70;95;35;40" dur="2.3s" repeatCount="indefinite" />
-      <animate attributeName="y" values="65;35;10;70;65" dur="2.3s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 6 -->
-    <rect x="60" y="35" width="6" height="70" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="70;45;85;55;70" dur="1.6s" repeatCount="indefinite" />
-      <animate attributeName="y" values="35;60;20;50;35" dur="1.6s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 7 -->
-    <rect x="72" y="50" width="6" height="55" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="55;92;38;80;55" dur="2.0s" repeatCount="indefinite" />
-      <animate attributeName="y" values="50;13;67;25;50" dur="2.0s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 8 -->
-    <rect x="84" y="30" width="6" height="75" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="75;50;90;42;75" dur="1.8s" repeatCount="indefinite" />
-      <animate attributeName="y" values="30;55;15;63;30" dur="1.8s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 9 -->
-    <rect x="96" y="60" width="6" height="45" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="45;80;60;90;45" dur="2.2s" repeatCount="indefinite" />
-      <animate attributeName="y" values="60;25;45;15;60" dur="2.2s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 10 -->
-    <rect x="108" y="40" width="6" height="65" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="65;38;78;52;65" dur="1.9s" repeatCount="indefinite" />
-      <animate attributeName="y" values="40;67;27;53;40" dur="1.9s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 11 -->
-    <rect x="120" y="55" width="6" height="50" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="50;88;40;70;50" dur="2.5s" repeatCount="indefinite" />
-      <animate attributeName="y" values="55;17;65;35;55" dur="2.5s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 12 -->
-    <rect x="132" y="70" width="6" height="35" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="35;68;92;45;35" dur="1.7s" repeatCount="indefinite" />
-      <animate attributeName="y" values="70;37;13;60;70" dur="1.7s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 13 -->
-    <rect x="144" y="45" width="6" height="60" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="60;40;80;50;60" dur="2.1s" repeatCount="indefinite" />
-      <animate attributeName="y" values="45;65;25;55;45" dur="2.1s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 14 -->
-    <rect x="156" y="65" width="6" height="40" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="40;75;55;85;40" dur="1.8s" repeatCount="indefinite" />
-      <animate attributeName="y" values="65;30;50;20;65" dur="1.8s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 15 -->
-    <rect x="168" y="50" width="6" height="55" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="55;35;72;48;55" dur="2.3s" repeatCount="indefinite" />
-      <animate attributeName="y" values="50;70;33;57;50" dur="2.3s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 16 -->
-    <rect x="180" y="75" width="6" height="30" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="30;60;45;70;30" dur="2.0s" repeatCount="indefinite" />
-      <animate attributeName="y" values="75;45;60;35;75" dur="2.0s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 17 -->
-    <rect x="192" y="85" width="6" height="20" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="20;50;30;62;20" dur="1.6s" repeatCount="indefinite" />
-      <animate attributeName="y" values="85;55;75;43;85" dur="1.6s" repeatCount="indefinite" />
-    </rect>
-    <!-- Bar 18 -->
-    <rect x="204" y="90" width="6" height="15" rx="3" fill="url(#waveBarGradDay)">
-      <animate attributeName="height" values="15;40;25;48;15" dur="2.2s" repeatCount="indefinite" />
-      <animate attributeName="y" values="90;65;80;57;90" dur="2.2s" repeatCount="indefinite" />
-    </rect>
+    <!-- Pipeline Bus Lines -->
+    <!-- Line 1: Ingest to Databricks -->
+    <line x1="110" y1="80" x2="160" y2="80" stroke="#334155" stroke-width="2" stroke-dasharray="4 3" />
+    <line x1="110" y1="80" x2="160" y2="80" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 35">
+      <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" repeatCount="indefinite" />
+    </line>
 
-    <!-- Base Line of Spectrum -->
-    <line x1="0" y1="108" x2="216" y2="108" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <!-- Line 2: Databricks to GenAI -->
+    <line x1="260" y1="80" x2="305" y2="80" stroke="#334155" stroke-width="2" stroke-dasharray="4 3" />
+    <line x1="260" y1="80" x2="305" y2="80" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 35">
+      <animate attributeName="stroke-dashoffset" values="43;0" dur="1.2s" repeatCount="indefinite" />
+    </line>
+
+    <!-- Pipeline Node 1: Ingest (AWS Cloud) -->
+    <g transform="translate(18, 50)">
+      <rect width="92" height="60" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="12" y="24" class="node-title">INGEST</text>
+      <text x="12" y="40" class="node-sub">AWS S3 / Event</text>
+      <text x="12" y="52" class="node-sub">Real-time Stream</text>
+      <circle cx="78" cy="20" r="2.5" fill="#38bdf8"/>
+    </g>
+
+    <!-- Pipeline Node 2: Transform (Databricks) -->
+    <g transform="translate(160, 50)">
+      <rect width="100" height="60" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#0ea5e9" stroke-opacity="0.35" stroke-width="1"/>
+      <text x="12" y="24" class="node-title">DATABRICKS</text>
+      <text x="12" y="40" class="node-sub">PySpark Lakehouse</text>
+      <text x="12" y="52" class="node-sub">Delta Tables</text>
+      <circle cx="86" cy="20" r="2.5" fill="#0ea5e9"/>
+    </g>
+
+    <!-- Pipeline Node 3: Intelligence (GenAI) -->
+    <g transform="translate(305, 50)">
+      <rect width="80" height="60" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="12" y="24" class="node-title">GENAI</text>
+      <text x="12" y="40" class="node-sub">LLM Agents</text>
+      <text x="12" y="52" class="node-sub">Inference</text>
+      <circle cx="68" cy="20" r="2.5" fill="#f59e0b"/>
+    </g>
+
+    <!-- Pipeline Telemetry Bar at Bottom -->
+    <g transform="translate(18, 130)">
+      <rect width="365" height="26" rx="6" fill="#0b0f19" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
+      <text x="12" y="17" class="mono" fill="#64748b">THROUGHPUT: <tspan fill="#38bdf8">SCALE</tspan>  |  LATENCY: <tspan fill="#22c55e">LOW</tspan>  |  MODE: <tspan fill="#f59e0b">DAY</tspan></text>
+    </g>
   </g>
 </svg>
