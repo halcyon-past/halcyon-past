@@ -1,37 +1,21 @@
-name: Dynamic Day-Night Banner & Views Sync
+name: Sync Profile Views
 
 on:
   schedule:
-    # Runs every 2 hours
-    - cron: "0 */2 * * *"
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-banner:
-    name: Update Banner & Sync Profile Views
+  sync-views:
+    name: Sync Profile Views Counter
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
-      - name: Determine Day or Night (Asia/Kolkata)
-        run: |
-          HOUR=$(TZ='Asia/Kolkata' date +%H)
-          echo "Current hour in Asia/Kolkata: $HOUR"
-          
-          # Daytime is defined as 06:00 to 18:00 IST
-          if [ "$HOUR" -ge 6 ] && [ "$HOUR" -lt 18 ]; then
-            echo "Daytime detected. Setting daytime banner."
-            cp assets/banner-day.svg assets/current-banner.svg
-            cp assets/banner-day.svg assets/banner.svg
-          else
-            echo "Nighttime detected. Setting nighttime banner."
-            cp assets/banner-night.svg assets/current-banner.svg
-            cp assets/banner-night.svg assets/banner.svg
-          fi
 
       - name: Sync Profile Views Count from Komarev
         run: |
@@ -55,10 +39,10 @@ with open('assets/profile-views.svg', 'w') as f:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add assets/current-banner.svg assets/banner.svg assets/profile-views.svg
+          git add assets/profile-views.svg
           if git diff --staged --quiet; then
             echo "No changes needed."
           else
-            git commit -m "chore: auto-sync banner & profile views count [skip ci]"
+            git commit -m "chore: auto-sync profile views count [skip ci]"
             git push
           fi

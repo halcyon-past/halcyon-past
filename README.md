@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Dynamic Day/Night Animated Banner (Auto-swapped via GitHub Actions based on Hyderabad local time) -->
-<img src="assets/banner.svg" alt="Aritro Saha Animated Banner" width="100%" />
+<!-- Kinetic Motion Design Profile Card -->
+<img src="assets/intro-motion.gif" alt="Aritro Saha — Motion Design Profile Intro" width="100%" />
 
 <br/><br/>
 
