@@ -1,16 +1,14 @@
 <div align="center">
 
-<!-- Dynamic Day/Night Time-Lapse Banner (Automated via GitHub Actions) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-night.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-day.svg" />
-  <img src="assets/current-banner.svg" alt="Aritro Saha Banner" width="100%" />
-</picture>
+<!-- Dynamic Day/Night Animated Banner (Auto-swapped via GitHub Actions based on Hyderabad local time) -->
+<img src="assets/current-banner.svg" alt="Aritro Saha Animated Banner" width="100%" />
 
 <br/><br/>
 
-<!-- Profile Views Counter -->
-<img src="https://views.igorkowalczyk.dev/api/badge/halcyon-past?style=flat&label=Profile+Views&color=6e40c9" alt="Profile Views"/>
+<!-- Profile Visits Counter (Restored to komarev.com to preserve 6,100+ views history) -->
+<a href="https://github.com/halcyon-past">
+  <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
+</a>
 
 <p align="center">
   <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
@@ -25,34 +23,37 @@
 ## 🧑‍💻 About Me
 
 <div align="center">
-  <table border="0" style="width: 100%; max-width: 820px; border-radius: 12px; border: 1px solid #30363d; background: #0d1117;">
+  <table border="0" style="width: 100%; max-width: 840px; border-radius: 14px; border: 1px solid #30363d; background: #0d1117; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
     <thead>
       <tr style="background: #161b22; text-align: left;">
-        <th style="padding: 10px 16px; border-bottom: 1px solid #30363d; border-radius: 12px 12px 0 0;" colspan="2">
+        <th style="padding: 12px 18px; border-bottom: 1px solid #30363d; border-radius: 14px 14px 0 0;" colspan="2">
           <span style="color: #ff5f56; font-size: 14px;">●</span>&nbsp;
           <span style="color: #ffbd2e; font-size: 14px;">●</span>&nbsp;
           <span style="color: #27c93f; font-size: 14px;">●</span>&nbsp;&nbsp;
-          <span style="color: #8b949e; font-family: -apple-system, BlinkMacSystemFont, monospace; font-size: 12px; font-weight: normal;">aritro@workstation: ~/about-me.json</span>
+          <span style="background: #21262d; color: #58a6ff; font-family: -apple-system, BlinkMacSystemFont, monospace; font-size: 11px; padding: 3px 10px; border-radius: 6px; border: 1px solid #30363d;">📄 profile.py</span>&nbsp;
+          <span style="color: #8b949e; font-family: monospace; font-size: 11px;">git:(main) 🌿</span>
         </th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="padding: 18px; text-align: left; vertical-align: middle; background: #0d1117; border-radius: 0 0 0 12px;">
-<pre style="margin: 0; font-family: 'Fira Code', monospace; font-size: 13px; color: #c9d1d9; background: transparent; border: none; line-height: 1.6;">
-{
-  <span style="color: #79c0ff;">"name"</span>: <span style="color: #a5d6ff;">"Aritro Saha"</span>,
-  <span style="color: #79c0ff;">"role"</span>: <span style="color: #a5d6ff;">"Software Engineer 1"</span>,
-  <span style="color: #79c0ff;">"company"</span>: <span style="color: #a5d6ff;">"Bristol Myers Squibb"</span>,
-  <span style="color: #79c0ff;">"stack"</span>: [<span style="color: #a5d6ff;">"Python"</span>, <span style="color: #a5d6ff;">"AWS"</span>, <span style="color: #a5d6ff;">"Databricks"</span>, <span style="color: #a5d6ff;">"GenAI"</span>],
-  <span style="color: #79c0ff;">"learning"</span>: <span style="color: #a5d6ff;">"Scalable AI Pipelines"</span>,
-  <span style="color: #79c0ff;">"hobbies"</span>: [<span style="color: #a5d6ff;">"Beatboxing 🎤"</span>, <span style="color: #a5d6ff;">"Football ⚽"</span>],
-  <span style="color: #79c0ff;">"email"</span>: <span style="color: #a5d6ff;">"aritrosaha2025@gmail.com"</span>
-}
+        <td style="padding: 20px 22px; text-align: left; vertical-align: middle; background: #0d1117; border-radius: 0 0 0 14px;">
+<pre style="margin: 0; font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 13px; color: #c9d1d9; background: transparent; border: none; line-height: 1.65;">
+<span style="color: #ff7b72;">class</span> <span style="color: #ffa657; font-weight: bold;">Engineer</span>:
+    <span style="color: #ff7b72;">def</span> <span style="color: #d2a8ff;">__init__</span>(<span style="color: #79c0ff;">self</span>):
+        <span style="color: #79c0ff;">self</span>.name = <span style="color: #a5d6ff;">"Aritro Saha"</span>
+        <span style="color: #79c0ff;">self</span>.role = <span style="color: #a5d6ff;">"Software Engineer 1"</span>
+        <span style="color: #79c0ff;">self</span>.company = <span style="color: #a5d6ff;">"Bristol Myers Squibb"</span>
+        <span style="color: #79c0ff;">self</span>.location = <span style="color: #a5d6ff;">"Hyderabad, India 📍"</span>
+        <span style="color: #79c0ff;">self</span>.stack = [<span style="color: #a5d6ff;">"Python"</span>, <span style="color: #a5d6ff;">"AWS"</span>, <span style="color: #a5d6ff;">"Databricks"</span>, <span style="color: #a5d6ff;">"GenAI"</span>]
+        <span style="color: #79c0ff;">self</span>.focus = <span style="color: #a5d6ff;">"Scalable AI &amp; Big Data"</span>
+        <span style="color: #79c0ff;">self</span>.passions = [<span style="color: #a5d6ff;">"Beatboxing 🎤"</span>, <span style="color: #a5d6ff;">"Football ⚽"</span>]
 </pre>
         </td>
-        <td align="center" style="padding: 18px; vertical-align: middle; background: #0d1117; border-radius: 0 0 12px 0;">
-          <img src="https://i.imgur.com/7A5ZfPJ.gif" width="230" alt="Coding GIF" style="border-radius: 8px;"/>
+        <td align="center" style="padding: 20px; vertical-align: middle; background: #0d1117; border-radius: 0 0 14px 0;">
+          <div style="border-radius: 10px; overflow: hidden; border: 1px solid #30363d; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
+            <img src="https://i.imgur.com/7A5ZfPJ.gif" width="220" alt="Coding GIF" style="display: block;"/>
+          </div>
         </td>
       </tr>
     </tbody>
@@ -169,45 +170,41 @@
 ## 📊 Stats & Activity (Bento Grid)
 
 <div align="center">
-  <table border="0" style="width: 100%; max-width: 900px; border-collapse: separate; border-spacing: 12px;">
+  <table border="0" style="width: 100%; max-width: 900px; border-collapse: separate; border-spacing: 14px;">
     <tr>
-      <!-- Bento Card 1: Streak Stats (Theme-Adaptive) -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
-        <p align="center" style="margin: 0 0 10px 0;"><b>🔥 GitHub Streak</b></p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-          <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=halcyon-past&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-          <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="100%" />
-        </picture>
+      <!-- Bento Card 1: Streak Stats -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <div align="left" style="margin-bottom: 8px;">
+          <span style="background: rgba(110, 64, 201, 0.2); border: 1px solid #6e40c9; color: #d2a8ff; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🔥 ACTIVITY</span>
+          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">GitHub Streak</b>
+        </div>
+        <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="100%" />
       </td>
-      <!-- Bento Card 2: LeetCode (Theme-Adaptive) -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
-        <p align="center" style="margin: 0 0 10px 0;"><b>🧩 LeetCode Analytics</b></p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" />
-          <source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=light" />
-          <img src="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" alt="LeetCode Stats" width="100%" />
-        </picture>
+      <!-- Bento Card 2: LeetCode -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <div align="left" style="margin-bottom: 8px;">
+          <span style="background: rgba(245, 158, 11, 0.2); border: 1px solid #f59e0b; color: #fcd34d; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🧩 PROBLEM SOLVING</span>
+          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">LeetCode Analytics</b>
+        </div>
+        <img src="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" alt="LeetCode Stats" width="100%" />
       </td>
     </tr>
     <tr>
-      <!-- Bento Card 3: 3D Contribution Graph (Theme-Adaptive) -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
-        <p align="center" style="margin: 0 0 10px 0;"><b>🌌 3D Activity Cosmos</b></p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
-          <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions" width="100%" />
-        </picture>
+      <!-- Bento Card 3: 3D Contribution Graph -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <div align="left" style="margin-bottom: 8px;">
+          <span style="background: rgba(56, 189, 248, 0.2); border: 1px solid #38bdf8; color: #7dd3fc; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🌌 3D COSMOS</span>
+          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">Activity Landscape</b>
+        </div>
+        <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions" width="100%" />
       </td>
-      <!-- Bento Card 4: Contribution Snake (Theme-Adaptive) -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 12px; padding: 14px;">
-        <p align="center" style="margin: 0 0 10px 0;"><b>🐍 Contribution Snake</b></p>
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
-          <img src="assets/github-snake.svg" alt="GitHub Snake" width="100%" />
-        </picture>
+      <!-- Bento Card 4: Contribution Snake -->
+      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <div align="left" style="margin-bottom: 8px;">
+          <span style="background: rgba(34, 197, 94, 0.2); border: 1px solid #22c55e; color: #86efac; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🐍 MINI-GAME</span>
+          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">Contribution Snake</b>
+        </div>
+        <img src="assets/github-snake-dark.svg" alt="GitHub Snake" width="100%" />
       </td>
     </tr>
   </table>

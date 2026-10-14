@@ -1,29 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 240" width="100%" height="240">
   <defs>
     <!-- Deep Cosmic Gradient -->
     <linearGradient id="nightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0518" />
-      <stop offset="40%" stop-color="#140c2e" />
-      <stop offset="75%" stop-color="#2a0f4c" />
-      <stop offset="100%" stop-color="#070714" />
+      <stop offset="0%" stop-color="#080314" />
+      <stop offset="40%" stop-color="#12092b" />
+      <stop offset="75%" stop-color="#240c42" />
+      <stop offset="100%" stop-color="#05020c" />
+    </linearGradient>
+
+    <!-- Moving Border Beam Gradient -->
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#38bdf8;#ec4899;#a855f7;#38bdf8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
+      <animate attributeName="x1" values="-100%;100%;-100%" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%;0%" dur="7s" repeatCount="indefinite" />
     </linearGradient>
 
     <!-- Neon Moon Glow Radial Gradient -->
     <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.35" />
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.25" />
       <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Wave Gradients -->
+    <!-- Liquid Wave Gradients -->
     <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.25" />
-      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.2" />
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#db2777" stop-opacity="0.25" />
     </linearGradient>
+
     <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.35" />
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#9333ea" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2" />
     </linearGradient>
 
     <!-- Pill Glassmorphism Gradient -->
@@ -32,12 +45,19 @@
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2" />
     </linearGradient>
 
-    <!-- Shimmering Name Gradient -->
+    <!-- Title Gradient -->
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="40%" stop-color="#e0e7ff" />
-      <stop offset="70%" stop-color="#c084fc" />
-      <stop offset="100%" stop-color="#67e8f9" />
+      <stop offset="50%" stop-color="#e0e7ff" />
+      <stop offset="80%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- Shooting Star Gradient -->
+    <linearGradient id="meteorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
     </linearGradient>
   </defs>
 
@@ -48,7 +68,6 @@
       font-size: 38px;
       letter-spacing: -0.5px;
       fill: url(#nameGrad);
-      animation: titleGlow 4s ease-in-out infinite;
     }
     .subtitle {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -70,94 +89,103 @@
       font-weight: 600;
       fill: #38bdf8;
     }
-
-    /* Keyframe Animations */
-    @keyframes titleGlow {
-      0%, 100% { filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.4)); }
-      50% { filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.7)); }
-    }
-
-    @keyframes waveMove1 {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(-50px); }
-      100% { transform: translateX(0); }
-    }
-    @keyframes waveMove2 {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(45px); }
-      100% { transform: translateX(0); }
-    }
-
-    @keyframes pulseMoon {
-      0%, 100% { transform: scale(1); opacity: 0.85; }
-      50% { transform: scale(1.15); opacity: 1; }
-    }
-
-    @keyframes floatOrb {
-      0%, 100% { transform: translateY(0) scale(1); }
-      50% { transform: translateY(-10px) scale(1.06); }
-    }
-
-    @keyframes twinkle {
-      0%, 100% { opacity: 0.25; transform: scale(0.8); }
-      50% { opacity: 1; transform: scale(1.3); }
-    }
-
-    @keyframes beaconRing {
-      0% { r: 5px; opacity: 0.9; }
-      100% { r: 13px; opacity: 0; }
-    }
-
-    .anim-wave1 { animation: waveMove1 7s ease-in-out infinite; }
-    .anim-wave2 { animation: waveMove2 9s ease-in-out infinite; }
-    .anim-moon { transform-origin: 880px 50px; animation: pulseMoon 5s ease-in-out infinite; }
-    .anim-orb { transform-origin: 150px 240px; animation: floatOrb 6s ease-in-out infinite; }
-
-    .star-1 { transform-origin: 130px 45px; animation: twinkle 2.5s ease-in-out infinite; }
-    .star-2 { transform-origin: 290px 35px; animation: twinkle 3.2s ease-in-out 0.8s infinite; }
-    .star-3 { transform-origin: 470px 60px; animation: twinkle 2.8s ease-in-out 1.5s infinite; }
-    .star-4 { transform-origin: 640px 38px; animation: twinkle 4.0s ease-in-out 0.4s infinite; }
-    .star-5 { transform-origin: 770px 75px; animation: twinkle 3.0s ease-in-out 1.2s infinite; }
-    .star-6 { transform-origin: 360px 105px; animation: twinkle 2.3s ease-in-out 1.8s infinite; }
-    .star-7 { transform-origin: 550px 125px; animation: twinkle 3.5s ease-in-out 0.5s infinite; }
-    .star-8 { transform-origin: 940px 135px; animation: twinkle 2.6s ease-in-out 2.0s infinite; }
-
-    .beacon-pulse { animation: beaconRing 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
   </style>
 
   <!-- Background Base -->
   <rect width="1000" height="240" rx="16" fill="url(#nightGrad)"/>
 
-  <!-- Ambient Light Orbs with Animation -->
-  <circle cx="880" cy="50" r="150" fill="url(#moonGlow)" class="anim-moon"/>
-  <circle cx="150" cy="240" r="170" fill="#6366f1" fill-opacity="0.08" class="anim-orb"/>
+  <!-- Top Glowing Border Beam -->
+  <rect x="0" y="0" width="1000" height="3" fill="url(#beamGrad)" rx="1.5"/>
 
-  <!-- Animated Twinkling Starfield -->
+  <!-- Pulsing Ambient Moon Aura with SMIL -->
+  <circle cx="880" cy="50" r="140" fill="url(#moonGlow)">
+    <animate attributeName="r" values="130;165;130" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Floating Ambient Orbs with SMIL -->
+  <circle cx="150" cy="230" r="150" fill="#6366f1" fill-opacity="0.08">
+    <animate attributeName="cy" values="230;215;230" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="550" cy="30" r="90" fill="#a855f7" fill-opacity="0.06">
+    <animate attributeName="cx" values="550;570;550" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Twinkling Starfield with SMIL Animation -->
   <g>
-    <circle cx="130" cy="45" r="2.2" fill="#ffffff" class="star-1"/>
-    <circle cx="290" cy="35" r="1.8" fill="#e0e7ff" class="star-2"/>
-    <circle cx="470" cy="60" r="2.5" fill="#38bdf8" class="star-3"/>
-    <circle cx="640" cy="38" r="2.0" fill="#ffffff" class="star-4"/>
-    <circle cx="770" cy="75" r="2.2" fill="#c084fc" class="star-5"/>
-    <circle cx="360" cy="105" r="1.6" fill="#ffffff" class="star-6"/>
-    <circle cx="550" cy="125" r="1.8" fill="#f472b6" class="star-7"/>
-    <circle cx="940" cy="135" r="2.5" fill="#38bdf8" class="star-8"/>
+    <circle cx="120" cy="42" r="2.2" fill="#ffffff">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="1.8;2.6;1.8" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="32" r="1.8" fill="#e0e7ff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.1s" begin="0.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="58" r="2.4" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="1.8;2.8;1.8" dur="2.6s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="630" cy="36" r="2.0" fill="#ffffff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.8s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="750" cy="72" r="2.2" fill="#c084fc">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" begin="1.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="350" cy="102" r="1.6" fill="#ffffff">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" begin="0.3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="530" cy="122" r="1.8" fill="#f472b6">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" begin="2.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="930" cy="132" r="2.5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" begin="1.0s" repeatCount="indefinite" />
+      <animate attributeName="r" values="2;3;2" dur="2.7s" begin="1.0s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="220" cy="85" r="1.5" fill="#fef08a">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" begin="1.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="690" cy="115" r="1.8" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" begin="0.7s" repeatCount="indefinite" />
+    </circle>
   </g>
 
-  <!-- Animated Undulating Waves at Bottom -->
-  <g class="anim-wave1">
-    <path d="M -60 170 Q 200 130 520 170 T 1060 150 L 1060 250 L -60 250 Z" fill="url(#waveGrad1)"/>
+  <!-- Animated Shooting Star / Meteor with SMIL -->
+  <g opacity="0">
+    <line x1="720" y1="20" x2="630" y2="70" stroke="url(#meteorGrad)" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="630" cy="70" r="2.5" fill="#ffffff" />
+    <animate attributeName="opacity" values="0;0;1;0;0" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;0.55;0.65;1" />
+    <animateTransform attributeName="transform" type="translate" values="0 0; -60 30; -120 60; -120 60; 0 0" dur="6s" repeatCount="indefinite" keyTimes="0;0.5;0.65;0.99;1" />
   </g>
-  <g class="anim-wave2">
-    <path d="M -50 195 Q 300 165 670 198 T 1060 185 L 1060 250 L -50 250 Z" fill="url(#waveGrad2)"/>
-  </g>
-  <path d="M 0 205 Q 340 180 700 210 T 1000 198 L 1000 240 L 0 240 Z" fill="#05030a" fill-opacity="0.45"/>
 
-  <!-- Mode Badge (Night Owl - HYD) with Pulsing Beacon -->
+  <!-- Fluid Morphing Undulating Waves with SMIL -->
+  <path fill="url(#waveGrad1)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+        M -50 170 Q 200 130 520 170 T 1050 150 L 1050 240 L -50 240 Z;
+        M -50 160 Q 240 180 500 145 T 1050 165 L 1050 240 L -50 240 Z;
+        M -50 170 Q 200 130 520 170 T 1050 150 L 1050 240 L -50 240 Z
+      " />
+  </path>
+
+  <path fill="url(#waveGrad2)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M -50 195 Q 300 165 670 198 T 1050 185 L 1050 240 L -50 240 Z;
+        M -50 185 Q 260 205 640 175 T 1050 195 L 1050 240 L -50 240 Z;
+        M -50 195 Q 300 165 670 198 T 1050 185 L 1050 240 L -50 240 Z
+      " />
+  </path>
+
+  <path d="M 0 208 Q 340 185 700 214 T 1000 202 L 1000 240 L 0 240 Z" fill="#04020a" fill-opacity="0.55"/>
+
+  <!-- Mode Badge (Night Owl - HYD) with Live Pulsing Radar Beacon -->
   <g transform="translate(60, 36)">
     <rect width="210" height="26" rx="13" fill="url(#nightPill)" stroke="#a855f7" stroke-opacity="0.6" stroke-width="1"/>
-    <!-- Animated Beacon -->
-    <circle cx="16" cy="13" r="5" fill="#c084fc" class="beacon-pulse" stroke="#e879f9" stroke-width="1.5"/>
+    <!-- Radar Expanding Ring -->
+    <circle cx="16" cy="13" r="5" fill="none" stroke="#f0abfc" stroke-width="1.5">
+      <animate attributeName="r" values="4;13;13" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <!-- Core Dot -->
     <circle cx="16" cy="13" r="4.5" fill="#a855f7"/>
     <text x="32" y="17" class="badge-text">🌙 NIGHT OWL IN HYD</text>
   </g>
@@ -171,10 +199,16 @@
     <text x="0" y="0" class="tag-text">Python  •  AWS  •  Databricks  •  GenAI  •  Full-Stack</text>
   </g>
 
-  <!-- Glowing Crescent Moon on Right -->
+  <!-- Glowing Crescent Moon on Right with Breathing Glow -->
   <g transform="translate(860, 48)">
-    <path d="M 28 6 A 20 20 0 1 0 46 34 A 16 16 0 0 1 28 6 Z" fill="#c084fc" fill-opacity="0.95" stroke="#f0abfc" stroke-width="1.5" filter="drop-shadow(0 0 10px rgba(192, 132, 252, 0.8))"/>
-    <circle cx="56" cy="12" r="2" fill="#38bdf8"/>
-    <circle cx="10" cy="42" r="1.5" fill="#f472b6"/>
+    <path d="M 28 6 A 20 20 0 1 0 46 34 A 16 16 0 0 1 28 6 Z" fill="#c084fc" fill-opacity="0.95" stroke="#f0abfc" stroke-width="1.5">
+      <animate attributeName="fill" values="#c084fc;#e879f9;#c084fc" dur="4s" repeatCount="indefinite" />
+    </path>
+    <circle cx="56" cy="12" r="2.5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="10" cy="42" r="1.8" fill="#f472b6">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
+    </circle>
   </g>
 </svg>

@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="240">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 240" width="100%" height="240">
   <defs>
-    <!-- Background Daytime Sky Gradient -->
+    <!-- Daytime Gradient -->
     <linearGradient id="dayGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f2b5c" />
-      <stop offset="35%" stop-color="#1d4ed8" />
+      <stop offset="0%" stop-color="#0c234b" />
+      <stop offset="35%" stop-color="#1e40af" />
       <stop offset="70%" stop-color="#0284c7" />
-      <stop offset="100%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+
+    <!-- Top Border Beam Gradient -->
+    <linearGradient id="dayBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#fde047" stop-opacity="0.9">
+        <animate attributeName="stop-color" values="#fde047;#38bdf8;#fed7aa;#fde047" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+      <animate attributeName="x1" values="-100%;100%;-100%" dur="7s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%;0%" dur="7s" repeatCount="indefinite" />
     </linearGradient>
 
     <!-- Sun Radial Glow -->
@@ -15,15 +26,17 @@
       <stop offset="100%" stop-color="#f97316" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Wave Gradients -->
+    <!-- Liquid Day Wave Gradients -->
     <linearGradient id="dayWave1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#67e8f9" stop-opacity="0.3" />
     </linearGradient>
+
     <linearGradient id="dayWave2" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15" />
     </linearGradient>
 
     <!-- Glassmorphism Pill -->
@@ -47,7 +60,6 @@
       font-size: 38px;
       letter-spacing: -0.5px;
       fill: url(#dayTitleGrad);
-      animation: dayTitleGlow 4s ease-in-out infinite;
     }
     .subtitle {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -69,80 +81,71 @@
       font-weight: 600;
       fill: #fef08a;
     }
-
-    /* Keyframe Animations */
-    @keyframes dayTitleGlow {
-      0%, 100% { filter: drop-shadow(0 0 6px rgba(254, 240, 138, 0.4)); }
-      50% { filter: drop-shadow(0 0 16px rgba(250, 204, 21, 0.7)); }
-    }
-
-    @keyframes rotateSunRays {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
-    }
-
-    @keyframes pulseSunGlow {
-      0%, 100% { transform: scale(1); opacity: 0.85; }
-      50% { transform: scale(1.15); opacity: 1; }
-    }
-
-    @keyframes waveSlide1 {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(-50px); }
-      100% { transform: translateX(0); }
-    }
-    @keyframes waveSlide2 {
-      0% { transform: translateX(0); }
-      50% { transform: translateX(45px); }
-      100% { transform: translateX(0); }
-    }
-
-    @keyframes dayBeacon {
-      0% { r: 5px; opacity: 0.9; }
-      100% { r: 13px; opacity: 0; }
-    }
-
-    .anim-sun-glow { transform-origin: 880px 50px; animation: pulseSunGlow 5s ease-in-out infinite; }
-    .anim-sun-rays { transform-origin: 880px 80px; animation: rotateSunRays 20s linear infinite; }
-    .anim-wave1 { animation: waveSlide1 7s ease-in-out infinite; }
-    .anim-wave2 { animation: waveSlide2 9s ease-in-out infinite; }
-    .beacon-pulse { animation: dayBeacon 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
   </style>
 
   <!-- Background Base -->
   <rect width="1000" height="240" rx="16" fill="url(#dayGrad)"/>
 
-  <!-- Pulsing Solar Aura -->
-  <circle cx="880" cy="50" r="150" fill="url(#sunGlow)" class="anim-sun-glow"/>
-  <circle cx="120" cy="220" r="180" fill="#ffffff" fill-opacity="0.06"/>
+  <!-- Top Glowing Border Beam -->
+  <rect x="0" y="0" width="1000" height="3" fill="url(#dayBeam)" rx="1.5"/>
 
-  <!-- Rotating Sun Icon on Right -->
-  <g class="anim-sun-rays" fill="none" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round">
-    <circle cx="880" cy="80" r="16" fill="#facc15" fill-opacity="0.9" stroke="#fde047" stroke-width="2" filter="drop-shadow(0 0 10px rgba(250, 204, 21, 0.8))"/>
-    <line x1="880" y1="52" x2="880" y2="60"/>
-    <line x1="880" y1="100" x2="880" y2="108"/>
-    <line x1="852" y1="80" x2="860" y2="80"/>
-    <line x1="900" y1="80" x2="908" y2="80"/>
-    <line x1="860" y1="60" x2="866" y2="66"/>
-    <line x1="894" y1="94" x2="900" y2="100"/>
-    <line x1="860" y1="100" x2="866" y2="94"/>
-    <line x1="894" y1="66" x2="900" y2="60"/>
+  <!-- Pulsing Solar Aura with SMIL -->
+  <circle cx="880" cy="50" r="140" fill="url(#sunGlow)">
+    <animate attributeName="r" values="130;165;130" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="120" cy="220" r="170" fill="#ffffff" fill-opacity="0.06">
+    <animate attributeName="cy" values="220;205;220" dur="6s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Rotating Sun Icon on Right with SMIL -->
+  <g fill="none" stroke="#fef08a" stroke-width="2.5" stroke-linecap="round">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 880 75" to="360 880 75" dur="18s" repeatCount="indefinite" />
+      <circle cx="880" cy="75" r="16" fill="#facc15" fill-opacity="0.95" stroke="#fde047" stroke-width="2" />
+      <line x1="880" y1="47" x2="880" y2="55"/>
+      <line x1="880" y1="95" x2="880" y2="103"/>
+      <line x1="852" y1="75" x2="860" y2="75"/>
+      <line x1="900" y1="75" x2="908" y2="75"/>
+      <line x1="860" y1="55" x2="866" y2="61"/>
+      <line x1="894" y1="89" x2="900" y2="95"/>
+      <line x1="860" y1="95" x2="866" y2="89"/>
+      <line x1="894" y1="61" x2="900" y2="55"/>
+    </g>
   </g>
 
-  <!-- Animated Undulating Waves at Bottom -->
-  <g class="anim-wave1">
-    <path d="M -60 170 Q 200 130 520 170 T 1060 150 L 1060 250 L -60 250 Z" fill="url(#dayWave1)"/>
-  </g>
-  <g class="anim-wave2">
-    <path d="M -50 195 Q 300 165 670 198 T 1060 185 L 1060 250 L -50 250 Z" fill="url(#dayWave2)"/>
-  </g>
-  <path d="M 0 205 Q 340 180 700 210 T 1000 198 L 1000 240 L 0 240 Z" fill="#ffffff" fill-opacity="0.12"/>
+  <!-- Fluid Morphing Undulating Day Waves with SMIL -->
+  <path fill="url(#dayWave1)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+        M -50 170 Q 200 130 520 170 T 1050 150 L 1050 240 L -50 240 Z;
+        M -50 160 Q 240 180 500 145 T 1050 165 L 1050 240 L -50 240 Z;
+        M -50 170 Q 200 130 520 170 T 1050 150 L 1050 240 L -50 240 Z
+      " />
+  </path>
 
-  <!-- Mode Badge (Daytime - HYD) with Pulsing Beacon -->
+  <path fill="url(#dayWave2)">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="
+        M -50 195 Q 300 165 670 198 T 1050 185 L 1050 240 L -50 240 Z;
+        M -50 185 Q 260 205 640 175 T 1050 195 L 1050 240 L -50 240 Z;
+        M -50 195 Q 300 165 670 198 T 1050 185 L 1050 240 L -50 240 Z
+      " />
+  </path>
+
+  <path d="M 0 208 Q 340 185 700 214 T 1000 202 L 1000 240 L 0 240 Z" fill="#ffffff" fill-opacity="0.14"/>
+
+  <!-- Mode Badge (Daytime - HYD) with Pulsing Radar Beacon -->
   <g transform="translate(60, 36)">
     <rect width="195" height="26" rx="13" fill="url(#dayPill)" stroke="#ffffff" stroke-opacity="0.3" stroke-width="1"/>
-    <!-- Animated Beacon -->
-    <circle cx="16" cy="13" r="5" fill="#facc15" class="beacon-pulse" stroke="#fde047" stroke-width="1.5"/>
+    <!-- Radar Expanding Ring -->
+    <circle cx="16" cy="13" r="5" fill="none" stroke="#fde047" stroke-width="1.5">
+      <animate attributeName="r" values="4;13;13" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="1;0;0" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <!-- Core Dot -->
     <circle cx="16" cy="13" r="4.5" fill="#f59e0b"/>
     <text x="32" y="17" class="badge-text">☀️ DAYTIME IN HYD</text>
   </g>
