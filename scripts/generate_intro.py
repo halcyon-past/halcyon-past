@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Kinetic Motion Design Intro Generator for Aritro Saha's GitHub Profile
-Renders high-definition motion frames using Pillow, imageio, and numpy.
+Paced down for optimal readability (11.2s runtime @ 25 FPS, 280 frames).
 
 Usage:
   python3 scripts/generate_intro.py [--format gif|mp4|webm|all]
@@ -18,10 +18,9 @@ import imageio
 
 WIDTH = 960
 HEIGHT = 320
-FPS = 30
-TOTAL_FRAMES = 180  # 6.0 seconds
+FPS = 25
+TOTAL_FRAMES = 280  # 11.2 seconds, paced comfortably for readability
 
-# Typography Loaders (with fallback to default)
 def load_fonts():
     fonts = {}
     try:
@@ -53,7 +52,7 @@ def ease_out_back(t, s=1.4):
     t -= 1.0
     return (t * t * ((s + 1) * t + s) + 1.0)
 
-def draw_perspective_grid(draw, frame_idx, speed=1.5, color=(16, 26, 46)):
+def draw_perspective_grid(draw, frame_idx, speed=1.2, color=(16, 26, 46)):
     horizon_y = HEIGHT // 2
     cx = WIDTH // 2
     cy = horizon_y
@@ -64,7 +63,7 @@ def draw_perspective_grid(draw, frame_idx, speed=1.5, color=(16, 26, 46)):
         draw.line([(cx, cy), (x_target, HEIGHT)], fill=color, width=1)
         draw.line([(cx, cy), (x_target, 0)], fill=color, width=1)
     
-    offset = (frame_idx * speed * 5) % 40
+    offset = (frame_idx * speed * 4) % 40
     for d in range(1, 10):
         y_frac = math.pow((d * 20 + offset) / 220, 2)
         if y_frac <= 1.0:
@@ -119,7 +118,7 @@ def draw_audio_equalizer(draw, x_start, y_base, width, height, frame_idx):
     num_bars = 48
     bar_w = width / num_bars
     for i in range(num_bars):
-        phase = frame_idx * 0.28 + i * 0.38
+        phase = frame_idx * 0.22 + i * 0.38
         h_factor = (math.sin(phase) * 0.45 + math.sin(phase * 2.2) * 0.35 + math.sin(phase * 0.65) * 0.2 + 1.0) / 2.0
         bar_h = max(3, int(h_factor * height))
         bx = int(x_start + i * bar_w)
@@ -154,15 +153,17 @@ def render_frame(f):
     draw = ImageDraw.Draw(img)
     draw.rectangle([1, 1, WIDTH - 2, HEIGHT - 2], outline=(255, 255, 255, 24), width=1)
     
-    # Scene 1: Initializing (Frames 0 - 32)
-    if 0 <= f <= 32:
-        progress = f / 32.0
-        draw_perspective_grid(draw, f, speed=1.5 + progress * 2.0, color=(18, 32, 54))
+    # -----------------------------------------------------------------
+    # Scene 1: Initializing & Lock-On (Frames 0 to 34 • 1.4s)
+    # -----------------------------------------------------------------
+    if 0 <= f <= 34:
+        progress = f / 35.0
+        draw_perspective_grid(draw, f, speed=1.2 + progress * 1.5, color=(18, 32, 54))
         draw_unified_top_hud(draw, f)
         
         cx, cy = WIDTH // 2, HEIGHT // 2 + 10
-        angle = f * 0.14
-        r_cross = int(46 + 12 * math.sin(f * 0.2))
+        angle = f * 0.12
+        r_cross = int(46 + 12 * math.sin(f * 0.18))
         for a_off in [0, math.pi/2, math.pi, 3*math.pi/2]:
             x1 = cx + int(r_cross * math.cos(angle + a_off))
             y1 = cy + int(r_cross * math.sin(angle + a_off))
@@ -171,7 +172,7 @@ def render_frame(f):
             draw.line([(x1, y1), (x2, y2)], fill=(56, 189, 248), width=2)
         draw.ellipse([cx - 4, cy - 4, cx + 4, cy + 4], fill=(255, 255, 255))
         
-        msg_chars = int(min(28, f * 1.1))
+        msg_chars = int(min(28, f * 1.0))
         full_msg = "INITIALIZING AGENT PROFILE..."[:msg_chars]
         mw = get_text_w(draw, full_msg, FONTS["mono"])
         draw.text(((WIDTH - mw) // 2, cy + 70), full_msg, fill=(255, 255, 255), font=FONTS["mono"])
@@ -181,17 +182,19 @@ def render_frame(f):
         draw.text(((WIDTH - sw) // 2, cy + 92), sub_init, fill=(100, 116, 139), font=FONTS["mono_sm"])
         draw_hud_brackets(draw, (56, 189, 248), margin=18, size=16)
         
-        if 29 <= f <= 32:
-            img = apply_chromatic_split(img, offset_x=12, slice_h=25)
+        if 31 <= f <= 34:
+            img = apply_chromatic_split(img, offset_x=10, slice_h=20)
             if f % 2 == 1:
-                strobe = Image.new('RGBA', (WIDTH, HEIGHT), (255, 255, 255, 100))
+                strobe = Image.new('RGBA', (WIDTH, HEIGHT), (255, 255, 255, 80))
                 img.alpha_composite(strobe)
 
-    # Scene 2: Kinetic Impact Slam (Frames 33 - 72)
-    elif 33 <= f <= 72:
-        sf = f - 33
-        dur = 40.0
-        p = min(1.0, sf / 12.0)
+    # -----------------------------------------------------------------
+    # Scene 2: Kinetic Impact Slam — "ARITRO SAHA" (Frames 35 to 84 • 2.0s)
+    # -----------------------------------------------------------------
+    elif 35 <= f <= 84:
+        sf = f - 35
+        dur = 50.0
+        p = min(1.0, sf / 14.0)
         
         shake_x, shake_y = 0, 0
         if sf < 6:
@@ -199,10 +202,10 @@ def render_frame(f):
             shake_x = random.randint(-intensity, intensity)
             shake_y = random.randint(-intensity, intensity)
             
-        draw_perspective_grid(draw, f, speed=3.0, color=(16, 32, 58))
+        draw_perspective_grid(draw, f, speed=2.5, color=(16, 32, 58))
         draw_unified_top_hud(draw, f)
         
-        sw_radius = int(sf * 22)
+        sw_radius = int(sf * 18)
         if sw_radius < 520:
             draw.ellipse([WIDTH//2 - sw_radius, HEIGHT//2 + 5 - sw_radius//2,
                           WIDTH//2 + sw_radius, HEIGHT//2 + 5 + sw_radius//2],
@@ -216,6 +219,7 @@ def render_frame(f):
         draw.text((title_x - 2, title_y - 2), title_text, fill=(56, 189, 248), font=FONTS["hero"])
         draw.text((title_x, title_y), title_text, fill=(255, 255, 255), font=FONTS["hero"])
         
+        # Subtitle slides in cleanly and stays readable for 40+ frames
         sub_p = min(1.0, max(0.0, (sf - 8) / 10.0))
         sub_y = int(title_y + 82 - (1.0 - ease_out_expo(sub_p)) * 20)
         sub_text = "SOFTWARE ENGINEER 1  •  BRISTOL MYERS SQUIBB"
@@ -230,16 +234,18 @@ def render_frame(f):
         draw_lens_flare(img, flare_x, title_y + 35, radius_x=380, radius_y=3, color=(56, 189, 248))
         draw_hud_brackets(draw, (56, 189, 248), margin=18, size=16)
         
-        if 69 <= f <= 72:
-            img = apply_chromatic_split(img, offset_x=12, slice_h=30)
+        if 81 <= f <= 84:
+            img = apply_chromatic_split(img, offset_x=12, slice_h=25)
 
-    # Scene 3: Enterprise Cut (Frames 73 - 110)
-    elif 73 <= f <= 110:
-        sf = f - 73
-        dur = 38.0
+    # -----------------------------------------------------------------
+    # Scene 3: Enterprise Cut — "BRISTOL MYERS SQUIBB" (Frames 85 to 134 • 2.0s)
+    # -----------------------------------------------------------------
+    elif 85 <= f <= 134:
+        sf = f - 85
+        dur = 50.0
         p = min(1.0, sf / 10.0)
         
-        draw_perspective_grid(draw, f, speed=2.0, color=(24, 20, 48))
+        draw_perspective_grid(draw, f, speed=1.8, color=(24, 20, 48))
         draw_unified_top_hud(draw, f)
         
         node_coords = [
@@ -253,7 +259,7 @@ def render_frame(f):
             
         bms_text = "BRISTOL MYERS SQUIBB"
         bw = get_text_w(draw, bms_text, FONTS["bms"])
-        slide_offset = int((1.0 - ease_out_expo(p)) * 60)
+        slide_offset = int((1.0 - ease_out_expo(p)) * 50)
         bms_y = HEIGHT // 2 - 40
         draw.text(((WIDTH - bw) // 2 + slide_offset, bms_y), bms_text, fill=(255, 255, 255), font=FONTS["bms"])
         
@@ -272,15 +278,18 @@ def render_frame(f):
         draw_lens_flare(img, WIDTH // 2 + 150, bms_y + 20, radius_x=280, radius_y=3, color=(129, 140, 248))
         draw_hud_brackets(draw, (129, 140, 248), margin=18, size=16)
         
-        if 107 <= f <= 110:
+        if 131 <= f <= 134:
             img = apply_chromatic_split(img, offset_x=12, slice_h=25)
 
-    # Scene 4: Rapid Arsenal (Frames 111 - 150)
-    elif 111 <= f <= 150:
-        sf = f - 111
-        beat = sf // 10
-        beat_f = sf % 10
-        bp = beat_f / 10.0
+    # -----------------------------------------------------------------
+    # Scene 4: Tech Stack Arsenal (Frames 135 to 214 • 3.2s, 0.8s per beat)
+    # -----------------------------------------------------------------
+    elif 135 <= f <= 214:
+        sf = f - 135
+        beat_frames = 20  # 20 frames = 0.8s per beat (ample time to read)
+        beat = sf // beat_frames
+        beat_f = sf % beat_frames
+        bp = beat_f / float(beat_frames)
         
         beats_data = [
             {
@@ -321,7 +330,7 @@ def render_frame(f):
         col = cur["color"]
         
         draw.rectangle([0, 0, WIDTH, HEIGHT], fill=(*cur["bg_accent"], 255))
-        draw_perspective_grid(draw, f, speed=3.5, color=(col[0]//4, col[1]//4, col[2]//4))
+        draw_perspective_grid(draw, f, speed=2.5, color=(col[0]//4, col[1]//4, col[2]//4))
         draw_unified_top_hud(draw, f)
         
         card_w = 760
@@ -335,7 +344,8 @@ def render_frame(f):
         card_tag = f"[ STACK {cur['num']} / 04 ]  •  CORE COMPETENCY"
         draw.text((card_x + 24, card_y + 14), card_tag, fill=col, font=FONTS["mono_sm"])
         
-        scale_in = (1.0 - ease_out_expo(min(1.0, bp * 2.5))) * 25
+        # Smooth ease-in for first 4 frames, then locked for 16 frames of readability
+        scale_in = (1.0 - ease_out_expo(min(1.0, bp * 4.0))) * 20
         title_text = f"{cur['num']} // {cur['name']}"
         tw = get_text_w(draw, title_text, FONTS["stack"])
         draw.text(((WIDTH - tw) // 2, card_y + 38 + int(scale_in)), title_text, fill=(255, 255, 255), font=FONTS["stack"])
@@ -355,17 +365,20 @@ def render_frame(f):
         draw_lens_flare(img, WIDTH // 2 + 180, card_y + 60, radius_x=280, radius_y=3, color=col)
         draw_hud_brackets(draw, col, margin=18, size=16)
         
-        if beat_f >= 8:
-            img = apply_chromatic_split(img, offset_x=10, slice_h=20)
+        # Subtle glitch transition on final 2 frames of each beat
+        if beat_f >= 18:
+            img = apply_chromatic_split(img, offset_x=10, slice_h=18)
 
-    # Scene 5: Grand Climax (Frames 151 - 180)
+    # -----------------------------------------------------------------
+    # Scene 5: Grand Climax & Master Console (Frames 215 to 279 • 2.6s)
+    # -----------------------------------------------------------------
     else:
-        sf = f - 151
-        dur = 30.0
-        p = min(1.0, sf / 12.0)
+        sf = f - 215
+        dur = 65.0
+        p = min(1.0, sf / 14.0)
         
         draw.rectangle([0, 0, WIDTH, HEIGHT], fill=(4, 6, 12, 255))
-        draw_perspective_grid(draw, f, speed=1.0, color=(15, 25, 45))
+        draw_perspective_grid(draw, f, speed=0.8, color=(15, 25, 45))
         draw_unified_top_hud(draw, f)
         
         hero_text = "ARITRO SAHA"
@@ -373,7 +386,7 @@ def render_frame(f):
         hero_x = (WIDTH - hw) // 2
         hero_y = HEIGHT // 2 - 52
         
-        sheen_offset = int(math.sin(sf * 0.22) * 5)
+        sheen_offset = int(math.sin(sf * 0.18) * 5)
         draw.text((hero_x, hero_y), hero_text, fill=(56, 189, 248), font=FONTS["hero"])
         draw.text((hero_x + sheen_offset, hero_y), hero_text, fill=(255, 255, 255), font=FONTS["hero"])
         
@@ -412,7 +425,7 @@ def render_frame(f):
         draw.line([(laser_x - 50, 1), (laser_x + 50, 1)], fill=(255, 255, 255), width=2)
         draw_hud_brackets(draw, (56, 189, 248), margin=18, size=16)
         
-        if f >= 178:
+        if f >= 277:
             img = apply_chromatic_split(img, offset_x=6, slice_h=15)
             
     return img.convert('RGB')
@@ -424,11 +437,11 @@ def main():
 
     os.makedirs("assets", exist_ok=True)
 
-    print("Rendering 180 motion design frames...")
+    print(f"Rendering {TOTAL_FRAMES} motion design frames ({TOTAL_FRAMES/FPS:.1f}s @ {FPS} FPS)...")
     frames = []
     for i in range(TOTAL_FRAMES):
-        if i % 30 == 0:
-            print(f"Rendered frame {i}/{TOTAL_FRAMES}...")
+        if i % 35 == 0:
+            print(f"Rendered frame {i}/{TOTAL_FRAMES} ({(i/TOTAL_FRAMES)*100:.0f}%)...")
         frames.append(render_frame(i))
     print("All frames rendered!")
 
