@@ -6,7 +6,7 @@
 <br/><br/>
 
 <!-- Profile Visits Counter -->
-<a href="https://github.com/halcyon-past">
+<a href="https://komarev.com/ghpvc/?username=halcyon-past">
   <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
 </a>
 
