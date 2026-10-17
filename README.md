@@ -7,7 +7,7 @@
 
 <!-- Profile Views Counter -->
 <a href="https://komarev.com/ghpvc/?username=halcyon-past">
-  <img src="https://komarev.com/ghpvc/?username=halcyon-past&color=007ec6&style=flat-square&label=Profile+Views" alt="Profile Views"/>
+  <img src="assets/profile-views.svg" alt="Profile Views: 6,108"/>
 </a>
 
 <p align="center">
