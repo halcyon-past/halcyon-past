@@ -52,7 +52,7 @@
         </td>
         <td align="center" style="padding: 20px; vertical-align: middle; background: #0d1117; border-radius: 0 0 14px 0;">
           <div style="border-radius: 10px; overflow: hidden; border: 1px solid #30363d; display: inline-block; box-shadow: 0 4px 15px rgba(0,0,0,0.4);">
-            <img src="https://i.imgur.com/7A5ZfPJ.gif" width="220" alt="Coding GIF" style="display: block;"/>
+            <img src="assets/anime-coding.gif" width="320" alt="Aritro Saha — Anime Coding Story" style="display: block;"/>
           </div>
         </td>
       </tr>

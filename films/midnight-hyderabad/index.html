@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Midnight Hyderabad Multi-Monitor — html-anime</title>
+    <style>
+      @font-face {
+        font-family: "Shippori Mincho";
+        src: url("fonts/shippori-mincho-500.woff2") format("woff2");
+        font-weight: 500;
+        font-style: normal;
+        font-display: block;
+      }
+      html,
+      body {
+        margin: 0;
+        background: #101628;
+      }
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #101628;
+      }
+      .clip {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+      .world-s1 {
+        width: 1920px;
+        height: 1080px;
+        transform-origin: 50% 50%;
+      }
+      .world-s2,
+      .world-s3 {
+        width: 1920px;
+        height: 1080px;
+      }
+      #dip1,
+      #dip2 {
+        background: #e23b4a;
+        z-index: 10;
+        opacity: 0;
+      }
+      .s1-pose,
+      .s2-pose,
+      .s3-pose {
+        opacity: 0;
+      }
+      .line {
+        font-family: "Shippori Mincho", Palatino, serif;
+        font-size: 46px;
+        font-weight: 500;
+        fill: #f0c36a;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="film"
+      data-start="0"
+      data-duration="8"
+      data-width="1920"
+      data-height="1080"
+    >
+      <!-- Shot 1: Establish (0.00 - 2.40s) -->
+      <div id="s1" class="clip" data-start="0" data-duration="2.6" data-track-index="1">
+        <svg class="world-s1" viewBox="0 0 1920 1080">
+          <defs>
+            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#101628" />
+              <stop offset="0.5" stop-color="#1b2d6b" />
+              <stop offset="1" stop-color="#101628" />
+            </linearGradient>
+            <linearGradient id="screenGlowL" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#1b2d6b" />
+              <stop offset="1" stop-color="#101628" />
+            </linearGradient>
+            <linearGradient id="screenGlowR" x1="1" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1b2d6b" />
+              <stop offset="1" stop-color="#101628" />
+            </linearGradient>
+          </defs>
+
+          <!-- Sky & Room Background -->
+          <rect width="1920" height="1080" fill="url(#skyGrad)" />
+
+          <!-- Moon & Atmospheric Ring -->
+          <g transform="translate(1440 210)">
+            <circle r="96" fill="#e23b4a" opacity="0.22" />
+            <circle r="68" fill="#d5e2ff" />
+            <circle r="68" fill="none" stroke="#e23b4a" stroke-width="6" />
+            <circle cx="24" cy="-12" r="58" fill="#1b2d6b" opacity="0.45" />
+          </g>
+
+          <!-- Hyderabad Skyline Silhouette -->
+          <path
+            fill="#101628"
+            d="M0,580 L180,580 L180,510 L260,510 L260,580 L420,580 L420,440 L480,440 L480,410 L520,380 L560,410 L560,580 L720,580 L720,490 L820,490 L820,580 L1080,580 L1080,460 L1180,460 L1180,580 L1360,580 L1360,420 L1460,420 L1460,580 L1640,580 L1640,480 L1740,480 L1740,580 L1920,580 L1920,1080 L0,1080 Z"
+          />
+
+          <!-- Practical Windows in Hyderabad Tech Towers -->
+          <g fill="#f0c36a">
+            <rect x="200" y="530" width="12" height="18" />
+            <rect x="440" y="470" width="14" height="20" />
+            <rect x="500" y="420" width="12" height="16" />
+            <rect x="740" y="520" width="10" height="16" />
+            <rect x="1100" y="490" width="16" height="22" />
+            <rect x="1380" y="450" width="14" height="20" />
+            <rect x="1660" y="510" width="12" height="18" />
+          </g>
+
+          <!-- Studio Window Mullions -->
+          <rect x="600" y="0" width="16" height="640" fill="#101628" />
+          <rect x="1300" y="0" width="16" height="640" fill="#101628" />
+          <rect x="0" y="620" width="1920" height="22" fill="#101628" />
+
+          <!-- Desk Surface -->
+          <path
+            fill="#101628"
+            d="M0,880 L480,820 L960,800 L1440,820 L1920,880 L1920,1080 L0,1080 Z"
+          />
+
+          <!-- Left Curved Monitor (Python Terminal) -->
+          <polygon
+            points="340,540 860,560 850,780 320,740"
+            fill="url(#screenGlowL)"
+            stroke="#1b2d6b"
+            stroke-width="5"
+          />
+          <polygon points="346,546 854,565 844,774 326,735" fill="#101628" />
+          <rect x="580" y="740" width="30" height="70" fill="#16141c" />
+
+          <!-- Right Curved Monitor (GenAI Cluster) -->
+          <polygon
+            points="1060,560 1580,540 1600,740 1070,780"
+            fill="url(#screenGlowR)"
+            stroke="#1b2d6b"
+            stroke-width="5"
+          />
+          <polygon points="1066,565 1574,546 1594,735 1076,774" fill="#101628" />
+          <rect x="1310" y="740" width="30" height="70" fill="#16141c" />
+
+          <!-- Drawing 1: Boot State (0.00 - 0.80s) -->
+          <g id="s1-p1" class="s1-pose">
+            <line x1="370" y1="580" x2="620" y2="590" stroke="#f0c36a" stroke-width="4" />
+            <line x1="370" y1="610" x2="540" y2="618" stroke="#d5e2ff" stroke-width="3" />
+            <line x1="370" y1="640" x2="680" y2="652" stroke="#d5e2ff" stroke-width="3" opacity="0.6" />
+            <circle cx="1200" cy="670" r="14" fill="#f0c36a" />
+            <circle cx="1320" cy="650" r="14" fill="#d5e2ff" />
+            <circle cx="1440" cy="680" r="14" fill="#e23b4a" />
+          </g>
+
+          <!-- Drawing 2: Data Stream Pulse (0.80 - 1.60s) -->
+          <g id="s1-p2" class="s1-pose">
+            <line x1="370" y1="580" x2="720" y2="594" stroke="#f0c36a" stroke-width="4" />
+            <line x1="370" y1="610" x2="660" y2="622" stroke="#d5e2ff" stroke-width="3" />
+            <line x1="370" y1="640" x2="790" y2="656" stroke="#f0c36a" stroke-width="3" />
+            <line x1="370" y1="670" x2="580" y2="684" stroke="#d5e2ff" stroke-width="3" />
+            <line x1="370" y1="700" x2="740" y2="714" stroke="#e23b4a" stroke-width="3" />
+            <line x1="1140" y1="630" x2="1260" y2="600" stroke="#f0c36a" stroke-width="3" />
+            <line x1="1260" y1="600" x2="1380" y2="640" stroke="#d5e2ff" stroke-width="3" />
+            <line x1="1380" y1="640" x2="1500" y2="610" stroke="#e23b4a" stroke-width="3" />
+            <circle cx="1140" cy="630" r="12" fill="#f0c36a" />
+            <circle cx="1260" cy="600" r="12" fill="#d5e2ff" />
+            <circle cx="1380" cy="640" r="12" fill="#f0c36a" />
+            <circle cx="1500" cy="610" r="12" fill="#e23b4a" />
+          </g>
+
+          <!-- Drawing 3: Full Neural Activation (1.60 - 2.40s) -->
+          <g id="s1-p3" class="s1-pose">
+            <line x1="370" y1="575" x2="780" y2="591" stroke="#f0c36a" stroke-width="5" />
+            <line x1="370" y1="605" x2="720" y2="619" stroke="#d5e2ff" stroke-width="4" />
+            <line x1="370" y1="635" x2="810" y2="651" stroke="#e23b4a" stroke-width="4" />
+            <line x1="370" y1="665" x2="680" y2="679" stroke="#f0c36a" stroke-width="4" />
+            <line x1="370" y1="695" x2="790" y2="709" stroke="#d5e2ff" stroke-width="4" />
+            <path
+              d="M1120,670 L1240,590 L1360,650 L1480,580 L1360,710 L1240,590"
+              fill="none"
+              stroke="#f0c36a"
+              stroke-width="3"
+            />
+            <circle cx="1120" cy="670" r="16" fill="#f0c36a" />
+            <circle cx="1240" cy="590" r="16" fill="#d5e2ff" />
+            <circle cx="1360" cy="650" r="16" fill="#e23b4a" />
+            <circle cx="1480" cy="580" r="16" fill="#f0c36a" />
+            <circle cx="1360" cy="710" r="16" fill="#d5e2ff" />
+          </g>
+
+          <!-- Silhouette Figure of Aritro at the Center -->
+          <g transform="translate(960 840)">
+            <path
+              fill="#101628"
+              d="M-90,-120 C-90,-300 -60,-360 0,-370 C60,-360 90,-300 90,-120 L80,0 L-80,0 Z"
+            />
+            <circle cx="0" cy="-280" r="46" fill="#16141c" />
+            <path
+              d="M-52,-280 C-52,-340 52,-340 52,-280"
+              fill="none"
+              stroke="#e23b4a"
+              stroke-width="8"
+            />
+            <rect x="-56" y="-290" width="12" height="26" rx="4" fill="#e23b4a" />
+            <rect x="44" y="-290" width="12" height="26" rx="4" fill="#e23b4a" />
+            <path
+              fill="#16141c"
+              d="M-110,-190 C-80,-240 -40,-250 0,-250 C40,-250 80,-240 110,-190 L130,0 L-130,0 Z"
+            />
+            <line x1="-300" y1="2" x2="300" y2="2" stroke="#e7eefc" stroke-width="4" opacity="0.3" />
+          </g>
+
+          <!-- Letterbox Bars -->
+          <rect x="0" y="0" width="1920" height="56" fill="#101628" />
+          <rect x="0" y="1024" width="1920" height="56" fill="#101628" />
+        </svg>
+      </div>
+
+      <!-- Shot 2: Sakuga — The Expensive Action Shot (2.40 - 6.00s) -->
+      <!-- High-Impact Anime Keyboard & Rapid Coding Hands -->
+      <div id="s2" class="clip" data-start="2.15" data-duration="4.1" data-track-index="2">
+        <svg class="world-s2" viewBox="0 0 1920 1080">
+          <defs>
+            <linearGradient id="codeBackglow" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#1b2d6b" />
+              <stop offset="0.7" stop-color="#101628" />
+              <stop offset="1" stop-color="#101628" />
+            </linearGradient>
+          </defs>
+
+          <!-- Background: Neon Room Glow -->
+          <rect width="1920" height="1080" fill="url(#codeBackglow)" />
+
+          <!-- Terminal Matrix Flow Lines in the Distance -->
+          <g stroke="#1b2d6b" stroke-width="3" opacity="0.35">
+            <line x1="200" y1="0" x2="200" y2="500" />
+            <line x1="450" y1="0" x2="450" y2="520" />
+            <line x1="750" y1="0" x2="750" y2="480" />
+            <line x1="1170" y1="0" x2="1170" y2="480" />
+            <line x1="1470" y1="0" x2="1470" y2="520" />
+            <line x1="1720" y1="0" x2="1720" y2="500" />
+          </g>
+
+          <!-- Curved Ergonomic Mechanical Keyboard Chassis in Foreground -->
+          <path
+            fill="#101628"
+            stroke="#1b2d6b"
+            stroke-width="6"
+            d="M0,1080 L250,580 L960,550 L1670,580 L1920,1080 Z"
+          />
+
+          <!-- Keycap Rows (Curved Keybed) -->
+          <!-- Top Function Row (F1-F12) -->
+          <g fill="#16141c" stroke="#1b2d6b" stroke-width="2">
+            <rect x="360" y="596" width="60" height="34" rx="4" />
+            <rect x="430" y="592" width="60" height="34" rx="4" />
+            <rect x="500" y="588" width="60" height="34" rx="4" />
+            <rect x="570" y="584" width="60" height="34" rx="4" />
+            <rect x="660" y="580" width="60" height="34" rx="4" />
+            <rect x="730" y="578" width="60" height="34" rx="4" />
+            <rect x="800" y="576" width="60" height="34" rx="4" />
+            <rect x="870" y="575" width="60" height="34" rx="4" />
+            <rect x="990" y="575" width="60" height="34" rx="4" />
+            <rect x="1060" y="576" width="60" height="34" rx="4" />
+            <rect x="1130" y="578" width="60" height="34" rx="4" />
+            <rect x="1200" y="580" width="60" height="34" rx="4" />
+            <rect x="1290" y="584" width="60" height="34" rx="4" />
+            <rect x="1360" y="588" width="60" height="34" rx="4" />
+            <rect x="1430" y="592" width="60" height="34" rx="4" />
+            <rect x="1500" y="596" width="60" height="34" rx="4" />
+          </g>
+
+          <!-- Number Row -->
+          <g fill="#16141c" stroke="#1b2d6b" stroke-width="3">
+            <rect x="300" y="640" width="70" height="42" rx="5" />
+            <rect x="380" y="635" width="70" height="42" rx="5" />
+            <rect x="460" y="630" width="70" height="42" rx="5" />
+            <rect x="540" y="626" width="70" height="42" rx="5" />
+            <rect x="620" y="622" width="70" height="42" rx="5" />
+            <rect x="700" y="618" width="70" height="42" rx="5" />
+            <rect x="780" y="615" width="70" height="42" rx="5" />
+            <rect x="860" y="614" width="70" height="42" rx="5" />
+            <rect x="990" y="614" width="70" height="42" rx="5" />
+            <rect x="1070" y="615" width="70" height="42" rx="5" />
+            <rect x="1150" y="618" width="70" height="42" rx="5" />
+            <rect x="1230" y="622" width="70" height="42" rx="5" />
+            <rect x="1310" y="626" width="70" height="42" rx="5" />
+            <rect x="1390" y="630" width="70" height="42" rx="5" />
+            <rect x="1470" y="635" width="70" height="42" rx="5" />
+            <rect x="1550" y="640" width="70" height="42" rx="5" />
+          </g>
+
+          <!-- QWERTY Row -->
+          <g fill="#16141c" stroke="#1b2d6b" stroke-width="3">
+            <rect x="250" y="694" width="80" height="50" rx="6" />
+            <rect x="340" y="688" width="80" height="50" rx="6" />
+            <rect x="430" y="682" width="80" height="50" rx="6" />
+            <rect x="520" y="677" width="80" height="50" rx="6" />
+            <rect x="610" y="672" width="80" height="50" rx="6" />
+            <rect x="700" y="668" width="80" height="50" rx="6" />
+            <rect x="790" y="665" width="80" height="50" rx="6" />
+            <rect x="880" y="664" width="80" height="50" rx="6" />
+            <rect x="960" y="664" width="80" height="50" rx="6" />
+            <rect x="1050" y="665" width="80" height="50" rx="6" />
+            <rect x="1140" y="668" width="80" height="50" rx="6" />
+            <rect x="1230" y="672" width="80" height="50" rx="6" />
+            <rect x="1320" y="677" width="80" height="50" rx="6" />
+            <rect x="1410" y="682" width="80" height="50" rx="6" />
+            <rect x="1500" y="688" width="80" height="50" rx="6" />
+            <rect x="1590" y="694" width="80" height="50" rx="6" />
+          </g>
+
+          <!-- Home Row -->
+          <g fill="#16141c" stroke="#1b2d6b" stroke-width="3">
+            <rect x="200" y="756" width="94" height="60" rx="7" />
+            <rect x="304" y="750" width="94" height="60" rx="7" />
+            <rect x="408" y="744" width="94" height="60" rx="7" />
+            <rect x="512" y="738" width="94" height="60" rx="7" />
+            <rect x="616" y="732" width="94" height="60" rx="7" />
+            <rect x="720" y="728" width="94" height="60" rx="7" />
+            <rect x="824" y="725" width="94" height="60" rx="7" />
+            <rect x="1002" y="725" width="94" height="60" rx="7" />
+            <rect x="1106" y="728" width="94" height="60" rx="7" />
+            <rect x="1210" y="732" width="94" height="60" rx="7" />
+            <rect x="1314" y="738" width="94" height="60" rx="7" />
+            <rect x="1418" y="744" width="94" height="60" rx="7" />
+            <rect x="1522" y="750" width="94" height="60" rx="7" />
+            <rect x="1626" y="756" width="94" height="60" rx="7" />
+          </g>
+
+          <!-- Bottom Row & Enter / Space -->
+          <g fill="#16141c" stroke="#1b2d6b" stroke-width="4">
+            <rect x="120" y="830" width="120" height="80" rx="8" />
+            <rect x="250" y="822" width="120" height="80" rx="8" />
+            <rect x="380" y="814" width="120" height="80" rx="8" />
+            <!-- Spacebars -->
+            <rect x="520" y="806" width="380" height="80" rx="8" />
+            <rect x="1020" y="806" width="380" height="80" rx="8" />
+            <rect x="1420" y="814" width="120" height="80" rx="8" />
+            <rect x="1550" y="822" width="120" height="80" rx="8" />
+            <!-- Enter Key -->
+            <rect x="1680" y="830" width="130" height="80" rx="8" fill="#e23b4a" stroke="#f0c36a" />
+          </g>
+
+          <!-- 8 Unique Sakuga Drawings -->
+
+          <!-- Drawing 1: Anticipation (2.40s, 4 frames) -->
+          <g id="s2-d1" class="s2-pose">
+            <!-- Sleeves with Accent Cuff -->
+            <path fill="#16141c" d="M0,1080 L180,800 L380,860 L200,1080 Z" />
+            <path fill="#e23b4a" d="M170,805 L200,795 L210,845 L180,855 Z" />
+            <path fill="#16141c" d="M1920,1080 L1740,800 L1540,860 L1720,1080 Z" />
+            <path fill="#e23b4a" d="M1750,805 L1720,795 L1710,845 L1740,855 Z" />
+
+            <!-- Left Hand Hovering with Defined Fingers -->
+            <g transform="translate(140 70)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M120,720 C180,640 280,630 350,710 L330,780 C270,790 180,780 120,720 Z" />
+              <!-- Fingers -->
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M220,650 C230,590 280,590 300,650 L270,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M280,640 C300,580 350,580 370,640 L340,710 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M340,650 C360,600 410,600 420,660 L380,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M170,690 C180,630 230,640 240,700 Z" />
+              <path fill="#101628" opacity="0.2" d="M160,730 C220,680 300,680 340,740 L320,770 Z" />
+            </g>
+
+            <!-- Right Hand Hovering with Defined Fingers -->
+            <g transform="translate(-140 70)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1800,720 C1740,640 1640,630 1570,710 L1590,780 C1650,790 1740,780 1800,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1700,650 C1690,590 1640,590 1620,650 L1650,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1640,640 C1620,580 1570,580 1550,640 L1580,710 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1580,650 C1560,600 1510,600 1500,660 L1540,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1750,690 C1740,630 1690,640 1680,700 Z" />
+              <path fill="#101628" opacity="0.2" d="M1760,730 C1700,680 1620,680 1580,740 L1600,770 Z" />
+            </g>
+
+            <text x="960" y="380" font-family="monospace" font-size="36" font-weight="bold" fill="#f0c36a" text-anchor="middle">
+              // INITIALIZING HYPER-SCALE PIPELINE
+            </text>
+          </g>
+
+          <!-- Drawing 2: Initial Keystrike (2.57s) -->
+          <g id="s2-d2" class="s2-pose">
+            <path fill="#16141c" d="M0,1080 L200,810 L400,870 L190,1080 Z" />
+            <path fill="#16141c" d="M1920,1080 L1720,810 L1520,870 L1730,1080 Z" />
+
+            <!-- Left Hand Striking Keypad -->
+            <g transform="translate(180 110)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M120,700 C180,620 280,610 350,690 L330,760 C270,770 180,760 120,700 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M280,620 L370,690 L330,730 Z" />
+              <!-- Spark on left key hit -->
+              <circle cx="370" cy="690" r="18" fill="#f0c36a" />
+              <circle cx="370" cy="690" r="10" fill="#d5e2ff" />
+            </g>
+
+            <!-- Right Hand Striking Keypad -->
+            <g transform="translate(-180 110)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1800,700 C1740,620 1640,610 1570,690 L1590,760 C1650,770 1740,760 1800,700 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1640,620 L1550,690 L1590,730 Z" />
+              <!-- Spark on right key hit -->
+              <circle cx="1550" cy="690" r="18" fill="#f0c36a" />
+              <circle cx="1550" cy="690" r="10" fill="#d5e2ff" />
+            </g>
+
+            <text x="960" y="380" font-family="monospace" font-size="36" font-weight="bold" fill="#d5e2ff" text-anchor="middle">
+              import databricks.connect as db
+            </text>
+          </g>
+
+          <!-- Drawing 3: Flurry of Typing & Python Stream (2.80s) -->
+          <g id="s2-d3" class="s2-pose">
+            <path fill="#16141c" d="M0,1080 L190,800 L390,860 L180,1080 Z" />
+            <path fill="#16141c" d="M1920,1080 L1730,800 L1530,860 L1740,1080 Z" />
+
+            <!-- Flying Code Streams -->
+            <g font-family="monospace" font-size="32" font-weight="bold">
+              <text x="320" y="440" fill="#f0c36a">spark.read.parquet("s3://ai-lake")</text>
+              <text x="1080" y="440" fill="#d5e2ff">model = GenAIEngine(weights=gpu)</text>
+              <text x="640" y="340" fill="#e23b4a">def scale_embeddings(tensors):</text>
+            </g>
+
+            <!-- Alternating Staggered Hand Strikes -->
+            <g transform="translate(190 80)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M130,680 C190,600 290,590 360,670 L340,740 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M250,600 L310,670 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M310,590 L400,670 Z" />
+              <circle cx="400" cy="670" r="14" fill="#f0c36a" />
+            </g>
+            <g transform="translate(-190 130)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1790,680 C1730,600 1630,590 1560,670 L1580,740 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1670,600 L1570,680 Z" />
+              <circle cx="1570" cy="680" r="14" fill="#d5e2ff" />
+            </g>
+          </g>
+
+          <!-- Drawing 4: Smear Frame 1 (3.10s) -->
+          <g id="s2-d4" class="s2-pose">
+            <!-- Speed streaks -->
+            <line x1="200" y1="680" x2="800" y2="680" stroke="#e7eefc" stroke-width="5" />
+            <line x1="1120" y1="680" x2="1720" y2="680" stroke="#e7eefc" stroke-width="5" />
+            <line x1="100" y1="740" x2="650" y2="740" stroke="#f0c36a" stroke-width="4" />
+            <line x1="1270" y1="740" x2="1820" y2="740" stroke="#d5e2ff" stroke-width="4" />
+
+            <!-- Elongated Hand & Finger Smear Arcs -->
+            <polygon points="280,820 620,620 740,690 400,920" fill="#f0c2ae" opacity="0.85" />
+            <polygon points="260,830 640,600 760,670 380,940" fill="#f0c36a" opacity="0.4" />
+            <polygon points="1640,820 1300,620 1180,690 1520,920" fill="#f0c2ae" opacity="0.85" />
+            <polygon points="1660,830 1280,600 1160,670 1540,940" fill="#d5e2ff" opacity="0.4" />
+
+            <text x="960" y="360" font-family="monospace" font-size="38" font-weight="bold" fill="#f0c36a" text-anchor="middle">
+              >>> DISTRIBUTING TO 256 NODES
+            </text>
+          </g>
+
+          <!-- Drawing 5: Neural Matrix Burst (3.40s) -->
+          <g id="s2-d5" class="s2-pose">
+            <!-- Glowing Hologram Neural Graph Above Keys -->
+            <polygon
+              points="960,160 1280,320 1200,560 720,560 640,320"
+              fill="none"
+              stroke="#f0c36a"
+              stroke-width="7"
+            />
+            <polygon
+              points="960,230 1190,350 1130,510 790,510 730,350"
+              fill="none"
+              stroke="#e23b4a"
+              stroke-width="5"
+            />
+            <line x1="960" y1="160" x2="1130" y2="510" stroke="#d5e2ff" stroke-width="4" />
+            <line x1="960" y1="160" x2="790" y2="510" stroke="#d5e2ff" stroke-width="4" />
+            <line x1="640" y1="320" x2="1280" y2="320" stroke="#f0c36a" stroke-width="4" />
+            <line x1="720" y1="560" x2="1190" y2="350" stroke="#e23b4a" stroke-width="4" />
+            <circle cx="960" cy="160" r="18" fill="#f0c36a" />
+            <circle cx="1280" cy="320" r="18" fill="#d5e2ff" />
+            <circle cx="1200" cy="560" r="18" fill="#e23b4a" />
+            <circle cx="720" cy="560" r="18" fill="#f0c36a" />
+            <circle cx="640" cy="320" r="18" fill="#d5e2ff" />
+
+            <!-- Hands Hovering Beneath Matrix with Defined Fingers -->
+            <g transform="translate(160 100)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M120,700 C180,630 280,620 350,690 L330,760 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M220,630 L270,690 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M280,620 L340,680 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M340,630 L400,690 Z" />
+            </g>
+            <g transform="translate(-160 100)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1800,700 C1740,630 1640,620 1570,690 L1590,760 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1700,630 L1650,690 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1640,620 L1580,680 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1580,630 L1520,690 Z" />
+            </g>
+          </g>
+
+          <!-- Drawing 6: Smear Frame 2 (3.80s) -->
+          <g id="s2-d6" class="s2-pose">
+            <!-- Blazing Light Streak Across Keybed Toward Enter Key -->
+            <polygon
+              points="300,820 1740,810 1780,850 320,860"
+              fill="#f0c36a"
+            />
+            <polygon
+              points="400,810 1700,800 1730,830 420,840"
+              fill="#e23b4a"
+              opacity="0.6"
+            />
+            <!-- Sweeping Right Arm Striking Enter -->
+            <polygon points="1820,1080 1560,780 1750,800 1920,950" fill="#16141c" />
+            <polygon points="1560,780 1740,750 1780,840 1620,860" fill="#f0c2ae" />
+            <polygon points="1540,770 1760,740 1800,850 1600,870" fill="#f0c36a" opacity="0.4" />
+            <text x="960" y="380" font-family="monospace" font-size="38" font-weight="bold" fill="#f0c36a" text-anchor="middle">
+              >>> COMPILING EXECUTION GRAPH
+            </text>
+          </g>
+
+          <!-- Drawing 7: Enter Slam Impact Shockwave (4.10s) -->
+          <g id="s2-d7" class="s2-pose">
+            <path fill="#16141c" d="M0,1080 L200,810 L400,870 L190,1080 Z" />
+            <path fill="#16141c" d="M1920,1080 L1660,780 L1460,840 L1740,1080 Z" />
+            <!-- Enter Key Depressed Deeply -->
+            <rect x="1680" y="842" width="130" height="74" rx="8" fill="#e23b4a" stroke="#d5e2ff" stroke-width="6" />
+            <!-- Hand on Key -->
+            <path
+              fill="#f0c2ae"
+              stroke="#16141c"
+              stroke-width="5"
+              d="M1660,800 L1760,820 L1740,890 L1640,870 Z"
+            />
+            <!-- Shockwave Rings Expanding from Enter Key -->
+            <ellipse cx="1745" cy="870" rx="360" ry="120" fill="none" stroke="#f0c36a" stroke-width="8" />
+            <ellipse cx="1745" cy="870" rx="220" ry="70" fill="none" stroke="#d5e2ff" stroke-width="6" />
+            <ellipse cx="1745" cy="870" rx="100" ry="35" fill="#e23b4a" opacity="0.45" />
+            <text x="960" y="380" font-family="monospace" font-size="44" font-weight="bold" fill="#f0c36a" text-anchor="middle">
+              ✓ BUILD TRIGGERED · AWS CONVERGENCE
+            </text>
+          </g>
+
+          <!-- Drawing 8: Settle & Hold (4.50 - 6.00s = 36 frames hold) -->
+          <g id="s2-d8" class="s2-pose">
+            <!-- Sleeves -->
+            <path fill="#16141c" d="M0,1080 L180,820 L380,880 L200,1080 Z" />
+            <path fill="#e23b4a" d="M170,825 L200,815 L210,865 L180,875 Z" />
+            <path fill="#16141c" d="M1920,1080 L1740,820 L1540,880 L1720,1080 Z" />
+            <path fill="#e23b4a" d="M1750,825 L1720,815 L1710,865 L1740,875 Z" />
+
+            <!-- Left Hand Rested Calmly with Defined Fingers -->
+            <g transform="translate(140 100)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M130,720 C190,650 290,640 360,710 L340,780 C280,790 190,780 130,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M230,660 C240,610 290,610 310,660 L280,730 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M290,650 C310,600 360,600 380,650 L350,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M350,660 C370,620 410,620 420,670 L390,730 Z" />
+            </g>
+
+            <!-- Right Hand Rested Calmly with Defined Fingers -->
+            <g transform="translate(-140 100)">
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1790,720 C1730,650 1630,640 1560,710 L1580,780 C1640,790 1730,780 1790,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1690,660 C1680,610 1630,610 1610,660 L1640,730 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1630,650 C1610,600 1560,600 1540,650 L1570,720 Z" />
+              <path fill="#f0c2ae" stroke="#16141c" stroke-width="4" d="M1570,660 C1550,620 1510,620 1500,670 L1530,730 Z" />
+            </g>
+
+            <!-- Floating Success HUD Card -->
+            <g transform="translate(620 220)">
+              <rect width="680" height="110" rx="14" fill="#101628" stroke="#f0c36a" stroke-width="5" />
+              <circle cx="50" cy="55" r="22" fill="#f0c36a" />
+              <path d="M40,55 L47,63 L60,47" fill="none" stroke="#101628" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+              <text x="96" y="52" font-family="monospace" font-size="28" font-weight="bold" fill="#d5e2ff">
+                BRISTOL MYERS SQUIBB · SCALE 100%
+              </text>
+              <text x="96" y="88" font-family="monospace" font-size="22" font-weight="bold" fill="#f0c36a">
+                ALL 512 WORKERS OPTIMIZED &amp; LIVE
+              </text>
+            </g>
+          </g>
+
+          <!-- Letterbox Bars -->
+          <rect x="0" y="0" width="1920" height="56" fill="#101628" />
+          <rect x="0" y="1024" width="1920" height="56" fill="#101628" />
+        </svg>
+      </div>
+
+      <!-- Shot 3: Button (6.00 - 8.00s) -->
+      <!-- Cinematic Anime Close-Up of Aritro Saha (Kokuyo-Style Organic Art) -->
+      <div id="s3" class="clip" data-start="5.75" data-duration="2.25" data-track-index="3">
+        <svg class="world-s3" viewBox="0 0 1920 1080">
+          <!-- Background: Midnight Studio Bokeh & City Window -->
+          <rect width="1920" height="1080" fill="#1b2d6b" />
+          <rect width="1920" height="1080" fill="#101628" opacity="0.55" />
+
+          <!-- Out of Focus Studio Lights in Right Background -->
+          <circle cx="1520" cy="280" r="160" fill="#101628" />
+          <circle cx="1520" cy="280" r="120" fill="#d5e2ff" opacity="0.22" />
+          <circle cx="1700" cy="480" r="80" fill="#f0c36a" opacity="0.18" />
+          <circle cx="1400" cy="620" r="60" fill="#e23b4a" opacity="0.16" />
+
+          <!-- Aritro Hero Close-Up (Eyes on Left Third, Looking Forward-Right) -->
+          <g transform="translate(720 460)">
+            <!-- Neck & Collar Base -->
+            <path fill="#f0c2ae" d="M-60,180 L-40,340 L100,340 L80,180 Z" />
+            <path fill="#101628" opacity="0.2" d="M-60,180 L-40,340 L0,340 L-20,180 Z" />
+
+            <!-- Tech Hoodie / Jacket with Red Accent Trim -->
+            <path fill="#101628" d="M-240,280 L-280,540 L300,540 L260,280 Z" />
+            <path d="M-140,280 L20,400 L180,280" fill="none" stroke="#e23b4a" stroke-width="14" stroke-linecap="round" />
+
+            <!-- Anime Jawline & Head Contour (Kokuyo-style Organic Bézier) -->
+            <path
+              fill="#f0c2ae"
+              d="M-10,-200 C110,-205 170,-80 150,30 C135,130 75,210 0,225 C-80,210 -150,130 -165,30 C-180,-80 -105,-195 -10,-200 Z"
+            />
+            <!-- Hard Edge Cast Shadow on Face -->
+            <path
+              fill="#101628"
+              opacity="0.2"
+              d="M-165,30 C-145,120 -70,195 0,225 C-30,155 -45,60 -15,-20 C-65,-10 -125,0 -165,30 Z"
+            />
+
+            <!-- Ear -->
+            <path fill="#f0c2ae" d="M-168,-30 C-192,-30 -198,30 -168,40 Z" />
+            <path fill="#101628" opacity="0.2" d="M-168,-15 C-184,-15 -186,20 -168,26 Z" />
+
+            <!-- Nose Line -->
+            <path d="M26,60 Q38,95 28,110" fill="none" stroke="#16141c" stroke-width="5" stroke-linecap="round" />
+
+            <!-- Anime Hair Masses & Chunks -->
+            <!-- Back Hair Frame -->
+            <path
+              fill="#16141c"
+              d="M-195,-95 C-235,-10 -220,120 -145,190 L-165,110 C-195,50 -195,-50 -170,-95 Z"
+            />
+            <!-- Top Hair & Fringe Chunks (Aritro's Stylized Bangs) -->
+            <path
+              fill="#16141c"
+              d="M-180,-120 C-195,-290 -20,-325 110,-280 C210,-230 220,-120 195,40 L170,-50 L145,-145 L85,-70 L60,-180 L0,-85 L-35,-180 L-110,-70 L-160,-155 Z"
+            />
+            <!-- Hair Sheen Band in Moon Hex (#d5e2ff) -->
+            <path
+              d="M-100,-230 Q10,-265 130,-205"
+              fill="none"
+              stroke="#d5e2ff"
+              stroke-width="14"
+              stroke-linecap="round"
+            />
+
+            <!-- Stylish Anime Glasses with Clean Crisp Frames -->
+            <rect
+              x="-80"
+              y="-85"
+              width="95"
+              height="60"
+              rx="12"
+              fill="none"
+              stroke="#e7eefc"
+              stroke-width="6"
+            />
+            <rect
+              x="45"
+              y="-85"
+              width="102"
+              height="60"
+              rx="12"
+              fill="none"
+              stroke="#e7eefc"
+              stroke-width="6"
+            />
+            <line x1="15" y1="-55" x2="45" y2="-55" stroke="#e7eefc" stroke-width="5" />
+
+            <!-- Three Drawings for Shot 3 (Focus -> 2-Frame Blink -> Confident Smile) -->
+
+            <!-- Drawing 1: Focus Gaze (6.00 - 6.45s) -->
+            <g id="s3-eye-open" class="s3-pose">
+              <!-- Left Eye (Kokuyo geometry) -->
+              <g transform="translate(-32,-55)">
+                <ellipse cx="0" cy="0" rx="34" ry="24" fill="#f6f3ee" />
+                <circle cx="8" cy="2" r="16" fill="#e7a04a" />
+                <circle cx="10" cy="3" r="8" fill="#16141c" />
+                <rect x="-6" y="-12" width="10" height="8" fill="#e7eefc" />
+                <path d="M-36,-6 Q0,-32 36,-4" fill="none" stroke="#16141c" stroke-width="7" stroke-linecap="round" />
+              </g>
+
+              <!-- Right Eye (Kokuyo geometry) -->
+              <g transform="translate(96,-55)">
+                <ellipse cx="0" cy="0" rx="42" ry="28" fill="#f6f3ee" />
+                <circle cx="10" cy="3" r="19" fill="#e7a04a" />
+                <circle cx="12" cy="4" r="9" fill="#16141c" />
+                <rect x="-6" y="-13" width="11" height="9" fill="#e7eefc" />
+                <path d="M-44,-7 Q0,-38 44,-5" fill="none" stroke="#16141c" stroke-width="8" stroke-linecap="round" />
+              </g>
+
+              <!-- Mouth: Straight Focus -->
+              <path d="M8,145 Q26,152 44,145" fill="none" stroke="#16141c" stroke-width="6" stroke-linecap="round" />
+            </g>
+
+            <!-- Drawing 2: 2-Frame Blink (6.45 - 6.54s) -->
+            <g id="s3-eye-blink" class="s3-pose">
+              <path d="M-62,-55 Q-32,-45 -2,-55" fill="none" stroke="#16141c" stroke-width="7" stroke-linecap="round" />
+              <path d="M60,-55 Q96,-45 132,-55" fill="none" stroke="#16141c" stroke-width="8" stroke-linecap="round" />
+              <path d="M10,147 Q26,154 42,147" fill="none" stroke="#16141c" stroke-width="6" stroke-linecap="round" />
+            </g>
+
+            <!-- Drawing 3: Settled Warm Confident Smirk (6.54 - 8.00s) -->
+            <g id="s3-eye-smile" class="s3-pose">
+              <g transform="translate(-32,-55)">
+                <ellipse cx="0" cy="0" rx="34" ry="24" fill="#f6f3ee" />
+                <circle cx="9" cy="2" r="16" fill="#e7a04a" />
+                <circle cx="11" cy="3" r="8" fill="#16141c" />
+                <rect x="-6" y="-12" width="10" height="8" fill="#e7eefc" />
+                <circle cx="15" cy="8" r="4" fill="#d5e2ff" />
+                <path d="M-36,-6 Q0,-32 36,-4" fill="none" stroke="#16141c" stroke-width="7" stroke-linecap="round" />
+              </g>
+
+              <g transform="translate(96,-55)">
+                <ellipse cx="0" cy="0" rx="42" ry="28" fill="#f6f3ee" />
+                <circle cx="11" cy="3" r="19" fill="#e7a04a" />
+                <circle cx="13" cy="4" r="9" fill="#16141c" />
+                <rect x="-6" y="-13" width="11" height="9" fill="#e7eefc" />
+                <circle cx="18" cy="10" r="4" fill="#d5e2ff" />
+                <path d="M-44,-7 Q0,-38 44,-5" fill="none" stroke="#16141c" stroke-width="8" stroke-linecap="round" />
+              </g>
+
+              <!-- Confident Anime Smirk Curve -->
+              <path d="M4,142 Q28,172 58,145" fill="none" stroke="#16141c" stroke-width="7" stroke-linecap="round" />
+            </g>
+          </g>
+
+          <!-- Letterbox Bars -->
+          <rect x="0" y="0" width="1920" height="64" fill="#101628" />
+          <rect x="0" y="960" width="1920" height="120" fill="#101628" />
+
+          <!-- Dialogue line in the clear, bottom third -->
+          <text id="line" class="line" x="960" y="1032" text-anchor="middle">
+            Deploying intelligence at scale.
+          </text>
+        </svg>
+      </div>
+
+      <!-- Color-Dip Cuts -->
+      <div id="dip1" class="clip" data-start="2.15" data-duration="0.6" data-track-index="4"></div>
+      <div id="dip2" class="clip" data-start="5.75" data-duration="0.6" data-track-index="5"></div>
+    </div>
+
+    <script>
+      const tl = gsap.timeline({ paused: true });
+
+      // --- Shot 1: Establish (0.00 - 2.40s) ---
+      // Camera move: scale 100% to 106% power1.inOut
+      tl.fromTo(".world-s1", { scale: 1 }, { scale: 1.06, duration: 2.4, ease: "power1.inOut" }, 0);
+      tl.set("#s1-p1", { opacity: 1 }, 0);
+      tl.set("#s1-p1", { opacity: 0 }, 0.8);
+      tl.set("#s1-p2", { opacity: 1 }, 0.8);
+      tl.set("#s1-p2", { opacity: 0 }, 1.6);
+      tl.set("#s1-p3", { opacity: 1 }, 1.6);
+
+      // --- Color Dip 1 (Cut to Shot 2 at 2.40s) ---
+      tl.to("#dip1", { opacity: 1, duration: 0.25, ease: "power2.in" }, 2.15);
+      tl.to("#dip1", { opacity: 0, duration: 0.35, ease: "power2.out" }, 2.45);
+
+      // --- Shot 2: Sakuga — The Expensive Shot (2.40 - 6.00s) ---
+      // 8 drawings on twos
+      // 1. Anticipation (4 frames = ~0.17s)
+      tl.set("#s2-d1", { opacity: 1 }, 2.40);
+      tl.set("#s2-d1", { opacity: 0 }, 2.57);
+
+      // 2. Initial strike
+      tl.set("#s2-d2", { opacity: 1 }, 2.57);
+      tl.set("#s2-d2", { opacity: 0 }, 2.80);
+
+      // 3. Typing flurry
+      tl.set("#s2-d3", { opacity: 1 }, 2.80);
+      tl.set("#s2-d3", { opacity: 0 }, 3.10);
+
+      // 4. Smear frame 1
+      tl.set("#s2-d4", { opacity: 1 }, 3.10);
+      tl.set("#s2-d4", { opacity: 0 }, 3.40);
+
+      // 5. Neural matrix burst
+      tl.set("#s2-d5", { opacity: 1 }, 3.40);
+      tl.set("#s2-d5", { opacity: 0 }, 3.80);
+
+      // 6. Smear frame 2
+      tl.set("#s2-d6", { opacity: 1 }, 3.80);
+      tl.set("#s2-d6", { opacity: 0 }, 4.10);
+
+      // 7. Impact shockwave
+      tl.set("#s2-d7", { opacity: 1 }, 4.10);
+      tl.set("#s2-d7", { opacity: 0 }, 4.50);
+
+      // 8. Settle & Hold (4.50 to 6.00s = 36 frames, > 12 frame hold rule)
+      tl.set("#s2-d8", { opacity: 1 }, 4.50);
+
+      // --- Color Dip 2 (Cut to Shot 3 at 6.00s) ---
+      tl.to("#dip2", { opacity: 1, duration: 0.25, ease: "power2.in" }, 5.75);
+      tl.to("#dip2", { opacity: 0, duration: 0.35, ease: "power2.out" }, 6.05);
+
+      // --- Shot 3: Button (6.00 - 8.00s) ---
+      // Drawing 1: Focus gaze
+      tl.set("#s3-eye-open", { opacity: 1 }, 6.00);
+      tl.set("#s3-eye-open", { opacity: 0 }, 6.45);
+
+      // Drawing 2: 2-frame blink (6.45 - 6.54s)
+      tl.set("#s3-eye-blink", { opacity: 1 }, 6.45);
+      tl.set("#s3-eye-blink", { opacity: 0 }, 6.54);
+
+      // Drawing 3: Confident warm smile hold
+      tl.set("#s3-eye-smile", { opacity: 1 }, 6.54);
+
+      // Dialogue line in bottom third: rises 24px and fades over 0.4s
+      tl.from("#line", { y: 24, opacity: 0, duration: 0.4, ease: "power3.out" }, 6.35);
+
+      // Last 8 frames fade to ink (#101628)
+      tl.to("#s3", { opacity: 0, duration: 0.33, ease: "power1.in" }, 7.67);
+
+      window.__timelines = window.__timelines || {};
+      window.__timelines["film"] = tl;
+    </script>
+  </body>
+</html>
