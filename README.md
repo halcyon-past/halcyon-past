@@ -5,9 +5,12 @@
 
 <br/><br/>
 
-<!-- Profile Visits Counter -->
+<!-- Profile Visits Counter & Sponsor Badge -->
 <a href="https://komarev.com/ghpvc/?username=halcyon-past">
   <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
+</a>&nbsp;
+<a href="https://github.com/sponsors/halcyon-past" target="_blank">
+  <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=flat-square&logo=github-sponsors" alt="Sponsor @halcyon-past"/>
 </a>
 
 <p align="center">
@@ -65,6 +68,9 @@
 ## 🌐 Connect With Me
 
 <div align="center">
+  <a href="https://github.com/sponsors/halcyon-past" target="_blank">
+    <img src="https://img.shields.io/badge/Sponsor-%23EA4AAA.svg?style=for-the-badge&logo=github-sponsors&logoColor=white" height="30"/>
+  </a>&nbsp;
   <a href="https://www.aritro.cloud/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-%23FF0000.svg?style=for-the-badge" height="30"/>
   </a>&nbsp;
@@ -209,6 +215,19 @@
     </tr>
   </table>
 </div>
+
+---
+
+## 💖 Support & Sponsor
+
+<div align="center">
+  <p>If you find my open-source projects, tools, or content helpful, consider sponsoring my work on GitHub!</p>
+  <a href="https://github.com/sponsors/halcyon-past" target="_blank">
+    <img src="https://img.shields.io/badge/Sponsor%20@halcyon--past-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" height="36"/>
+  </a>
+</div>
+
+<br/>
 
 ---
 
