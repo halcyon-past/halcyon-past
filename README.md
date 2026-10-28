@@ -146,6 +146,8 @@
 <table>
 <thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead>
 <!-- BLOG-POST-LIST:START -->
+ <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=3qFYlITvmLM"><img width="140px" src="http://img.youtube.com/vi/3qFYlITvmLM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=3qFYlITvmLM">ACID Properties Explained in 2 minutes</a></td> <td>Oct 28, 2026</td> </tr> </tbody> 
+
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8"><img width="140px" src="http://img.youtube.com/vi/r34w3YrkAA8/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8">Bajaj Finserv Interview Experience 2025 | Data Science Intern | Off Campus</a></td> <td>Mar 30, 2025</td> </tr> </tbody> 
 
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8"><img width="140px" src="http://img.youtube.com/vi/U8fzDvvqef8/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8">Error Handling in Python from BASIC to ADVANCED</a></td> <td>Jan 19, 2025</td> </tr> </tbody> 
@@ -153,8 +155,6 @@
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4"><img width="140px" src="http://img.youtube.com/vi/M1zjnwxTGl4/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4">GET HIGH ON CODE</a></td> <td>Jan 17, 2025</td> </tr> </tbody> 
 
  <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM"><img width="140px" src="http://img.youtube.com/vi/2LGYpzOgELM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM">LEARN OOPS in 3 Minutes</a></td> <td>Dec 21, 2024</td> </tr> </tbody> 
-
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=2u19wN1tDT4"><img width="140px" src="http://img.youtube.com/vi/2u19wN1tDT4/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=2u19wN1tDT4">APIs Explained in Under 2 Minutes</a></td> <td>Dec 16, 2024</td> </tr> </tbody> 
 <!-- BLOG-POST-LIST:END -->
 </table>
 
