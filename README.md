@@ -136,11 +136,15 @@
 
 ### 🌐 Open Source Contributions
 
+<div align="center">
+
 | Project | Stars | PR / Contribution | Status |
 | :--- | :---: | :--- | :---: |
 | [**vitejs/vite**](https://github.com/vitejs/vite) | 70k+ ⭐ | [docs: fix ViteConf tag hover resize loop (#23954)](https://github.com/vitejs/vite/pull/23954) | ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=github) |
 | [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | 35k+ ⭐ | [[`isort`] Expand `I001` documentation (#29843)](https://github.com/astral-sh/ruff/pull/29843) | ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=github) |
 | [**kestra-io/kestra**](https://github.com/kestra-io/kestra) | 30k+ ⭐ | [feat(duckdb): automatically capture output files in working directory (#1044)](https://github.com/kestra-io/plugin-jdbc/pull/1044) | ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=github) |
+
+</div>
 
 <br/>
 
