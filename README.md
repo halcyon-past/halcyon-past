@@ -65,6 +65,57 @@
 
 ---
 
+## ⭐ Featured Open-Source System
+
+<div align="center">
+  <table border="0" style="width: 100%; max-width: 840px; border-radius: 14px; border: 1px solid #30363d; background: #0d1117; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+    <thead>
+      <tr style="background: #161b22; text-align: left;">
+        <th style="padding: 12px 18px; border-bottom: 1px solid #30363d; border-radius: 14px 14px 0 0;">
+          <span style="background: rgba(235, 87, 87, 0.15); border: 1px solid #eb5757; color: #ff7b72; padding: 3px 10px; border-radius: 6px; font-size: 11px; font-weight: 600;">🏥 DEAD-LETTER QUEUE FOR PYTHON</span>&nbsp;
+          <b style="color: #f0f6fc; font-size: 14px; margin-left: 6px;">quarantine (quarantine-py)</b>
+        </th>
+        <th style="padding: 12px 18px; border-bottom: 1px solid #30363d; border-radius: 14px 14px 0 0; text-align: right;">
+          <a href="https://github.com/halcyon-past/quarantine" target="_blank">
+            <img src="https://img.shields.io/github/stars/halcyon-past/quarantine?style=social" alt="quarantine stars"/>
+          </a>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2" style="padding: 20px 24px; text-align: left; background: #0d1117; border-radius: 0 0 14px 14px;">
+          <p style="color: #c9d1d9; font-size: 14px; margin-top: 0; line-height: 1.6;">
+            <b>When one bad item crashes your loop of 10,000 — don't crash. Set it aside, keep going, fix it later.</b><br/>
+            A zero-broker dead-letter resilience decorator for Python batch loops, ETL pipelines, and async workers with atomic isolation, ADR architectural specs, and pluggable cloud storage.
+          </p>
+          <div style="margin: 14px 0;">
+            <a href="https://pypi.org/project/quarantine-py/" target="_blank"><img src="https://img.shields.io/pypi/v/quarantine-py.svg?style=flat-square&color=3776ab" alt="PyPI version"/></a>&nbsp;
+            <a href="https://anaconda.org/conda-forge/quarantine-py" target="_blank"><img src="https://img.shields.io/conda/vn/conda-forge/quarantine-py.svg?style=flat-square&color=43B02A" alt="Conda Forge"/></a>&nbsp;
+            <a href="https://pypi.org/project/quarantine-py/" target="_blank"><img src="https://img.shields.io/pypi/pyversions/quarantine-py.svg?style=flat-square" alt="Python versions"/></a>&nbsp;
+            <a href="https://github.com/halcyon-past/quarantine/actions/workflows/ci.yml" target="_blank"><img src="https://github.com/halcyon-past/quarantine/actions/workflows/ci.yml/badge.svg?style=flat-square" alt="CI"/></a>&nbsp;
+            <a href="https://quarantine-py.aritro.cloud" target="_blank"><img src="https://img.shields.io/badge/docs-quarantine--py.aritro.cloud-blue?style=flat-square" alt="Documentation"/></a>&nbsp;
+            <a href="https://github.com/halcyon-past/quarantine/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-gray.svg?style=flat-square" alt="License"/></a>
+          </div>
+          <table style="width: 100%; border: none; margin-top: 10px; background: transparent;">
+            <tr>
+              <td style="border: none; padding: 0;">
+                <pre style="margin: 0; font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 12px; color: #79c0ff; background: #161b22; padding: 10px 14px; border-radius: 8px; border: 1px solid #30363d;"><code>pip install quarantine-py
+conda install -c conda-forge quarantine-py</code></pre>
+              </td>
+            </tr>
+          </table>
+          <p style="margin: 12px 0 0 0; font-size: 13px; color: #8b949e;">
+            ✨ Features: Zero external dependencies · Atomic disk rename isolation · S3 / Azure / GCS cloud backends · Property tested with Hypothesis (90%+ branch coverage) · ADR specifications.
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+
 ## 🌐 Connect With Me
 
 <div align="center">
@@ -97,52 +148,44 @@
 
 <div align="center">
 
-### ⚙️ Backend & Data
+### ⚙️ Core & Distributed Backend
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=fff)
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![R](https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 
-### 🎨 Frontend
+### ☁️ Cloud & Big Data Infrastructure
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=fff)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### 💻 Systems & Client
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![React Native](https://img.shields.io/badge/React_Native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![VueJS](https://img.shields.io/badge/Vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-
-### 🗄️ Databases & Cloud
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![AppWrite](https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=Appwrite&logoColor=black)
-![Heroku](https://img.shields.io/badge/Heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-
-### 🔧 Tools & OS
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 
 </div>
 
 ---
 
-### 🌐 Open Source Contributions
+### 🌐 Upstream & Open-Source Contributions
 
 <div align="center">
 
-| Project | Stars | PR / Contribution | Status |
-| :--- | :---: | :--- | :---: |
-| [**vitejs/vite**](https://github.com/vitejs/vite) | 70k+ ⭐ | [docs: fix ViteConf tag hover resize loop (#23954)](https://github.com/vitejs/vite/pull/23954) | ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=github) |
-| [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | 35k+ ⭐ | [[`isort`] Expand `I001` documentation (#29843)](https://github.com/astral-sh/ruff/pull/29843) | ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=github) |
-| [**kestra-io/kestra**](https://github.com/kestra-io/kestra) | 30k+ ⭐ | [feat(duckdb): automatically capture output files in working directory (#1044)](https://github.com/kestra-io/plugin-jdbc/pull/1044) | ![Merged](https://img.shields.io/badge/Merged-8957e5?style=flat-square&logo=github) |
+| Ecosystem | Project / Organization | Contribution | Impact / Focus |
+| :--- | :--- | :--- | :--- |
+| **Packaging & Infra** | [**conda-forge**](https://github.com/conda-forge/staged-recipes) | [Recipe: `quarantine-py`](https://github.com/conda-forge/staged-recipes/pull/34686) | Published & automated conda-forge feedstock builds |
+| **Data Orchestration** | [**kestra-io/plugin-jdbc**](https://github.com/kestra-io/plugin-jdbc) | [feat(duckdb): file capture (#1044)](https://github.com/kestra-io/plugin-jdbc/pull/1044) | Automated artifact capture for distributed DuckDB tasks |
+| **Test & DevTools** | [**microsoft/playwright**](https://github.com/microsoft/playwright) | [MCP file upload cancellation (#44091)](https://github.com/microsoft/playwright/issues/44091) & [MCP run-code arg validation (#44080)](https://github.com/microsoft/playwright/issues/44080)<br/>[fix(coverage): lcov branch handling (#44114)](https://github.com/microsoft/playwright/pull/44114) | Resolved 2 MCP runtime bugs with core maintainers; patch for lcov branch crash |
+| **Compiler & Web** | [**angular/angular**](https://github.com/angular/angular) | [SSR Blob caching (#71917)](https://github.com/angular/angular/issues/71917) & [Regex memoization (#71956)](https://github.com/angular/angular/issues/71956) | Diagnosed SSR transfer cache & template compiler bugs |
+| **Tooling & Docs** | [**astral-sh/ruff**](https://github.com/astral-sh/ruff) & [**vitejs/vite**](https://github.com/vitejs/vite) | [isort I001 docs (#29843)](https://github.com/astral-sh/ruff/pull/29843), [ViteConf loop fix (#23954)](https://github.com/vitejs/vite/pull/23954) | Ecosystem maintenance and technical documentation |
 
 </div>
 
@@ -202,31 +245,23 @@
         </div>
         <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="100%" />
       </td>
-      <!-- Bento Card 2: LeetCode -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-        <div align="left" style="margin-bottom: 8px;">
-          <span style="background: rgba(245, 158, 11, 0.2); border: 1px solid #f59e0b; color: #fcd34d; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🧩 PROBLEM SOLVING</span>
-          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">LeetCode Analytics</b>
-        </div>
-        <img src="https://leetcard.jacoblin.cool/AritroSaha?ext=contest&theme=unicorn" alt="LeetCode Stats" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <!-- Bento Card 3: 3D Contribution Graph -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-        <div align="left" style="margin-bottom: 8px;">
-          <span style="background: rgba(56, 189, 248, 0.2); border: 1px solid #38bdf8; color: #7dd3fc; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🌌 3D COSMOS</span>
-          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">Activity Landscape</b>
-        </div>
-        <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions" width="100%" />
-      </td>
-      <!-- Bento Card 4: Contribution Snake -->
+      <!-- Bento Card 2: Contribution Snake -->
       <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
         <div align="left" style="margin-bottom: 8px;">
           <span style="background: rgba(34, 197, 94, 0.2); border: 1px solid #22c55e; color: #86efac; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🐍 MINI-GAME</span>
           <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">Contribution Snake</b>
         </div>
         <img src="assets/github-snake-dark.svg" alt="GitHub Snake" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <!-- Bento Card 3: 3D Contribution Graph -->
+      <td colspan="2" width="100%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+        <div align="left" style="margin-bottom: 8px;">
+          <span style="background: rgba(56, 189, 248, 0.2); border: 1px solid #38bdf8; color: #7dd3fc; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🌌 3D COSMOS</span>
+          <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">Activity Landscape</b>
+        </div>
+        <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contributions" width="100%" />
       </td>
     </tr>
   </table>
