@@ -5,6 +5,12 @@
 
 <br/><br/>
 
+<p align="center">
+  <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
+  <br/>
+  <i>Python • AWS • Databricks • GenAI • Full-Stack</i>
+</p>
+
 <!-- Profile Visits Counter & Sponsor Badge -->
 <a href="https://komarev.com/ghpvc/?username=halcyon-past">
   <img src="https://komarev.com/ghpvc/?username=halcyon-past&label=Profile+Visits&color=6e40c9&style=flat-square" alt="Profile Views"/>
@@ -12,12 +18,6 @@
 <a href="https://github.com/sponsors/halcyon-past" target="_blank">
   <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=flat-square&logo=github-sponsors" alt="Sponsor @halcyon-past"/>
 </a>
-
-<p align="center">
-  <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
-  <br/>
-  <i>Python • AWS • Databricks • GenAI • Full-Stack</i>
-</p>
 
 </div>
 
@@ -77,7 +77,7 @@
         </th>
         <th style="padding: 12px 18px; border-bottom: 1px solid #30363d; border-radius: 14px 14px 0 0; text-align: right;">
           <a href="https://github.com/halcyon-past/quarantine" target="_blank">
-            <img src="https://img.shields.io/github/stars/halcyon-past/quarantine?style=social" alt="quarantine stars"/>
+            <img src="https://img.shields.io/github/stars/halcyon-past/quarantine?style=flat-square&logo=github&color=238636&labelColor=21262d" alt="quarantine stars"/>
           </a>
         </th>
       </tr>
@@ -97,14 +97,16 @@
             <a href="https://quarantine-py.aritro.cloud" target="_blank"><img src="https://img.shields.io/badge/docs-quarantine--py.aritro.cloud-blue?style=flat-square" alt="Documentation"/></a>&nbsp;
             <a href="https://github.com/halcyon-past/quarantine/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/badge/License-MIT-gray.svg?style=flat-square" alt="License"/></a>
           </div>
-          <table style="width: 100%; border: none; margin-top: 10px; background: transparent;">
-            <tr>
-              <td style="border: none; padding: 0;">
-                <pre style="margin: 0; font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 12px; color: #79c0ff; background: #161b22; padding: 10px 14px; border-radius: 8px; border: 1px solid #30363d;"><code>pip install quarantine-py
+          <div align="center" style="margin: 14px 0;">
+            <table align="center" style="border: none; background: transparent;">
+              <tr>
+                <td align="left" style="border: none; padding: 0; background: transparent;">
+                  <pre style="margin: 0; font-family: 'Fira Code', 'JetBrains Mono', Consolas, monospace; font-size: 12px; color: #79c0ff; background: #161b22; padding: 12px 20px; border-radius: 8px; border: 1px solid #30363d;"><code>pip install quarantine-py
 conda install -c conda-forge quarantine-py</code></pre>
-              </td>
-            </tr>
-          </table>
+                </td>
+              </tr>
+            </table>
+          </div>
           <p style="margin: 12px 0 0 0; font-size: 13px; color: #8b949e;">
             ✨ Features: Zero external dependencies · Atomic disk rename isolation · S3 / Azure / GCS cloud backends · Property tested with Hypothesis (90%+ branch coverage) · ADR specifications.
           </p>
@@ -123,7 +125,7 @@ conda install -c conda-forge quarantine-py</code></pre>
     <img src="https://img.shields.io/badge/Sponsor-%23EA4AAA.svg?style=for-the-badge&logo=github-sponsors&logoColor=white" height="30"/>
   </a>&nbsp;
   <a href="https://www.aritro.cloud/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-%23FF0000.svg?style=for-the-badge" height="30"/>
+    <img src="https://img.shields.io/badge/Portfolio-%230969da.svg?style=for-the-badge&logo=google-chrome&logoColor=white" height="30"/>
   </a>&nbsp;
   <a href="https://www.linkedin.com/in/aritro-saha/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/>
@@ -175,21 +177,20 @@ conda install -c conda-forge quarantine-py</code></pre>
 
 ---
 
-### 🌐 Upstream & Open-Source Contributions
+## 🚀 Upstream & Open-Source Contributions
 
 <div align="center">
 
 | Ecosystem | Project / Organization | Contribution | Impact / Focus |
 | :--- | :--- | :--- | :--- |
-| **Test & Browser Automation** | [**microsoft/playwright**](https://github.com/microsoft/playwright) | • **[Merged PR #44114](https://github.com/microsoft/playwright/pull/44114)**: fix(coverage): handle empty branch locations in lcov generation (closes [#44113](https://github.com/microsoft/playwright/issues/44113))<br/>• **Resolved MCP Issues**: [#44091](https://github.com/microsoft/playwright/issues/44091) (file upload cancellation) & [#44080](https://github.com/microsoft/playwright/issues/44080) (run-code validation) | Patched `TypeError` crash in `CoverageReporter` during lcov generation; identified & resolved 2 MCP runtime bugs with core Microsoft maintainers |
+| **Test & Browser Automation** | [**microsoft/playwright**](https://github.com/microsoft/playwright) | • **[Merged PR #44114](https://github.com/microsoft/playwright/pull/44114)**: fix(coverage): handle empty branch locations in lcov (closes [#44113](https://github.com/microsoft/playwright/issues/44113))<br/>• **Resolved MCP Issues**: [#44091](https://github.com/microsoft/playwright/issues/44091) & [#44080](https://github.com/microsoft/playwright/issues/44080) | Patched `TypeError` crash in `CoverageReporter`; resolved 2 MCP runtime bugs with core Microsoft maintainers |
 | **Packaging & Infra** | [**conda-forge**](https://github.com/conda-forge/staged-recipes) | • **[Merged PR #34686](https://github.com/conda-forge/staged-recipes/pull/34686)**: Recipe for `quarantine-py` | Published & automated cross-platform conda-forge feedstock builds |
 | **Data Orchestration** | [**kestra-io/plugin-jdbc**](https://github.com/kestra-io/plugin-jdbc) | • **[Merged PR #1044](https://github.com/kestra-io/plugin-jdbc/pull/1044)**: feat(duckdb): file capture | Automated artifact capture for distributed DuckDB tasks |
 | **Compiler & Web** | [**angular/angular**](https://github.com/angular/angular) | • **Issues [#71917](https://github.com/angular/angular/issues/71917) & [#71956](https://github.com/angular/angular/issues/71956)** | Diagnosed SSR transfer cache empty Blob caching & template compiler regex memoization bugs |
-| **Tooling & Docs** | [**astral-sh/ruff**](https://github.com/astral-sh/ruff) & [**vitejs/vite**](https://github.com/vitejs/vite) | • **[Merged PR #29843](https://github.com/astral-sh/ruff/pull/29843)** (Ruff isort docs)<br/>• **[Merged PR #23954](https://github.com/vitejs/vite/pull/23954)** (ViteConf loop fix) | Ecosystem maintenance, technical documentation, and regression fixes |
+| **Python Tooling** | [**astral-sh/ruff**](https://github.com/astral-sh/ruff) | • **[Merged PR #29843](https://github.com/astral-sh/ruff/pull/29843)**: [`isort`] Expand `I001` documentation | Comprehensive guide for automatic import sorting edge cases |
+| **Web Tooling** | [**vitejs/vite**](https://github.com/vitejs/vite) | • **[Merged PR #23954](https://github.com/vitejs/vite/pull/23954)**: docs: fix ViteConf tag hover resize loop | Prevented infinite layout jitter & resize loop on ViteConf tags |
 
 </div>
-
-<br/>
 
 ---
 
@@ -203,17 +204,17 @@ conda install -c conda-forge quarantine-py</code></pre>
 <br/><br/>
 
 <table>
-<thead> <tr> <th>Thumbnail</th> <th>Video Link</th> <th>Date Posted</th> </tr> </thead>
+<thead> <tr> <th align="center">Thumbnail</th> <th>Video Link</th> <th align="center">Date Posted</th> </tr> </thead>
 <!-- BLOG-POST-LIST:START -->
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=3qFYlITvmLM"><img width="140px" src="http://img.youtube.com/vi/3qFYlITvmLM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=3qFYlITvmLM">ACID Properties Explained in 2 minutes</a></td> <td>Oct 28, 2026</td> </tr> </tbody> 
+ <tbody> <tr> <td align="center"><a href="https://www.youtube.com/watch?v=3qFYlITvmLM"><img width="140" src="https://img.youtube.com/vi/3qFYlITvmLM/maxresdefault.jpg" style="border-radius: 6px;" alt="ACID Properties Explained in 2 minutes"></a></td> <td><a href="https://www.youtube.com/watch?v=3qFYlITvmLM">ACID Properties Explained in 2 minutes</a></td> <td align="center">Oct 28, 2026</td> </tr> </tbody> 
 
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8"><img width="140px" src="http://img.youtube.com/vi/r34w3YrkAA8/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8">Bajaj Finserv Interview Experience 2025 | Data Science Intern | Off Campus</a></td> <td>Mar 30, 2025</td> </tr> </tbody> 
+ <tbody> <tr> <td align="center"><a href="https://www.youtube.com/watch?v=r34w3YrkAA8"><img width="140" src="https://img.youtube.com/vi/r34w3YrkAA8/maxresdefault.jpg" style="border-radius: 6px;" alt="Bajaj Finserv Interview Experience 2025 | Data Science Intern | Off Campus"></a></td> <td><a href="https://www.youtube.com/watch?v=r34w3YrkAA8">Bajaj Finserv Interview Experience 2025 | Data Science Intern | Off Campus</a></td> <td align="center">Mar 30, 2025</td> </tr> </tbody> 
 
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8"><img width="140px" src="http://img.youtube.com/vi/U8fzDvvqef8/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8">Error Handling in Python from BASIC to ADVANCED</a></td> <td>Jan 19, 2025</td> </tr> </tbody> 
+ <tbody> <tr> <td align="center"><a href="https://www.youtube.com/watch?v=U8fzDvvqef8"><img width="140" src="https://img.youtube.com/vi/U8fzDvvqef8/maxresdefault.jpg" style="border-radius: 6px;" alt="Error Handling in Python from BASIC to ADVANCED"></a></td> <td><a href="https://www.youtube.com/watch?v=U8fzDvvqef8">Error Handling in Python from BASIC to ADVANCED</a></td> <td align="center">Jan 19, 2025</td> </tr> </tbody> 
 
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4"><img width="140px" src="http://img.youtube.com/vi/M1zjnwxTGl4/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4">GET HIGH ON CODE</a></td> <td>Jan 17, 2025</td> </tr> </tbody> 
+ <tbody> <tr> <td align="center"><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4"><img width="140" src="https://img.youtube.com/vi/M1zjnwxTGl4/maxresdefault.jpg" style="border-radius: 6px;" alt="GET HIGH ON CODE"></a></td> <td><a href="https://www.youtube.com/watch?v=M1zjnwxTGl4">GET HIGH ON CODE</a></td> <td align="center">Jan 17, 2025</td> </tr> </tbody> 
 
- <tbody> <tr> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM"><img width="140px" src="http://img.youtube.com/vi/2LGYpzOgELM/maxresdefault.jpg"></a></td> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM">LEARN OOPS in 3 Minutes</a></td> <td>Dec 21, 2024</td> </tr> </tbody> 
+ <tbody> <tr> <td align="center"><a href="https://www.youtube.com/watch?v=2LGYpzOgELM"><img width="140" src="https://img.youtube.com/vi/2LGYpzOgELM/maxresdefault.jpg" style="border-radius: 6px;" alt="LEARN OOPS in 3 Minutes"></a></td> <td><a href="https://www.youtube.com/watch?v=2LGYpzOgELM">LEARN OOPS in 3 Minutes</a></td> <td align="center">Dec 21, 2024</td> </tr> </tbody> 
 <!-- BLOG-POST-LIST:END -->
 </table>
 
@@ -235,10 +236,10 @@ conda install -c conda-forge quarantine-py</code></pre>
 ## 📊 Stats & Activity (Bento Grid)
 
 <div align="center">
-  <table border="0" style="width: 100%; max-width: 900px; border-collapse: separate; border-spacing: 14px;">
+  <table border="0" style="width: 100%; max-width: 840px; border-collapse: separate; border-spacing: 14px;">
     <tr>
       <!-- Bento Card 1: Streak Stats -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+      <td width="50%" align="center" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
         <div align="left" style="margin-bottom: 8px;">
           <span style="background: rgba(110, 64, 201, 0.2); border: 1px solid #6e40c9; color: #d2a8ff; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🔥 ACTIVITY</span>
           <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">GitHub Streak</b>
@@ -246,12 +247,14 @@ conda install -c conda-forge quarantine-py</code></pre>
         <img src="https://streak-stats.demolab.com?user=halcyon-past&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" width="100%" />
       </td>
       <!-- Bento Card 2: Contribution Snake -->
-      <td width="50%" align="center" valign="middle" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+      <td width="50%" align="center" valign="top" style="background: #0d1117; border: 1px solid #30363d; border-radius: 14px; padding: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
         <div align="left" style="margin-bottom: 8px;">
           <span style="background: rgba(34, 197, 94, 0.2); border: 1px solid #22c55e; color: #86efac; padding: 3px 10px; border-radius: 12px; font-size: 11px; font-weight: 600;">🐍 MINI-GAME</span>
           <b style="color: #f0f6fc; font-size: 13px; margin-left: 6px;">Contribution Snake</b>
         </div>
-        <img src="assets/github-snake-dark.svg" alt="GitHub Snake" width="100%" />
+        <div style="padding-top: 14px;">
+          <img src="assets/github-snake-dark.svg" alt="GitHub Snake" width="100%" />
+        </div>
       </td>
     </tr>
     <tr>
@@ -277,8 +280,6 @@ conda install -c conda-forge quarantine-py</code></pre>
     <img src="https://img.shields.io/badge/Sponsor%20@halcyon--past-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" height="36"/>
   </a>
 </div>
-
-<br/>
 
 ---
 
