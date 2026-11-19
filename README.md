@@ -8,7 +8,7 @@
 <p align="center">
   <b>Aritro Saha</b> — Software Engineer 1 at <b>Bristol Myers Squibb</b>
   <br/>
-  <i>Python • AWS • Databricks • GenAI • Full-Stack</i>
+  <i>Python • AWS • Databricks • GenAI • Distributed Systems</i>
 </p>
 
 <!-- Profile Visits Counter & Sponsor Badge -->
